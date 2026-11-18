@@ -1,8 +1,9 @@
-"""FastAPI application factory."""
+"""App factory: build a fully wired FastAPI app from settings."""
 
+import logging
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI
+from fastapi import APIRouter, FastAPI
 from fastapi.exceptions import RequestValidationError
 
 from aquiferask.api.errors import (
@@ -13,46 +14,34 @@ from aquiferask.api.errors import (
 from aquiferask.api.middleware import RequestContextMiddleware
 from aquiferask.api.routes import documents, health
 from aquiferask.config import Settings, get_settings
+from aquiferask.db.session import make_engine, make_sessionmaker
 from aquiferask.logging_setup import setup_logging
-from aquiferask.store import DocumentStore
+
+logger = logging.getLogger("aquiferask")
 
 
 def create_app(settings: Settings | None = None) -> FastAPI:
-    """Create and configure the FastAPI application."""
-
     settings = settings or get_settings()
     setup_logging(settings.log_level)
+    engine = make_engine(settings)  # no connection is opened yet
 
     @asynccontextmanager
     async def lifespan(app: FastAPI):
-        store = DocumentStore(settings.data_file)
-
-        try:
-            store.load()
-        except FileNotFoundError:
-            store.records = []
-
-        app.state.store = store
+        logger.info("starting", extra={"status": settings.app_env})
         yield
+        await engine.dispose()  # close every pooled connection on shutdown
 
-    app = FastAPI(
-        title=settings.app_name,
-        lifespan=lifespan,
-    )
+    app = FastAPI(title=settings.app_name, version="0.2.0", lifespan=lifespan)
+    app.state.settings = settings
+    app.state.engine = engine
+    app.state.sessionmaker = make_sessionmaker(engine)
 
     app.add_middleware(RequestContextMiddleware)
+    app.add_exception_handler(DocumentNotFoundError, document_not_found_handler)
+    app.add_exception_handler(RequestValidationError, validation_exception_handler)
 
-    app.add_exception_handler(
-        DocumentNotFoundError,
-        document_not_found_handler,
-    )
-
-    app.add_exception_handler(
-        RequestValidationError,
-        validation_exception_handler,
-    )
-
+    v1 = APIRouter(prefix="/v1")
+    v1.include_router(documents.router)
     app.include_router(health.router)
-    app.include_router(documents.router)
-
+    app.include_router(v1)
     return app

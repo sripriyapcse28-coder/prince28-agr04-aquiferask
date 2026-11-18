@@ -1,45 +1,36 @@
-"""Document API endpoints."""
+from typing import Annotated
 
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Query, Request
 
-from aquiferask.api.deps import StoreDep
-from aquiferask.api.errors import DocumentNotFoundError
+from aquiferask.api.deps import RepoDep
+from aquiferask.api.errors import DocumentNotFoundError, problem_response
+from aquiferask.db.repository import FILTER_KEY
 
-router = APIRouter(prefix="/v1/documents", tags=["documents"])
+router = APIRouter(prefix="/documents", tags=["documents"])
+
+RESERVED = {"q", "limit", "offset"}
 
 
 @router.get("")
-def get_documents(
-    store: StoreDep,
-    limit: int = Query(default=100, ge=1, le=500),
-    q: str | None = Query(default=None),
+async def list_documents(
+    request: Request,
+    repo: RepoDep,
+    q: Annotated[str | None, Query(max_length=200)] = None,
+    limit: Annotated[int, Query(ge=1, le=100)] = 20,
+    offset: Annotated[int, Query(ge=0)] = 0,
 ):
-    """Return documents with optional search and pagination."""
-
-    records = store.get_all(limit=500)
-
-    if q:
-        search_term = q.casefold()
-        records = [
-            record for record in records if search_term in record.get("title", "").casefold()
-        ]
-
-    return {
-        "total": len(records),
-        "items": records[:limit],
-    }
+    """Any other query parameter filters on a metadata field, e.g. ?dosage_form=Tablet"""
+    filters = {k: v for k, v in request.query_params.items() if k not in RESERVED}
+    bad = [k for k in filters if not FILTER_KEY.match(k)]
+    if bad:
+        return problem_response(request, 400, "Bad Request", f"Invalid filter name: {bad[0]}")
+    total, items = await repo.list(q=q, filters=filters, limit=limit, offset=offset)
+    return {"total": total, "limit": limit, "offset": offset, "filters": filters, "items": items}
 
 
-@router.get("/{document_id}")
-def get_document(
-    document_id: str,
-    store: StoreDep,
-):
-    """Return one document by ID."""
-
-    document = store.get_by_id(document_id)
-
-    if document is None:
-        raise DocumentNotFoundError(document_id)
-
-    return document
+@router.get("/{doc_id}")
+async def get_document(doc_id: str, repo: RepoDep) -> dict:
+    record = await repo.get(doc_id)
+    if record is None:
+        raise DocumentNotFoundError(doc_id)
+    return record

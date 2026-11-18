@@ -17,3 +17,5 @@ data/raw/
 
 .venv/
 .env
+
+.env
