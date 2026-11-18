@@ -55,7 +55,16 @@ class Document(Base):
         back_populates="document", cascade="all, delete-orphan"
     )
 
-    __table_args__ = (Index("ix_documents_doc_type", "doc_type"),)
+    __table_args__ = (
+        Index("ix_documents_doc_type", "doc_type"),
+        # GIN index: makes "metadata @> {...}" filters fast on big tables
+        Index(
+            "ix_documents_metadata_gin",
+            "metadata",
+            postgresql_using="gin",
+            postgresql_ops={"metadata": "jsonb_path_ops"},
+        ),
+    )
 
 
 class Page(Base):
