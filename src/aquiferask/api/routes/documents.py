@@ -1,9 +1,9 @@
 from typing import Annotated
 
-from fastapi import APIRouter, HTTPException, Query, Request
+from fastapi import APIRouter, Query, Request
 
 from aquiferask.api.deps import RepoDep
-from aquiferask.api.errors import DocumentNotFoundError
+from aquiferask.api.errors import DocumentNotFoundError, problem_response
 from aquiferask.db.repository import FILTER_KEY
 
 router = APIRouter(prefix="/documents", tags=["documents"])
@@ -18,12 +18,12 @@ async def list_documents(
     q: Annotated[str | None, Query(max_length=200)] = None,
     limit: Annotated[int, Query(ge=1, le=100)] = 20,
     offset: Annotated[int, Query(ge=0)] = 0,
-) -> dict:
+):
     """Any other query parameter filters on a metadata field, e.g. ?dosage_form=Tablet"""
     filters = {k: v for k, v in request.query_params.items() if k not in RESERVED}
     bad = [k for k in filters if not FILTER_KEY.match(k)]
     if bad:
-        raise HTTPException(status_code=400, detail=f"Invalid filter name: {bad[0]}")
+        return problem_response(request, 400, "Bad Request", f"Invalid filter name: {bad[0]}")
     total, items = await repo.list(q=q, filters=filters, limit=limit, offset=offset)
     return {"total": total, "limit": limit, "offset": offset, "filters": filters, "items": items}
 
