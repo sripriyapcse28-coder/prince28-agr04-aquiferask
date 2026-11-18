@@ -1,4 +1,6 @@
+import pytest
 from fastapi.testclient import TestClient
+from pydantic import ValidationError
 
 from aquiferask.api.main import create_app
 from aquiferask.config import Settings
@@ -49,3 +51,24 @@ def test_missing_document_is_problem_details(client):
     r = client.get("/v1/documents/999")
     assert r.status_code == 404
     assert r.headers["content-type"] == "application/problem+json"
+    body = r.json()
+    assert body["status"] == 404
+    assert body["title"] == "Not Found"
+    assert body["request_id"] == r.headers["X-Request-ID"]
+
+
+def test_bad_limit_is_422_problem(client):
+    r = client.get("/v1/documents", params={"limit": 0})
+    assert r.status_code == 422
+    assert r.json()["errors"][0]["field"] == "query.limit"
+
+
+def test_request_id_is_echoed(client):
+    r = client.get("/health", headers={"X-Request-ID": "abc123"})
+    assert r.headers["X-Request-ID"] == "abc123"
+
+
+def test_app_refuses_to_start_without_app_env(monkeypatch):
+    monkeypatch.delenv("APP_ENV", raising=False)
+    with pytest.raises(ValidationError):
+        Settings(_env_file=None)
