@@ -1,38 +1,21 @@
-"""Health and readiness endpoints."""
+from fastapi import APIRouter, Response
 
-from fastapi import APIRouter, Request
-from fastapi.responses import JSONResponse
+from aquiferask.api.deps import DbCheckDep, SettingsDep
 
-router = APIRouter()
+router = APIRouter(tags=["health"])
 
 
 @router.get("/health")
-def health():
-    """Check whether the application is running."""
-    return {"status": "ok"}
+def health(settings: SettingsDep) -> dict[str, str]:
+    """Liveness: is the process alive? Instant. Never touches the DB or the LLM."""
+    return {"status": "ok", "app": settings.app_name, "env": settings.app_env}
 
 
 @router.get("/ready")
-def ready(request: Request):
-    """Check whether the application is ready."""
-
-    store = request.app.state.store
-    records_loaded = bool(store.records)
-
-    if not records_loaded:
-        return JSONResponse(
-            status_code=503,
-            content={
-                "status": "not ready",
-                "checks": {
-                    "records_loaded": False,
-                },
-            },
-        )
-
-    return {
-        "status": "ready",
-        "checks": {
-            "records_loaded": True,
-        },
-    }
+async def ready(db_ok: DbCheckDep, response: Response) -> dict:
+    """Readiness: can this instance serve traffic right now?"""
+    checks = {"database": db_ok}
+    ok = all(checks.values())
+    if not ok:
+        response.status_code = 503
+    return {"status": "ready" if ok else "not_ready", "checks": checks}
