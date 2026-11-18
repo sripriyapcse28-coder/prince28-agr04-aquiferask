@@ -1,29 +1,38 @@
 [
   {
     "id": "001",
-    "assessment_year": "",
-    "district": "",
-    "block": "",
-    "stage_of_extraction_pct": "",
-    "category": "",
-    "recharge_mcm": ""
+    "assessment_year": "2023",
+    "district": "Sample District A",
+    "block": "Sample Block 1",
+    "stage_of_extraction_pct": "62.5",
+    "category": "Safe",
+    "recharge_mcm": "10.4",
+    "source_url": "https://example.com/test-source/record-001",
+    "licence": "TEST DATA - replace with real licence",
+    "published_on": "2024-03-31"
   },
   {
     "id": "002",
-    "assessment_year": "",
-    "district": "",
-    "block": "",
-    "stage_of_extraction_pct": "",
-    "category": "",
-    "recharge_mcm": ""
+    "assessment_year": "2023",
+    "district": "Sample District A",
+    "block": "Sample Block 2",
+    "stage_of_extraction_pct": "88.1",
+    "category": "Semi-critical",
+    "recharge_mcm": "7.9",
+    "source_url": "https://example.com/test-source/record-002",
+    "licence": "TEST DATA - replace with real licence",
+    "published_on": "2024-03-31"
   },
   {
     "id": "003",
-    "assessment_year": "",
-    "district": "",
-    "block": "",
-    "stage_of_extraction_pct": "",
-    "category": "",
-    "recharge_mcm": ""
+    "assessment_year": "2023",
+    "district": "Sample District B",
+    "block": "Sample Block 3",
+    "stage_of_extraction_pct": "104.3",
+    "category": "Over-exploited",
+    "recharge_mcm": "5.2",
+    "source_url": "https://example.com/test-source/record-003",
+    "licence": "TEST DATA - replace with real licence",
+    "published_on": "2024-03-31"
   }
 ]
