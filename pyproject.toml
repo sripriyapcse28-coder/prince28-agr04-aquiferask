@@ -31,6 +31,8 @@ dev = [
 
 
 [tool.ruff]
+# Alembic writes these files; we review them but don't restyle them.
+extend-exclude = ["migrations/versions"]
 line-length = 100
 target-version = "py312"
 
