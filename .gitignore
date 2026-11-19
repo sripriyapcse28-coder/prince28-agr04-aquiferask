@@ -19,3 +19,8 @@ data/raw/
 .env
 
 .env
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
