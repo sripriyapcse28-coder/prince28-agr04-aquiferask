@@ -97,6 +97,7 @@ Areas with lower coverage from the previous report:
 - `deps.py`: 64% coverage.
 
 These are areas to investigate for uncovered lines; check the latest coverage report's `Missing` column before identifying exact lines that were never executed.
+<<<<<<< HEAD
 
 ## D03 · PostgreSQL EXPLAIN and GIN index
 
