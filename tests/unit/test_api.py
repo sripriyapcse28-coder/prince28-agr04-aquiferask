@@ -9,6 +9,13 @@ def test_health_is_ok(client):
     r = client.get("/health")
     assert r.status_code == 200
     assert r.json()["status"] == "ok"
+    assert r.json()["version"] == "dev"
+
+
+def test_health_includes_app_and_environment(client):
+    r = client.get("/health")
+    assert r.json()["app"] == "aquiferask"
+    assert r.json()["env"] == "ci"
 
 
 def test_ready_when_database_up(client):
