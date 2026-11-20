@@ -15,6 +15,11 @@ jobs:
     steps:
       - name: Check database connection
         run: |
+          if [ -z "$DATABASE_URL" ]; then
+            echo "ERROR: DATABASE_URL is missing"
+            exit 1
+          fi
+          echo "DATABASE_URL is available"
           sudo apt-get update
           sudo apt-get install -y postgresql-client
           psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -c "SELECT 1;"
