@@ -97,3 +97,51 @@ Areas with lower coverage from the previous report:
 - `deps.py`: 64% coverage.
 
 These are areas to investigate for uncovered lines; check the latest coverage report's `Missing` column before identifying exact lines that were never executed.
+
+
+## D03 · PostgreSQL EXPLAIN and GIN index
+
+### Query plan: normal execution
+
+```text
+Seq Scan on documents  (cost=0.00..1.04 rows=1 width=36) (actual time=0.016..0.017 rows=3.00 loops=1)
+  Filter: (metadata @> '{"assessment_year": "2023"}'::jsonb)
+  Buffers: shared hit=1
+Planning:
+  Buffers: shared hit=124 read=1
+Planning Time: 1.463 ms
+Execution Time: 0.042 ms
+```
+
+### Query plan: sequential scan disabled
+
+```text
+Bitmap Heap Scan on documents  (cost=8.52..12.54 rows=1 width=36) (actual time=0.048..0.049 rows=3.00 loops=1)
+  Recheck Cond: (metadata @> '{"assessment_year": "2023"}'::jsonb)
+  Heap Blocks: exact=1
+  Buffers: shared hit=3
+  -> Bitmap Index Scan on ix_documents_metadata_gin (cost=0.00..8.52 rows=1 width=0) (actual time=0.008..0.008 rows=3.00 loops=1)
+       Index Cond: (metadata @> '{"assessment_year": "2023"}'::jsonb)
+       Index Searches: 1
+       Buffers: shared hit=2
+Planning:
+  Buffers: shared hit=1
+Planning Time: 0.076 ms
+Execution Time: 0.087 ms
+```
+
+### Why did PostgreSQL choose a Seq Scan?
+
+The documents table is small, so scanning all its rows is cheaper than using the index. A sequential scan is efficient for small tables.
+
+### When would PostgreSQL switch to the GIN index?
+
+As the table grows and the query becomes more selective, PostgreSQL may choose the GIN index to locate matching JSONB records without scanning the entire table.
+
+### Verification
+
+- Database migration: `53027269c641 (head)`
+- Index: `ix_documents_metadata_gin`
+- Query: `metadata @> '{"assessment_year": "2023"}'::jsonb`
+- Index usage confirmed by `Bitmap Index Scan`.
+- Command: `uv run python scripts/explain.py assessment_year 2023`
