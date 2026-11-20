@@ -29,6 +29,8 @@ RUN --mount=type=cache,target=/root/.cache/uv \
 # ---------- Stage 2: Runtime ----------
 FROM python:3.12-slim
 
+ARG GIT_SHA=dev
+
 RUN groupadd --system app && \
     useradd --system --gid app --home-dir /app --no-create-home app
 
@@ -40,9 +42,11 @@ COPY --chown=app:app migrations ./migrations
 COPY --chown=app:app scripts ./scripts
 COPY --chown=app:app data ./data
 COPY --chown=app:app pyproject.toml ./
+
 ENV PATH="/app/.venv/bin:$PATH" \
     PYTHONUNBUFFERED=1 \
-    PYTHONDONTWRITEBYTECODE=1
+    PYTHONDONTWRITEBYTECODE=1 \
+    GIT_SHA=${GIT_SHA}
 
 USER app
 
