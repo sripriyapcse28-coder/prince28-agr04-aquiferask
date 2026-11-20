@@ -21,16 +21,36 @@ jobs:
             echo "ERROR: DATABASE_URL is missing"
             exit 1
           fi
+
           echo "DATABASE_URL is available"
+
           sudo apt-get update
           sudo apt-get install -y postgresql-client
+
           psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -c "SELECT 1;"
 
       - name: Trigger Render deployment
         env:
           RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
         run: |
-          curl --fail --silent --show-error "$RENDER_DEPLOY_HOOK"
+          HOOK="$(printf '%s' "$RENDER_DEPLOY_HOOK" | tr -d '\r\n' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
+
+          if [ -z "$HOOK" ]; then
+            echo "ERROR: Render deploy hook is missing"
+            exit 1
+          fi
+
+          case "$HOOK" in
+            https://api.render.com/deploy/*)
+              echo "Render deploy hook format is valid"
+              ;;
+            *)
+              echo "ERROR: Invalid Render deploy hook URL format"
+              exit 1
+              ;;
+          esac
+
+          curl --fail --silent --show-error "$HOOK"
 
       - name: Verify live deployment
         env:
@@ -43,8 +63,10 @@ jobs:
               echo "Deployment successful!"
               exit 0
             fi
+
             echo "Waiting for deployment..."
             sleep 10
           done
+
           echo "Deployment verification failed"
           exit 1
