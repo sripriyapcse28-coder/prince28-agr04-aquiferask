@@ -14,6 +14,8 @@ jobs:
 
     steps:
       - name: Check database connection
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
           if [ -z "$DATABASE_URL" ]; then
             echo "ERROR: DATABASE_URL is missing"
@@ -23,15 +25,17 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y postgresql-client
           psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -c "SELECT 1;"
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
       - name: Trigger Render deployment
-        run: curl --fail --silent --show-error "$RENDER_DEPLOY_HOOK"
         env:
           RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
+        run: |
+          curl --fail --silent --show-error "$RENDER_DEPLOY_HOOK"
 
       - name: Verify live deployment
+        env:
+          LIVE_URL: ${{ vars.LIVE_URL }}
+          EXPECTED_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
           for i in {1..30}; do
             if curl --fail --silent "$LIVE_URL/health" | grep -q "\"version\":\"$EXPECTED_SHA\"" &&
@@ -44,6 +48,3 @@ jobs:
           done
           echo "Deployment verification failed"
           exit 1
-        env:
-          LIVE_URL: ${{ vars.LIVE_URL }}
-          EXPECTED_SHA: ${{ github.event.workflow_run.head_sha }}
