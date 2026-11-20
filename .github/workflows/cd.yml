@@ -1,0 +1,44 @@
+
+name: CD
+
+on:
+  workflow_run:
+    workflows: ["CI"]
+    types: [completed]
+    branches: [main]
+
+jobs:
+  deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check database connection
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y postgresql-client
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -c "SELECT 1;"
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
+      - name: Trigger Render deployment
+        run: curl --fail --silent --show-error "$RENDER_DEPLOY_HOOK"
+        env:
+          RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
+
+      - name: Verify live deployment
+        run: |
+          for i in {1..30}; do
+            if curl --fail --silent "$LIVE_URL/health" | grep -q "\"version\":\"$EXPECTED_SHA\"" &&
+               curl --fail --silent "$LIVE_URL/ready" | grep -q '"status":"ready"'; then
+              echo "Deployment successful!"
+              exit 0
+            fi
+            echo "Waiting for deployment..."
+            sleep 10
+          done
+          echo "Deployment verification failed"
+          exit 1
+        env:
+          LIVE_URL: ${{ vars.LIVE_URL }}
+          EXPECTED_SHA: ${{ github.event.workflow_run.head_sha }}
