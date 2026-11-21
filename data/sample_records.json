@@ -1,3 +1,4 @@
+
 [
   {
     "id": "001",
@@ -8,7 +9,7 @@
     "category": "Safe",
     "recharge_mcm": "10.4",
     "source_url": "https://example.com/test-source/record-001",
-    "licence": "TEST DATA - replace with real licence",
+    "licence": "TEST DATA - synthetic",
     "published_on": "2024-03-31"
   },
   {
@@ -20,7 +21,7 @@
     "category": "Semi-critical",
     "recharge_mcm": "7.9",
     "source_url": "https://example.com/test-source/record-002",
-    "licence": "TEST DATA - replace with real licence",
+    "licence": "TEST DATA - synthetic",
     "published_on": "2024-03-31"
   },
   {
@@ -32,7 +33,58 @@
     "category": "Over-exploited",
     "recharge_mcm": "5.2",
     "source_url": "https://example.com/test-source/record-003",
-    "licence": "TEST DATA - replace with real licence",
+    "licence": "TEST DATA - synthetic",
     "published_on": "2024-03-31"
+  },
+  {
+    "id": "004", "assessment_year": "2023", "district": "Sample District A", "block": "Sample Block 4", "stage_of_extraction_pct": "55.0", "category": "Safe", "recharge_mcm": "8.2", "source_url": "https://example.com/test-source/record-004", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "005", "assessment_year": "2023", "district": "Sample District B", "block": "Sample Block 5", "stage_of_extraction_pct": "72.0", "category": "Safe", "recharge_mcm": "9.1", "source_url": "https://example.com/test-source/record-005", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "006", "assessment_year": "2023", "district": "Sample District C", "block": "Sample Block 6", "stage_of_extraction_pct": "85.0", "category": "Semi-critical", "recharge_mcm": "6.5", "source_url": "https://example.com/test-source/record-006", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "007", "assessment_year": "2023", "district": "Sample District C", "block": "Sample Block 7", "stage_of_extraction_pct": "95.0", "category": "Critical", "recharge_mcm": "5.8", "source_url": "https://example.com/test-source/record-007", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "008", "assessment_year": "2023", "district": "Sample District D", "block": "Sample Block 8", "stage_of_extraction_pct": "110.0", "category": "Over-exploited", "recharge_mcm": "4.7", "source_url": "https://example.com/test-source/record-008", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "009", "assessment_year": "2023", "district": "Sample District D", "block": "Sample Block 9", "stage_of_extraction_pct": "60.0", "category": "Safe", "recharge_mcm": "11.0", "source_url": "https://example.com/test-source/record-009", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "010", "assessment_year": "2023", "district": "Sample District E", "block": "Sample Block 10", "stage_of_extraction_pct": "78.0", "category": "Safe", "recharge_mcm": "7.2", "source_url": "https://example.com/test-source/record-010", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "011", "assessment_year": "2023", "district": "Sample District E", "block": "Sample Block 11", "stage_of_extraction_pct": "90.0", "category": "Semi-critical", "recharge_mcm": "6.1", "source_url": "https://example.com/test-source/record-011", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "012", "assessment_year": "2023", "district": "Sample District F", "block": "Sample Block 12", "stage_of_extraction_pct": "105.0", "category": "Over-exploited", "recharge_mcm": "4.9", "source_url": "https://example.com/test-source/record-012", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "013", "assessment_year": "2023", "district": "Sample District F", "block": "Sample Block 13", "stage_of_extraction_pct": "68.0", "category": "Safe", "recharge_mcm": "8.8", "source_url": "https://example.com/test-source/record-013", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "014", "assessment_year": "2023", "district": "Sample District G", "block": "Sample Block 14", "stage_of_extraction_pct": "82.0", "category": "Semi-critical", "recharge_mcm": "7.0", "source_url": "https://example.com/test-source/record-014", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "015", "assessment_year": "2023", "district": "Sample District G", "block": "Sample Block 15", "stage_of_extraction_pct": "98.0", "category": "Critical", "recharge_mcm": "5.5", "source_url": "https://example.com/test-source/record-015", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "016", "assessment_year": "2023", "district": "Sample District H", "block": "Sample Block 16", "stage_of_extraction_pct": "115.0", "category": "Over-exploited", "recharge_mcm": "3.9", "source_url": "https://example.com/test-source/record-016", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "017", "assessment_year": "2023", "district": "Sample District H", "block": "Sample Block 17", "stage_of_extraction_pct": "58.0", "category": "Safe", "recharge_mcm": "9.8", "source_url": "https://example.com/test-source/record-017", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "018", "assessment_year": "2023", "district": "Sample District I", "block": "Sample Block 18", "stage_of_extraction_pct": "87.0", "category": "Semi-critical", "recharge_mcm": "6.8", "source_url": "https://example.com/test-source/record-018", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "019", "assessment_year": "2023", "district": "Sample District I", "block": "Sample Block 19", "stage_of_extraction_pct": "102.0", "category": "Over-exploited", "recharge_mcm": "4.3", "source_url": "https://example.com/test-source/record-019", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
+  },
+  {
+    "id": "020", "assessment_year": "2023", "district": "Sample District J", "block": "Sample Block 20", "stage_of_extraction_pct": "70.0", "category": "Safe", "recharge_mcm": "8.5", "source_url": "https://example.com/test-source/record-020", "licence": "TEST DATA - synthetic", "published_on": "2024-03-31"
   }
 ]
