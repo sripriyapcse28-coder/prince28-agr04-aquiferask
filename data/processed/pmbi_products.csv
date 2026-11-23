@@ -1,0 +1,2440 @@
+﻿sr_no,drug_code,generic_name,unit_size,mrp_inr
+1,1,Aceclofenac 100mg and Paracetamol 325mg Tablets,10's,9.38
+2,2,Aceclofenac Tablets IP 100 mg,10's,7.5
+3,3,Pregabalin Capsules IP 75 mg,10's,20.63
+4,5,Aspirin Gastro- resistant Tablets IP 150 mg,14's,4.69
+5,6,"Chlorzoxazone 500mg, Diclofenac 50mg and Paracetamol 325mg Tablets",10's,23.44
+6,7,Diclofenac Gel IP 1.16%w/w (Diclofenac Diethylamine),15 g,11.25
+7,8,Serratiopeptidase 10mg and Diclofenac Sodium 50mg Tablets,10's,14.44
+8,9,Diclofenac Sodium Prolonged Release Tablets IP 100 mg,10's,11.35
+9,10,Diclofenac Sodium Injection IP 25mg per ml,3 ml,3.75
+10,11,Diclofenac Gastro- Resistant Tablets IP 50 mg,10's,5.16
+11,12,Etoricoxib Tablets IP 120 mg,10's,35.63
+12,13,Etoricoxib Tablets IP 90 mg,10's,29.07
+13,14,Ibuprofen 400mg and Paracetamol 325mg Tablets IP,10's,7.5
+14,15,uprofen Tablets IP 0 mg,10's,2.82
+15,16,uprofen Tablets IP 0 mg,15's,8.25
+16,17,domethacin psules IP 25 mg,10's,12.19
+17,18,ithromycin blets IP 250 mg,6's,42.19
+18,19,mesulide 100mg d Paracetamol 5mg Tablets,10's,10.32
+19,20,mesulide Tablets 0 mg,10's,6.19
+20,21,clofenac Sodium mg and racetamol 325mg blets IP,10's,9.29
+21,22,racetamol ediatric Oral spension IP 125 per 5 ml,60 ml,10.32
+22,23,racetamol Tablets 500 mg,10's,6.57
+23,24,ntazocine jection IP 30 mg r ml,1 ml,14.07
+24,25,rratiopeptidase blets IP 10 mg,10's,11.35
+25,26,amadol drochloride jection 100 mg per ml,2 ml,7.5
+26,27,amadol HCl jection 50mg 1 ml,1 ml,4.69
+27,28,amadol Tablets mg,10's,7.5
+28,29,iclovir Tablets IP 0 mg,10's,41.25
+29,30,ikacin Injection 100 mg per 2 ml,2 ml Vial,12
+30,31,mikacin Injection P 250 mg per 2 ml,2 ml Vial,20
+31,32,mikacin Injection P 500 mg per 2 ml,2 ml Vial,27.19
+32,34,etformin ydrochloride rolonged-release 00mg and limepiride 2mg ablets IP,15's,24.75
+33,35,moxycillin 1g and otassium lavulanate 200mg njection IP,Vial & Wfi,54.38
+34,36,moxycillin 200mg nd Potassium lavulanate 28.5mg ral Suspension IP er 5ml,30 ml,25.32
+35,37,moxycillin 250mg nd Potassium lavulanate 50mg njection IP,Vial & Wfi,26.25
+36,38,moxycillin 500mg nd Potassium lavulanate 100mg njection IP,Vial & Wfi,37.5
+37,39,moxycillin 500mg nd Potassium lavulanate 125mg ablets IP,6's,52.6
+38,40,moxycillin 250mg nd Cloxacillin 50mg Capsules,10's,29.91
+39,42,moxycillin rihydrate ispersible Tablets P 125 mg,10's,11.25
+40,43,moxycillin Oral uspension IP 25mg per 5ml,60 ml,17.82
+41,44,oxycillin psules IP 250mg,10's,12.38
+42,45,oxycillin psules IP 500mg,10's,32.82
+43,46,picillin Injection 500 mg,Vial,7.22
+44,47,ithromycin Oral spension IP 0mg per 5ml,15 ml,14.07
+45,48,ithromycin spersible Tablets 0mg,10's,25.32
+46,51,fadroxil spersible Tablets 0mg,10's,17.54
+47,52,fadroxil Tablets 500 mg,10's,22.69
+48,53,fixime Oral spension IP 50mg r 5ml,30 ml,18.75
+49,54,fixime Tablets IP 0 mg,10's,26.25
+50,55,fixime Tablets IP 0 mg,10's,49.69
+51,56,foperazone 1g d Sulbactam 1g V jection,ial & Wfi,82.5
+52,57,foperazone 0mg and V lbactam 500mg jection,ial & Wfi,46.88
+53,58,foperazone V jection IP 1 g,ial & Wfi,43.13
+54,59,fotaxime Sodium and Sulbactam V dium 500mg jection,ial & Wfi,26.25
+55,60,efotaxime Sodium 50mg and ulbactam Sodium 25mg Injection,Vial & Wfi,11.35
+56,61,efotaxime Sodium 00mg and ulbactam Sodium 50mg Injection,Vial & Wfi,17.82
+57,62,efotaxime Sodium njection IP 1g,Vial & Wfi,17.82
+58,63,efotaxime Sodium njection IP 250 mg,Vial & Wfi,9.38
+59,64,efotaxime Sodium njection IP 500 mg,Vial & Wfi,11.25
+60,65,efpodoxime roxetil Dispersible ablets 100 mg,10's,37.5
+61,66,efpodoxime ablets IP 200 mg,10's,65.63
+62,67,eftazidime njection IP 1g,Vial & Wfi,75
+63,68,eftazidime njection IP 250mg,Vial & Wfi,28.13
+64,69,eftazidime njection IP 500mg,Vial & Wfi,46.88
+65,70,eftriaxone 1g and ulbactam 500mg njection,Vial & Wfi,45
+66,71,eftriaxone 1g and azobactam 125mg njection,Vial & Wfi,45
+67,72,zithromycin ablets IP 500 mg,3's,39.38
+68,73,eftriaxone 250 mg nd Sulbactam 125 g Injection,Vial & Wfi,15.94
+69,74,eftriaxone 500mg nd Sulbactam 50mg Injection,Vial & Wfi,32.82
+70,75,eftriaxone Injection P 1 g,Vial & Wfi,26.25
+71,76,eftriaxone Injection P 250 mg,Vial & Wfi,12.19
+72,77,eftriaxone injection P 500 mg,Vial & Wfi,22.5
+73,78,efuroxime Axetil ablets IP 250 mg,10's,70.32
+74,79,efuroxime Axetil ablets IP 500 mg,10's,133.13
+75,80,ephalexin Tablets P 125mg Dispersible),10's,19.69
+76,81,ephalexin apsules IP 250mg,10's,30.94
+77,82,ephalexin apsules IP 500mg,10's,46.88
+78,83,iprofloxacin 250mg nd Tinidazole 00mg Tablets,10's,26.25
+79,84,iprofloxacin 500mg nd Tinidazole 00mg Tablets,10's,36.57
+80,85,iprofloxacin ydrochloride ablets IP 250 mg,10's,10.32
+81,86,iprofloxacin ydrochloride ablets IP 500 mg,10's,18.75
+82,87,lotrimazole Cream 1 P 1% w/w,5 g tubes,14.44
+83,88,o-trimoxazole Sulphamethoxazole 00mg and rimethoprim 40mg er 5ml) Oral uspension IP,50 ml,14.07
+84,89,-trimoxazole ulphamethoxazole 0mg and imethoprim 0mg) Tablets IP,10's,11.35
+85,90,-trimoxazole ulphamethoxazole 0mg and imethoprim 20mg) blets IP,10's,2.07
+86,92,xycycline psules IP 100mg,10's,14.44
+87,93,ythromycin earate Tablets IP 0mg,10's,19.6
+88,94,ntamicin lphate Injection IP mg per 2ml,2 ml,5.1
+89,95,vofloxacin Tablets 250mg,10's,16.88
+90,96,vofloxacin Tablets 500mg,10's,30.94
+91,97,ropenem V jection IP 1 g,ial & Wfi,221.25
+92,98,rfloxacin 400mg d Tinidazole 0mg Tablets,10's,37.5
+93,99,rfloxacin Tablets 400 mg,10's,19.69
+94,100,loxacin 200mg d Ornidazole 0mg Tablets IP,10's,25.79
+95,101,loxacin Tablets IP 0mg,10's,13.13
+96,102,loxacin Tablets IP 0mg,10's,32.82
+97,103,peracillin 4000mg d Tazobactum V 0mg Injection IP,ial & Wfi,114.38
+98,105,xithromycin blets IP 150 mg,10's,26.25
+99,106,xithromycin blets IP 300 mg,10's,46.88
+100,107,nidazole Tablets 300 mg,10's,12.19
+101,108,nidazole Tablets 500 mg,10's,15
+102,109,ncomycin drochloride for Vi travenous Infusion 500 mg,al & Wfi,135
+103,110,apalene Gel 15 g 1%w/w,m tubes,27.19
+104,112,"clomethasone propionate 025%w/w, otrimazole 1%w/w 15 d Gentamicin lphate 0.1%w/w eam",g tubes,18.75
+105,113,clomethasone 025%w/w and 15 omycin 0.5%w/w eam,g tube,10.32
+106,115,lamine Lotion IP 1,00 ml,26.25
+107,117,lorhexidine uthwash IP 0.2 % 1 v,00 ml,21.57
+108,118,obetasol opionate Cream 15 0.05 % w/w,gm Tube,14.07
+109,120,sidic Acid Cream 5 g 2% w/w,m Tube,23.44
+110,122,toconazole Lotion 100 w/v,ml Bottle,51.57
+111,124,vidone Iodine 250 gm ntment 5% w/w,tubes/Jar,107.82
+112,125,vidone Iodine 15 g ntment 5% w/w,m tubes,14.44
+113,126,ovidone-Iodine olution IP 10 % w/v,500 ml,135.94
+114,127,ovidone-Iodine olution IP 5 % w/v,100 ml,19.69
+115,129,ovidone Iodine olution 7.5% w/v,500 ml,113.44
+116,131,"ilver Sulphadiazine % w/w, hlorhexidine luconate 0.2% /w, Allantoin 0.1% /w, Aloe vera 15% /w Cream",20 gm,28.13
+117,132,"ilver Sulphadiazine % w/w, hlorhexidine luconate 0.2% /w, Allantoin 0.1% /w, Aloe vera 15% /w Cream",500 gm,468.75
+118,133,libenclamide ablets IP 2.5 mg,10's,2.82
+119,134,libenclamide ablets IP 5 mg,10's,5.16
+120,135,liclazide Tablets IP 0 mg,10's,14.44
+121,136,liclazide Tablets IP 0 mg,10's,22.5
+122,137,limepiride Tablets P 1mg,10's,4.13
+123,138,limepiride Tablets P 2mg,10's,5.16
+124,141,lipizide Tablet IP 5 g,10's,4.69
+125,142,oluble Insulin njection IP 40 IU er ml (R-DNA rigin),10 ml Vial,78.1
+126,143,nsulin Injection IP 0 IU per ml (Insulin uman Soluble 30% nd Isophane 70%),10 ml Vial,90
+127,144,etformin ydrochloride ustained Release ablets IP 1000 mg,10's,12.38
+128,145,etformin ydrochloride ablets IP 500mg,10's,6.19
+129,147,ioglitazone Tablets P 30mg,10's,12.38
+130,150,ioglitazone 15mg nd Metformin 00mg Sustained elease Tablets,10's,25.32
+131,152,leomycin Injection P 15IU,Vial,300
+132,153,isplatin Injection IP 0 mg per10ml,Vial,32.82
+133,154,isplatin Injection 0mg per 50ml,Vial,160.88
+134,156,oxorubicin njection IP 50mg 2mg per ml),Vial,281.25
+135,158,toposide Injection P 100 mg per 5 ml,Vial,92.82
+136,159,emcitabine njection IP 1000mg,Vial,783.75
+137,160,emcitabine njection IP 200mg,Vial,225
+138,163,amoxifen Citrate ablets IP 10 mg,10's,10.32
+139,164,amoxifen Citrate ablets IP 20 mg,10's,15
+140,165,iprofloxacin njection IP 200mg,100 ml,11.25
+141,170,annitol Injection IP 0% w/v,100 ml,26.25
+142,171,nnitol travenous Infusion 20% w/v,350 ml,46.88
+143,172,tronidazole fusion IP 500 mg,100 ml,8.25
+144,177,bendazole Oral spension IP 200 per 5ml,10 ml,7.5
+145,178,bendazole 400mg d Ivermectin 6mg blets,1's,6.19
+146,180,sacodyl Tablets IP g,10's,5.63
+147,181,icholine Citrate 5mg and proheptadine drochloride 2mg rup per 5ml,200 ml,35.63
+148,183,cyclomine Tablets 10mg,10's,0.94
+149,184,racetamol 325mg d Dicyclomine drochloride 20mg blets,10's,7.5
+150,186,mperidone blets IP 10 mg,10's,4.13
+151,187,mperidone spension IP 5mg r 5ml,30 ml,12.19
+152,188,"ied Aluminium droxide 250mg, gnesium droxide 250mg d Activated methicone 50mg blets",10's,5.63
+153,191,motidine Tablets 20 mg,14's,2.82
+154,192,motidine Tablets 40 mg,14's,4.54
+155,193,razolidone blets IP 100 mg,10's,0.94
+156,194,oscine tylbromide blets IP 10 mg,10's,16.5
+157,196,ctic Acid Bacillus blets 60 Million ores,10's,7.22
+158,197,ctulose Solution 10g per 15ml,100 ml,57
+159,198,"ied Aluminium droxide 250mg, gnesium droxide 250mg d Activated methicone 50mg r 5ml Suspension",170 ml,30
+160,199,toclopramide blets IP 10 mg,10's,7.5
+161,200,toclopramide jection IP 5mg per 2ml,Ampoule,2.82
+162,201,tronidazole blets IP 200mg,10's,4.13
+163,202,tronidazole blets IP 400mg,10's,6.57
+164,203,soprostol Tablets 200 mcg,4's,18.75
+165,206,eprazole 20mg d Domperidone mg Capsules IP,10's,10.32
+166,207,eprazole Gastro- sistant Capsules 20 mg,10's,9.29
+167,208,dansetron jection IP 2mg per,2 ml,4.13
+168,209,dansetron blets IP 4 mg,10's,6.19
+169,210,rnidazole Tablets P 500mg,10's,23.44
+170,212,antoprazole Gastro esistant Tablets IP 0 mg,10's,11.35
+171,213,antoprazole njection 40mg,Vial,21.66
+172,214,abeprazole 20mg Enteric Coated) and omperidone 30mg Sustained Release) apsules,10's,16.88
+173,215,abeprazole Gastro esistant Tablets IP 0 mg,10's,8.25
+174,216,anitidine Injection P 25 mg per ml,2 ml,3.75
+175,217,anitidine Tablets IP 50 mg,10's,5.63
+176,218,anitidine Tablets IP 00 mg,10's,12.19
+177,220,alcium 500mg and itamin D3 250IU ablets IP,10's,7.22
+178,223,"yridoxine ydrochloride 10mg, oxylamine 10mg nd Folic Acid .5mg Tablets",30's,32.82
+179,224,olic Acid Tablets IP mg,15's,4.13
+180,225,yrup of Iron and olic Acid in a lavoured Base,200 ml,33
+181,227,olyvitamin Tablets FI (Prophylactic),10's,6.57
+182,230,itamin B-Complex ort Zinc Capsule,10's,9.29
+183,231,"tamin B-Complex blets (B1 10mg, 10mg, B3 45mg, 50mg, B6 3mg, 2 15mcg)",10's,15
+184,232,tamin B-Complex rup,200 ml,39.38
+185,235,desonide buliser spension 1mg per l,2 ml,12.38
+186,236,desonide halation IP 2 0mcg,00 MDI,115.32
+187,238,desonide halation IP 0mcg,200 md,150
+188,239,tirizine Syrup IP 5 per 5 ml,60 ml,12.19
+189,240,trizine drochloride blets IP 10mg,10's,5.16
+190,245,ophyllin 77mg and eophylline 23mg blets,10's,4.69
+191,246,xofenadineHydroc orideTablets IP 0mg,10's,22.5
+192,247,xofenadine blets IP 180 mg,10's,35.07
+193,248,vocetrizine blets IP 5 mg,10's,7.22
+194,250,ntelukast Sodium blets IP 5mg,10's,14.07
+195,251,ntelukast Sodium blets IP 10mg,10's,18.57
+196,252,ntelukast Sodium mg and vocetirizine 5mg blets IP,10's,18.75
+197,253,heniramine aleate Tablets IP 5 mg,15's,4.69
+198,254,romethazine Syrup P 5mg per 5ml,100 ml,13.13
+199,255,albutamol nhalation IP 00mcg,200 md,51.57
+200,256,albutamol Tablets P 2mg,10's,0.94
+201,259,albutamol Syrup IP mg per 5ml,100 ml,10.32
+202,260,albutamol Tablets P 4 mg,10's,1.88
+203,261,denosine Injection P 6 mg per 2ml,2 ml,98.44
+204,263,mlodipine 5mg and tenolol 50mg ablets IP,10's,6.57
+205,264,mlodipine Tablets P 5mg,10's,5.16
+206,265,tenolol Tablets IP 0 mg,14's,6.19
+207,266,torvastatin Tablets P 10mg,10's,8.25
+208,267,torvastatin Tablets P 20mg,10's,11.35
+209,268,lonidine Tablets IP 00 mcg,10's,10.32
+210,269,lopidogrel Tablets P 75mg,10's,17.54
+211,270,lopidogrel 75mg nd Aspirin 75mg ablets IP,10's,19.69
+212,271,iltiazem Tablets IP 0 mg,10's,11.35
+213,272,iltiazem Tablets IP 0 mg,10's,15.94
+214,273,obutamine njection IP 250mg er 20ml (for ntravenous nfusion),Vial,35.63
+215,274,opamine ydrochloride njection IP 200 mg er 5ml,5 ml,15
+216,275,nalapril Tablets IP mg,10's,5.16
+217,276,noxaparin Injection P 40 mg per 0.4 ml,0.4 ml,187
+218,277,noxaparin Injection P 60 mg per 0.6 ml,0.6 ml,217.8
+219,278,rusemide Injection P 10 mg per ml,2 ml,2.82
+220,279,rusemide Tablets P 40 mg,10's,4.69
+221,280,eparin Sodium njection IP 5000 IU,5 ml,40.22
+222,281,eparin Sodium njection IP 25000 U,5 ml,187.5
+223,283,sosorbide Dinitrate ablets IP 10mg,50's,19.69
+224,285,mlodipine 5mg and isinopril 5mg ablets IP,15's,15
+225,286,isinopril Tablets IP mg,10's,9.38
+226,287,osartan Potassium 0mg and ydrochlorothiazide 2.5mg Tabelts IP,10's,12.38
+227,288,osartan Tablets IP 5mg,10's,7.22
+228,289,osartan Tablets IP 0mg,10's,11.35
+229,290,etoprolol Tablets P 25 mg,10's,6.19
+230,291,etoprolol Extended elease Tablets IP 0mg,10's,9.29
+231,293,amipril Tablets IP .5 mg,10's,7.22
+232,294,amipril Tablets IP mg,10's,9.38
+233,295,imvastatin Tablets P 10mg,10's,10.32
+234,296,imvastatin Tablets P 20mg,10's,15
+235,298,elmisartan 40mg nd ydrochlorothiazide 2.5mg Tablets IP,10's,15.94
+236,299,elmisartan Tablets P 20mg,10's,10.32
+237,300,elmisartan Tablets P 40mg,10's,11.25
+238,301,ranexamic Acid ablets IP 500 mg,10's,74
+239,302,ranexamic Acid njection IP 500 mg 5 100mg per ml),ml Amp.,24
+240,304,-ß Arteether 2 m njection 150 mg,l Ampoule,17.82
+241,305,hloroquine hosphate Tablets P 250 mg,10's,5
+242,311,isodium Hydrogen itrate Syrup Alkalyser) 1.4 gm er 5 ml,100 ml,20.63
+243,312,ral Rehydration alts IP 20.5g achet (WHO ormula),1's,10
+244,313,lprazolam Tablets P 0.25 mg,10's,4.13
+245,314,lprazolam Tablets P 0.5 mg,10's,7.22
+246,316,etahistine Tablets P 8 mg,10's,8.25
+247,317,arbamazepine ablets IP 100 mg,10's,7.5
+248,319,lonazepam Tablets P 0.5 mg,10's,5.16
+249,320,iazepam Tablets P 5 mg,10's,5.63
+250,321,scitalopram ablets IP 10 mg,10's,9.38
+251,322,scitalopram ablets IP 20 mg,10's,18.75
+252,323,lunarizine Tablets P 10 mg,10's,7.5
+253,324,lunarizine Tablets P 5 mg,10's,6.57
+254,325,luoxetine ydrochloride apsules IP 20mg,10's,8.25
+255,326,ethyl Ergometrine ablets IP 0.125 mg,10's,10.32
+256,327,henytoin Tablets IP 100 00 mg,'s in Bottle,51.57
+257,328,rochlorperazine ablets IP 5 mg,10's,5.63
+258,329,rednisolone ablets IP 5 mg,15's,7.5
+259,330,rednisolone ablets IP 10 mg,10's,8.44
+260,332,hyroxine Sodium ablets IP 100 mcg,100's,63.94
+261,333,examethasone ablets IP 0.5 mg,10's,1.88
+262,334,examethasone njection IP 4mg per l,2 ml,5.63
+263,336,llopurinol Tablets P 100 mg,10's,10.32
+264,337,lomiphene Citrate ablets IP 50mg,10's,20.63
+265,338,tropine Sulphate njection IP 0.6mg er ml,1 ml,2
+266,341,arboxymethylcellul se Sodium Eye rops IP 0.5% w/v,10 ml,24.75
+267,344,iprofloxacin Eye rops IP 0.3% w/v,5 ml,6.57
+268,345,entamicin Eye rops IP 0.3% w/v,10 ml,5.63
+269,351,ylometazoline asal Drops IP .1%w/v,10 ml,12.38
+270,352,upivacaine ydrochloride njection IP 5 mg per l,20 ml,36.57
+271,356,ignocaine Injection P 2% w/v,30 ml Vial,15.94
+272,357,ignocaine and drenaline Injection P (2%w/v and :80000),30 ml Vial,20.63
+273,358,ropofol Injection IP 0 mg per ml,10 ml Vial,36.57
+274,359,etanus Vaccine IP 0.5,ml Ampoule,6.5
+275,360,ifepristone Tablets P 200 mg,1's,62.82
+276,362,iphasic Isophane nsulin Injection IP 1 50:50) 40 IU per ml,0 ML VIAL,88
+277,363,nsulin Glargine njection IP 100 IU Car er ml,tridge 3 ml,340
+278,366,lipizide 5mg and etformin ydrochloride 00mg Tablets,10's,8.44
+279,367,oglibose Tablets IP .3 mg,10's,14.44
+280,368,liclazide Extended elease Tablets 60 g,10's,41.25
+281,369,carbose Tablets IP 0 mg,10's,58.13
+282,371,oglibose Tablets IP .2 mg,10's,11.35
+283,372,etformin ydrochloride rolonged release ablets IP 500 mg,10's,10.32
+284,373,rtesunate Injection P 60 mg,1 vial,21.57
+285,375,uinine Sulphate ablets IP 300 mg,10's,31
+286,376,mipenem 500mg nd Cilastatin 00mg Injection IP,Vial & Wfi,309.38
+287,377,lindamycin apsules IP 300 mg,10's,84.38
+288,380,larithromycin ablets IP 500 mg,4's,67.5
+289,381,efixime 200mg and floxacin 200mg ablets,10's,47.44
+290,382,inezolid Tablets IP 00 mg,10's,154.69
+291,383,efpodoxime 200mg nd Potassium lavulanate 125mg ablets,6's,67.5
+292,384,traconazole apsules 100 mg,4's,22.69
+293,385,efixime 200mg and otassium lavulanate 125mg ablets,10's,120
+294,386,iethylcarbamazine ablets IP 50 mg,30's,9
+295,387,erbinafine Tablets P 250mg,7's,38.44
+296,391,oxifloxacin Tablets 00 mg,5's,61.88
+297,392,riseofulvin Tablets P 250 mg,10's,15
+298,393,ciclovir Dispersible ablets IP 800 mg,5's,41.25
+299,395,efuroxime Axetil 00mg and otassium lavulanate 125mg ablets IP,6's,102.19
+300,396,iposomal mphotericin B njection 50 mg per ial,20 ml,2700
+301,400,etoconazole ablets IP 200 mg,10's,26.25
+302,401,moxycillin 250mg nd Potassium lavulanate 125mg ablets IP,6's,44.07
+303,402,moxycillin 875mg nd Potassium lavulanate 125mg ablets IP,6's,72.19
+304,403,lindamycin njection IP 300mg er 2ml,2 ML,55
+305,404,inezolid Infusion 00mg per 300ml,300 ml,113.44
+306,405,floxacin Infusion IP 00 mg per 100 ml,100 ml,30.94
+307,407,vermectin ispersible Tablets 2 mg,10's,21.66
+308,410,rastuzumab njection 440 mg ith Wfi,1's,14062.5
+309,412,zathioprine Tablets P 50 mg,10's,45
+310,413,ethotrexate ablets IP 7.5 mg,10's,25
+311,414,ranexamic Acid 00mg and efenamic Acid 50mg Tablets,10's,76.88
+312,416,razosin Tablets IP mg,15's,28.88
+313,417,elmisartan 40mg nd Amlodipine 5mg ablets IP,15's,22.69
+314,418,osuvastatin ablets IP 20 mg,10's,26.82
+315,419,eparin Sodium 0IU and Benzyl icotinate 2mg intment,20 gm,37.5
+316,420,torvastatin 10mg nd Clopidogrel 5mg Capsules,10's,36.1
+317,421,ebivolol Tablets IP mg,10's,23.44
+318,422,orasemide Tablets P 10mg,15's,15.94
+319,423,isoprolol Tablets 5 g,10's,14.07
+320,424,arvedilol Tablets IP .125 mg,10's,7.22
+321,425,iltiazem Sustained elease Tablets 90 g,10's,34.04
+322,426,cenocoumarol ablets IP 2 mg,30's,33.75
+323,427,(-)Amlodipine ablets IP 2.5 mg,10's,11.35
+324,428,igoxin Tablets IP .25 mg,10's,8.44
+325,429,torvastatin 10mg nd Fenofibrate 60mg Tablets IP,15's,28.13
+326,430,miodarone Tablets P 200 mg,10's,55.32
+327,431,amipril 5mg and ydrochlorothiazide 2.5mg Tablets IP,10's,13.13
+328,432,lmesartan edoxomil Tablets P 40 mg,10's,34.04
+329,433,sosorbide ononitrate ustained Release ablets 30 mg,30's,65.63
+330,434,ropranolol Tablets P 40 mg,10's,6.19
+331,435,osuvastatin 10mg nd Fenofibrate 60mg Tablets IP,10's,31.97
+332,436,elmisartan 40mg nd Chlorthalidone 2.5mg Tablets,10's,20.63
+333,437,ifedipine rolonged release ablets IP 20mg,10's,8.44
+334,438,ndapamide Tablets P 1.5 mg,10's,24.38
+335,439,lmesartan edoxomil 40mg nd ydrochlorothiazide 2.5mg Tablets IP,10's,28.13
+336,440,etoprolol 50mg Prolonged release) nd Amlodipine esilate 5mg ablets IP,7's,10.32
+337,441,osartan 50mg and mlodipine 5mg ablets IP,10's,20.63
+338,442,enofibrate Tablets P 160 mg,10's,27.85
+339,443,sosorbide Dinitrate ablets IP 5 mg,50's,18.75
+340,444,nalapril 10mg and ydrochlorothiazide 5mg Tablets IP,30's,56.25
+341,445,lmesartan 20mg nd Amlodipine 5mg ablets,10's,23.44
+342,446,mlodipine 5mg and ydrochlorothiazide 2.5mg Tablets,10's,15.47
+343,447,oxonidine Tablets .3 mg,10's,44.07
+344,448,amipril 5mg and mlodipine 5mg ablets,10's,23.44
+345,449,pironolactone ablets IP 25 mg,15's,20.63
+346,450,abetalolHydrochlori eTablets IP 100mg,10's,42.19
+347,451,"treptokinase njection IP 1 5,00,000 IU",0 ml & wfi,932.82
+348,452,arfarin Tablets IP mg,10's,16.88
+349,453,soprolol 5mg and drochlorothiazide 25mg Tablets IP,10's,15.47
+350,454,lsartan Tablets IP mg,10's,34.04
+351,455,rapamil Tablets 80 mg,10's,13.13
+352,456,orvastatin Tablets 40 mg,10's,20.63
+353,457,rsemide Tablets 20 mg,10's,18.57
+354,458,betalol Injection 4 ml 5 mg per ml,Ampoule,55.32
+355,459,"droquinone w/w, metasone 1%w/w and etinoin 025%w/w Cream",20 gm,24.75
+356,461,tamethasone lerate 0.1%w/w d Neomycin lfate 0.5%w/w eam,20 gm,16.5
+357,462,tamethasone lerate 0.12%w/w d Clioquinol w/w Cream,30 GM,32.82
+358,463,pirocin Ointment 2 % w/w,5 gm,46.88
+359,465,ntoprazole 40mg astro-resistant) d Domperidone mg (Prolonged lease) Capsules,10's,20.63
+360,466,sodeoxycholic id Tablets IP 300,10's,160.6
+361,467,cyclomine drochloride 10mg d Mefenamic Acid 0mg Tablets IP,10's,12.38
+362,468,cillus Clausii ores Suspension Billion per 5ml,5 ML,14.07
+363,471,"etacaine, uminium droxide and gnesium droxide spension",200 ML,43.13
+364,472,omeprazole 40mg nteric-Coated) d Domperidone mg (Sustained lease) Capsules,10's,20.63
+365,473,ntoprazole 40mg nteric Coated) and vosulpiride 75mg ustained Release) psules,10's,51.57
+366,474,xylamine ccinate 10mg and ridoxine drochloride 10mg blets,30's,21.57
+367,475,cralfate spension 500mg r 5ml,200 ml,72.19
+368,476,"quid Paraffin 25ml, Milk of gnesia 3.75ml d Sodium 170 cosulphate 33mg Suspension r 5ml",ml Bottle,53.44
+369,477,lordiazepoxide g and Clidinium omide 2.5mg blets,10's,8.44
+370,478,odium icosulphate ablets 10 mg,10's,10.32
+371,479,orbitol 7.15g and richoline Citrate 50mg per 10ml olution,200 ML,37.5
+372,480,someprazole 40mg Enteric-coated) and evosulpiride 75mg Sustained release) apsules,10's,61.88
+373,481,ifaximin Tablets 00 mg,10's,121.88
+374,482,abeprazole 20mg Enteric Coated) and evosulpiride 75mg Sustained Release) apsules,10's,33.75
+375,483,operamide apsules IP 2 mg,10's,7.22
+376,484,someprazole ablets IP 40 mg,10's,19.6
+377,485,romethazine ablets IP 25 mg,10's,6.57
+378,486,ancreatin 170mg nd Activated imethicone 80mg ablets,10's,51.57
+379,487,icyclomine ydrochloride 10mg nd Activated imethicone 40mg er 5 ml Suspension,30 ML,15.94
+380,488,ansoprazole apsules IP 15 mg,10's,18.75
+381,489,ulfasalazine astro-resistant ablets 1000mg,10's,72.19
+382,491,topride Tablets IP 0 mg,10's,33.75
+383,492,ulfasalazine elayed Release ablets 500mg,10's,24.38
+384,496,ydrogesterone ablets IP 10 mg,10's,328.13
+385,497,ombipack of ifepristone Tablets P 200mg (1 Tablet) Misoprostol ablets IP 200mcg 4 Tablets),1's,69.38
+386,498,errous Ascorbate 00mg and Folic cid 1.5mg Tablets,10's,21.66
+387,499,orethisterone ablets IP 5 mg,10's,13.13
+388,500,evo-Thyroxine odium Tablets IP 00 mcg,100's,60
+389,501,etamethasone odium Phosphate ablets IP 0.5 mg,20's,7.5
+390,502,eflazacort Tablets mg,6's,13.41
+391,503,ethylprednisolone odium Succinate V njection 1000mg,ial & Wfi,297.19
+392,504,androlone ecanoate Injection P 25 mg per ml,1 ML,18.75
+393,505,arbimazole Tablets P 10 mg,100's,72.19
+394,507,arbimazole Tablets P 5 mg,10's,10.32
+395,508,evetiracetam ablets IP 500 mg,10's,63.94
+396,509,ydroxychloroquine ablets IP 200 mg,10's,33.75
+397,510,racetamol 325mg d Tramadol .5mg Tablets,10's,12.38
+398,511,racetamol Tablets 650 mg,15's,14.07
+399,512,"eclofenac 100mg, racetamol 325mg d rratiopeptidase mg Tablets",10's,17.82
+400,513,roxicam Capsules 20 mg,10's,8.44
+401,514,ymotrypsin and ypsin (1:6 ) blets 100K AU,20's,46.88
+402,515,fenamic Acid spension 100mg r 5ml,60 ml,16.88
+403,516,eclofenac stained Release blets 200mg,10's,18.75
+404,517,iocolchicoside g and eclofenac 100mg blets,10's,46.88
+405,518,clofen Tablets IP mg,10's,11
+406,519,torolac omethamine blets IP 10mg,10's,9.38
+407,521,amadol Prolonged lease Tablets IP 0 mg,10's,32.82
+408,522,facalcidol Soft latin Capsules 25 mcg,10's,20.63
+409,523,proxen Tablets IP 0 mg,15's,45
+410,525,"clofenac 16%w/w, Linceed l 3%w/w, Methyl 3 licylate 10%w/w d Menthol 5%w/w l",0 GM,22.5
+411,528,"racetamol 325mg, enylephrine 10mg d lorpheniramine g Tablets",10's,20.63
+412,529,vosalbutamol 25mg and ratropium 500mcg spules,3 ml,8.44
+413,530,rmoterol 6mcg d Budesonide 0mcg Rotacaps,30's,79.69
+414,532,lmeterol 50mcg d Fluticasone 0mcg Rotacaps,30's,112.5
+415,537,"broxol drochloride 15 , Guaifenesin 50 and 100 vosalbutamol lphate 1 mg rup",ml Bottle,21.57
+416,539,etylcysteine blets 600 mg,10's,30
+417,540,vosalbutamol 25mg and desonide 1mg spules,2 ML,25.79
+418,541,ebrophylline psules 100 mg,10's,20.63
+419,542,line Nasal Drops odium Chloride 65% w/v),20 ml,11.25
+420,543,nthol (55 mg ± ) Cinnamon (12.5 ± 2) and Pine Oil 12.5 mg ± 1) Soft psules,10's,23.44
+421,544,uticasone opionate spules 0.5mg per l,2 ML,15.94
+422,555,xofylline Tablets 400 mg,10's,15.94
+423,556,ntelukastSodium mgand xofenadine drochloride 120 Tablets,10's,41.25
+424,558,elastine drochloride 0mcg and uticasone opionate 50mcg sal Spray,70 MD,178.13
+425,560,uticasone opionate Nasal 1 ray IP 50 mcg,00 MD,75
+426,561,vosalbutamol rup 1mg per 5ml,100 ML,12.38
+427,562,ratadine Tablets 10mg,10's,9.38
+428,563,ymetazoline drochloride Nasal ops IP 0.5 mg per,10 ML,14.44
+429,564,otropium Bromide mcg and rmoterol marate Dihydrate mcg Rotacaps,15's,70.32
+430,565,"iotropium Bromide 8mcg, Formoterol umarate Dihydrate 2mcg and iclesonide 400mcg otacaps",15's,140.63
+431,566,pratropium Bromide espirator Solution 50mcg,15 ML,26.25
+432,567,albutamol 100mcg nd Ipratropium 0mcg Inhaler,200 MDI,103.13
+433,568,almeterol 25mcg nd Fluticasone ropionate 250mcg nhaler IP,100 MD,234.38
+434,569,ildenafil Tablets IP 0 mg,4's,9.29
+435,570,adalafil Tablets IP 0 mg,4's,15.47
+436,571,amsulosin ydrochloride Modified Release) .4mg and utasteride 0.5mg ablets,15's,24.75
+437,574,"abies Vaccine, 1 ml vi uman IP in",al with diluent Mono pack,295
+438,580,"inseng, ultivitamins and ultiminerals apsules",10's,30.94
+439,581,"alciumCarbonate 00mg, Calcitriol .25mcg and Zinc .5mg Capsules",10's,18.57
+440,582,"itamins ,C,D,E,And B omplex and inerals Syrup",200 ML,44.07
+441,583,yproheptadine ablets IP 4 mg,10's,3.75
+442,585,holecalciferol ranules 60000 IU er gm,1 Sachet,9.29
+443,586,"ethylcobalamin 500mcg, L- arnitine L- Tartrate 00mg and Folic cid 1.5mg Tablets",10's,103.13
+444,588,itamin E Softgel apsules 400 mg,10's,20.63
+445,589,alcium 500mg and alcitriol 0.25mcg ablets,15's,16.88
+446,591,ethylcobalamin njection 500 mcg,1 ML,6.57
+447,592,"-Lysine + ultivitamins (Vit- 1,B2,B3,B5,B6 ) yrup",200 ML,48.75
+448,593,"olic Acid 15mg, yanocobalamine 00mcg and icotinamide 200mg njection",10 ML,37.5
+449,594,extrose onohydrate IP owder,75 gm,21.57
+450,595,"hiamine 100mg, yridoxine ydrochloride 00mg and yanocobalamin 000mcg per 3 ml njection",3 ml,7.5
+451,597,yridoxine Tablets P 50 mg,10's,8.44
+452,598,egabalin 75mg d thylcobalamin 0mcg Tablets,10's,35.63
+453,599,egabalin Tablets mg,10's,22.69
+454,601,sulfiram Tablets IP 0 mg,4's,6.57
+455,603,"tirizine hydrochloride g, Phenylephrine drochloride 10mg d Paracetamol 5mg Tablets",10's,17.54
+456,608,tamethasone propionate 0.05% w and Salicylic id 3% w/w ntment,20 gm,15.94
+457,609,lver Nitrate 0.20% w and lorhexidine 15 G uconate 0.20% w Cream,ms Tube,23.44
+458,610,"racetamol 125mg, enylephrine drochloride 5mg d Cetirizine hydrochloride 2mg spension",60 ML,14.07
+459,611,proheptadine drochloride Syrup 2mg,200 ml,28.13
+460,612,vidone-Iodine 10 gm wder 5% W/W,Container,17.82
+461,613,"clofenac tassium 50mg, racetamol 325mg d rratiopeptidase mg Tablets",10's,18.57
+462,614,"radichlorobenzen 2%w/v, nzocaine 7%w/v, Chlorbutol w/v and rpentine Oil %w/v Ear Drops",10 ml,12.19
+463,625,omhexine drochloride 8mg d Phenylephrine drochloride 5mg blets,15's,11.25
+464,626,toconazole 100 ampoo 2% W/V,ml Bottle,58.13
+465,627,ophylline 115mg d Theophylline mg Prolonged lease Tablets IP,10's,7.5
+466,628,ophylline 231mg d Theophylline mg Prolonged lease Tablets IP,10's,13.41
+467,629,"halent Softgel psules (Camphor mg, Chlorothymol g, Eucalyptol 0mg, Menthol mg, Turpineol 0mg)",10's,26.25
+468,630,quid Paraffin 75ml and Milk of gnesia 11.25ml 170 r 15ml spension,ml Bottle,34.69
+469,631,amsylate Tablets 0 mg,10's,12.19
+470,632,amsylate Tablets 0 mg,10's,8.44
+471,633,apalene 0.1%w/w d Clindamycin 15 osphate 1%w/w l,gm tubes,30
+472,634,"betasol pionate 5%w/w, mycin 20 0%w/w, onazole 2%w/w Chlorocresol 0%w/w Cream",gms.,26.82
+473,637,"clofenac 100mg, acetamol 325mg Chlorzoxazone mg Tablets",10's,15
+474,639,"butaline Sulphate 5mg, Bromhexine , Guaiphenesin 10 g and Menthol mg Syrup per",0 ML,22.69
+475,640,esulide Gel 1% 20 g,m Tube,15
+476,643,"acetamol 125mg, orpheniramine and Sodium 60 m rate 60mg Syrup Flavour base",l Bottle,16.88
+477,644,nylephrine rochloride 5mg 15 m orpheniramine eate 2mg Drops,l Bottle,18.75
+478,645,"esulid 100mg, acetamol 325mg Chlorzoxazone mg Tablets",10's,18.75
+479,648,"lofenac hylamine 6%w/w, Linseed 3%w/w, Methyl 3 icylate 10%w/w Menthol 5%w/w ay",5 gm,51.57
+480,649,cyclomine drochloride 10mg 10 d Simethicone mg Oral Drops,ml Bottle,10.32
+481,650,fenamic Acid 0mg and racetamol 325mg blets,10's,15.94
+482,655,psin 7.5mg and ngal Diastase yme 12.5mg rup per 5ml (Mix uit Flavour),200 ml,45
+483,656,astase and Pepsin zyme Drops,15 ml,16.88
+484,658,lorhexidine uconate 0.3%v/v d Cetrimide 1 6%w/v Antiseptic quid,00 ML,11.25
+485,661,ma Benzene xachloride 1%w/v d Cetrimide 1%w/v lotion,100 ml,51.57
+486,664,"uth Ulcer Gel holine Salicylate dium 9% W/V, nzalkonium loride 0.01% W)",10 gm,14.07
+487,665,tamin B Complex d Ascorbic Acid psules,10's,15.94
+488,666,eniramine leate Injection IP .75 mg,2 ML,3.75
+489,668,ltivitamin Drops,15 ml,16.88
+490,669,furoxime Axetil al Suspension 5mg per 5ml,30 ML,61.88
+491,670,ucosamine 750mg Diacerein 50mg d thylsulfonylmetha 250mg Tablets,10's,46.41
+492,671,ucosamine 500mg d Diacerein 50mg blets,10's,51.57
+493,672,metasone roate Cream IP 1%w/w,15 gm,16.88
+494,673,otin Tablets 10mg,10's,31.88
+495,676,iamcinolone etonide Mouth cer Gel 0.1% w/w,10 gm,45.94
+496,677,upentixol Tablets 5 mg,10's,10.32
+497,679,lidixic Acid blets IP 500 mg,10's,15.94
+498,680,nasteride Tablets 5mg,10's,41.25
+499,682,beprazole 20mg d Domperidone mg Capsules,10's,20.63
+500,683,beprazole dium (Gastro- sistant) 20mg and opride drochloride olonged release 0mg Capsules IP,10's,37.5
+501,685,ntoprazole dium 40 mg nteric Coated) and opride drochloride 150 (Sustained lease) Capsules,10's,46.88
+502,686,galdrate 400mg d Simethicone mg Oral spension IP per l,170 ml,39.38
+503,687,ctulose Solution 10g per 15ml,200 ml,120
+504,689,otrimazole Vaginal blets IP 100mg,10's,14.07
+505,690,molol Maleate Eye 5 ops IP 0.5 %,ml Vial,19.69
+506,691,loxacin Eye Drops 0.3% w/v,10 ml,10.32
+507,692,opatadine drochloride 1 hthalmic Solution 0.1% w/v,0 ml Vial,42.19
+508,693,opicamide Eye 5 ops IP 1% W/V,ml Vial,28.13
+509,696,"lymyxin B lphate 5000IU, loramphenicol g and xamethasone g Eye/Ear Drops",5 ml,39.38
+510,697,lphacetamide Eye op IP 10 % w/v,10 ml,11.25
+511,699,yclovir Eye ntment IP 3% W,5 gm,23.44
+512,701,locarpine Eye 1 ops IP 2% W/V,0 ml Vial,0
+513,704,phalexin Dry rup 125mg per l,30 ml,17.82
+514,705,vofloxacin fusion IP 500 mg r 100 ml,100 ML,33.75
+515,707,roxicam spersible Tablets mg,10's,9.38
+516,708,iroxicam ispersible Tablets 0 mg,10's,19.69
+517,709,iroxicam with bezyl lcohol Injection 20 g,1 ml,5.63
+518,710,iroxicam with bezyl lcohol Injection 40 g,2 ml,11.25
+519,712,aracetamol Oral uspension IP 50mg per 5ml,60 ml,19.69
+520,713,libenclamide 5mg nd Metformin ydrochloride 00mg Tablets IP,10's,11.25
+521,715,lycerin IP 8%W/W,50 GM,20.63
+522,717,todolac Tablets IP 00mg,10's,35.07
+523,718,scitalopram xelate 10mg and lonazepam 0.5mg ablets IP,10's,14.07
+524,720,inger Lactate 500 ml nfusion,in FFS Bottle,22.5
+525,722,ater for Injection mp polypack 5 ml,5 ml,1.41
+526,723,ater for Injection mp polypack 10ml,10 ml,1.88
+527,725,extrose ntravenouse nfusion IP 5% w/v,500 ml,18.75
+528,726,extrose Injection IP 0% w/v,500 ml,15.47
+529,728,extrose 5%w/v and odium Chloride .9%w/v Injection IP,500 ml,18.75
+530,732,dium Chloride 100 jection IP Plast 9%W/V,ml IV Fluid ic Container,14.07
+531,733,ogesterone stained Release blets 200 mg,10's,152.82
+532,734,hydroepiandroste ne (Micronized) 25 Capsule,10's,65.63
+533,736,gestrol Acetate blets IP 40mg,10's,131.25
+534,739,furoxime Axetil blets IP 125mg,6's,32.82
+535,740,arithromycin blets IP 250 mg,10's,76.88
+536,741,fpodoxime oxetil Dispersible blets 50 mg,10's,27.19
+537,746,lganciclovir drochloride blets USP 450 mg,10's,1740
+538,747,imepiride Tablets 3mg,10's,6.19
+539,748,imepiride Tablets 4mg,10's,7.5
+540,752,otrimazole Powder 100,gm Powder,56.72
+541,753,otrimazole 1%w/v d Beclometasone propionate 025%w/v Lotion,15 ml,26.25
+542,754,otrimazole 1%w/w d clomethasone propionate 025%w/w Cream,15 gm,12.38
+543,757,furoxime Injection V 1500mg,ial & Wfi,65.63
+544,759,suvastatin blets IP 10mg,15's,17.54
+545,762,ortriptyline Tablets P 25mg,10's,15
+546,764,tizolam Tablets IP .5mg,10's,9.29
+547,766,-Methylfolate alcium 7.5mg ablet,10's,55.32
+548,767,etformin ydrochloride 000mg (Prolonged elease) and limepiride 2mg ablets IP,10's,34.04
+549,768,cetazolamide ablets IP 250mg,10's,18
+550,769,cetylsalicylic Acid Aspirin) Gastro- esistant Tablets IP 25mg,14's,7.5
+551,772,denosine Injection P 3mg per ml,2 ml,23.44
+552,779,"lpha Lipolic Acid 00mg, Vitamin D3 000IU, Folic Acid .5mg, Pyridoxine mg and ethylcobalamin150 mcg Tablets",10's,45
+553,781,lprazolam 0.25mg nd Fluoxetine 0mg Tablets,10's,13.13
+554,784,misulpride Tablets P 50mg,10's,29.07
+555,785,mitriptyline ydrochloride ablets IP 25mg,15's,8.25
+556,786,mitriptyline ydrochloride ablets IP 10mg,10's,6.19
+557,788,nastrozole Tablets P 1mg,10's,73.13
+558,790,spirin Enteric oated Tablets IP 5mg,14's,2.82
+559,791,tenolol 25mg and mlodipine 5mg ablets IP,14's,15
+560,793,tenolol Tablets IP 5mg,14's,5.63
+561,796,spirin Gastro- esistant 75mg and torvastatin 10mg apsules IP,10's,15
+562,797,tracurium Besylate njection I.P 25mg er 2.5ml,2.5 ML,22.04
+563,800,"acitracin 250 IU, eomycin 5mg, ulphacetamide 10 0mg Dusting owder",gm Powder,23.44
+564,804,etamethasone njection IP 4 mg per l,1 ml,2.82
+565,806,icalutamide ablets IP 50mg,10's,128.44
+566,807,iphasic Isophane nsulin Injection IP 00 IU/ml (30:70 ) 3 30% Soluble Insulin nd 70% Isophane nsu,ml Catridge,165
+567,809,ortezomib Injection P 3.5 mg,Vial,928.13
+568,811,romfenac Sodium ye Drop 0.09%w/v,5 ml,61.88
+569,812,romocriptine esylate Tablets IP .5mg,10's,82.5
+570,814,abergoline Tablets P 0.5mg,4's,159.38
+571,815,alcitriol Capsules P 0.25mcg,10's,27.85
+572,816,alcium Acetate ablets 667mg,10's,26.25
+573,817,"alcium Carbonate 250mg, Vitamin D3 50IU, Magnesium xide 40mg, anganese ulphate 1.8mg and inc 7.5mg Tablets",10's,13.41
+574,818,alcium Gluconate njection IP 10 % /v,10 ml,4.69
+575,821,arvedilol Tablets IP .25mg,10's,7.22
+576,829,hloramphenicol ye Ointment IP %w/w,5 gm,15.94
+577,830,hlordiazepoxide 0mg and rifluoperazine 1mg ablets,10's,14.07
+578,832,hlorthalidone ablets IP 12.5mg,10's,13.41
+579,833,holecalciferol Vitamin D3) Drops 00 IU per ml,15 ml,25.32
+580,834,holecalciferol Vitamin D3) Drops 00 IU per ml,15 ml,18.75
+581,835,lucosamine ulphate 500mg and hondroitin 400mg ablets,10's,79.69
+582,837,ilnidipine Tablets P 20mg,10's,18.57
+583,838,ilostazol Tablets IP 0mg,10's,61.88
+584,840,iticoline Tablets IP 00mg,10's,207.29
+585,844,lonazepam Tablets P 1mg,10's,8.25
+586,850,yclosporin apsules IP 50mg,5's,120
+587,851,acarbazine njection IP 200mg,VIAL,176.25
+588,853,aunorubicin ydrochloride njection IP 20mg,vial,204
+589,860,extromethorphan ydrobromide Syrup P 13.5mg per 5ml,50 ml,21.57
+590,864,extrose Injection IP 5%w/v,100 ml,11.25
+591,865,iacerein Capsules P 50mg,10's,42.19
+592,866,iazepam Injection P 5mg per ml,2 ML,7.5
+593,868,icyclomine ydrochloride Dicycloverine) njection IP 10mg er ml,2 ml,3.75
+594,875,onepezil ydrochloride ablets IP 10mg,10's,23.44
+595,878,rotaverine ydrochloride 80mg nd Mefenamic Acid 50mg Tablets,10's,18.75
+596,879,rotaverine ydrochloride ablets IP 40mg,10's,7.5
+597,881,bastine Tablets IP 0mg,10's,18.75
+598,882,favirenz Tablets IP 00mg,30's,510
+599,885,thinylestradiol .05mg and evonorgestrel .25mg Tablets IP,21's,30
+600,888,ebuxostat Tablets 0mg,10's,18.75
+601,889,ebuxostat Tablets 0mg,10's,31.88
+602,897,ormoterol 6mcg nd Fluticasone ropionate 250mcg nhaler,120 MDI,271.88
+603,899,rusemide 20mg nd Spironolactone 0mg Tablets,10's,26.25
+604,900,abapentin 100mg nd ethylcobalamin 00mcg Tablets,10's,34.04
+605,901,abapentin apsules IP 300mg,10's,25.79
+606,904,etformin ydrochloride 00mg (Prolonged elease) and limepiride 1mg ablets IP,10's,16.5
+607,906,lyceryl Trinitrate ontrolled Release ablets 2.6mg Nitroglycerin ontrolled Release ablets),30's,46.88
+608,910,uman Chorionic onadotrophin IP 000 IU (Powder for Vial njection with olvent),and solvent,215
+609,912,ydrochlorothiazide ablets IP 12.5mg,10's,5.63
+610,913,ydrocortisone odium Succinate njection IP 100mg,Vial,20
+611,915,ydroxyzine ydrochloride ablets IP 10mg,10's,7.22
+612,916,matinib Mesylate ablets IP 400mg,10's,210.94
+613,917,mipramine ydrochloride ablets IP 25mg,10's,4.69
+614,920,oluble Insulin njection IP 100 IU 3 er ml (R-DNA rigin),ml Catridge,170
+615,922,sopropyl Alcohol IP 10 70%) (Spirit),0 ML bottle,40
+616,923,sosorbidemononitra e Tablets IP 20mg,10's,7.5
+617,924,soxsuprine ydrochloride ablets IP 10mg,50's,42.19
+618,926,etoconazole 15 ream 2% w/w,gm Tube,18.57
+619,931,amotrigine Tablets 00mg,10's,41.25
+620,933,eflunomide Tablets P 20mg,10's,69.38
+621,934,enalidomide apsules 10mg,10's,435
+622,935,etrozole Tablets IP .5mg,10's,31.88
+623,936,euprolide Acetate njections 3.75mg,1's,1687.5
+624,938,evocarnitine njections 1gm,5 ml,65.63
+625,939,evocarnitine ablets 500mg,10's,52.5
+626,944,evosalbutamol nhaler 50mcg,200 Mdi,77.82
+627,945,vosulpiride blets 25mg,10's,10.32
+628,946,gnocaine idocaine) drochloride Gel IP W/V,20g,10.32
+629,947,thium Carbonate olonged Release blets IP 450mg,10's,18.75
+630,948,razepam Tablets 1mg,10's,10.32
+631,949,razepam Tablets 2mg,10's,11.25
+632,951,copene with ltivitamins and lti Minerals Syrup,200 ml,50.63
+633,954,droxyprogesteron Acetate Tablets IP mg,10's,24.38
+634,955,fenamic Acid mg and racetamol 125mg spension per 5ml,60 ml,10.32
+635,956,floquine drochloride blets IP 250mg,4's,106.88
+636,957,mantine drochloride blets IP 10mg,10's,23.44
+637,960,tformin Sustained lease Tablets IP 0mg,10's,18.57
+638,965,conazole 2%w/w d Fluocinolone 15 etonide 01%w/w Ointment,gm Tube,23.44
+639,968,rtazapine Tablets 15mg,10's,28.13
+640,972,cophenolate fetil Tablets IP 0mg,10's,180
+641,974,tural Micronised ogesterone psules 100mg,10's,62.82
+642,975,bivolol 5mg and drochlorothiazide .5mg Tablets,10's,61.88
+643,976,bivolol Tablets IP 5mg,10's,15
+644,978,pafenac Eye op 0.1% W/V,5 ml,61.88
+645,986,trazepam Tablets P 10mg,10's,8.44
+646,987,trofurantoin blets I.P 100mg,10's,16.5
+647,990,anzapine Tablets 10mg,10's,8.25
+648,991,anzapine Tablets 5mg,10's,6.19
+649,992,mesartan doxomil Tablets 20mg,10's,15.94
+650,993,dansetron Oral lution IP 2 mg per l,30 ml,14.07
+651,994,aliplatin Injections 50mg,Vial,445.32
+652,997,clitaxel Injection 100mg (6mg/ml),Vial,506.25
+653,999,roxetine olonged Release blets IP 37.5mg,10's,60
+654,1003,rmethrin Cream w/w,30 gm,22.5
+655,1005,enobarbitone blets IP 30mg,30's,15.94
+656,1008,ytomenadione jection (Vitamin 0.5 ) IP 1mg per 5ml,ml Ampoule,10.32
+657,1009,ioglitazone Tablets P 15 mg,10's,8.25
+658,1011,iracetam Syrup 00mg per 5ml,100 ml,60.94
+659,1012,iracetam Tablets 00mg,10's,17.54
+660,1024,romethazine njection IP 25 mg er ml,2 ml,2.82
+661,1026,ropranolol Tablets P 10mg,10's,5.16
+662,1029,yrazinamide ablets IP 1000mg,10's,0
+663,1031,uetiapine umarate Tablets IP 00mg,10's,60.94
+664,1032,uetiapine Tablets P 100mg,10's,34.04
+665,1037,rythropoietin njection IP 4000 IU,Vial,278.44
+666,1038,rythropoietin njection IP 2000 IU,Vial,215.63
+667,1041,isperidone 4mg nd Trihexiphenidyl mg Tablets,10's,13.41
+668,1042,isperidone Tablets P 4mg,10's,8.44
+669,1044,osuvastatin ablets IP 5mg,10's,12.38
+670,1049,ertraline Tablets IP 0mg,10's,16.88
+671,1050,ertraline Tablets IP 00mg,10's,20.63
+672,1051,ertraline Tablets IP 5mg,10's,14.07
+673,1059,odium Valproate nteric Coated ablets IP 200mg,10's,15.94
+674,1060,odium Valproate astro-Resistant ablets IP 300mg,10's,20.63
+675,1062,ofosbuvir Tablets 28' P 400mg,s in a bottle,4125
+676,1068,ucralfate 1g and xetacaine 10mg uspension per 0ml,100 ml,63.75
+677,1072,amsulosin ydrochloride rolonged Release apsules IP 0.4mg,10's,20.63
+678,1073,elmisartan 40mg nd Metoprolol 5mg Tablets,10's,28.13
+679,1074,elmisartan 80mg nd ydrochlorothiazide 2.5mg Tablets IP,10's,21.57
+680,1075,eneligliptin Tablets P 20mg,10's,18.75
+681,1076,enofovir Disoproxil umarate Tablets IP 00 mg,10's,183.75
+682,1081,izanidine Tablets .P 2mg,10's,9.38
+683,1087,rihexyphenidyl ydrochloride ablets IP 2mg Benzhexol ydrochloride ablets IP 2mg),10's,6.19
+684,1088,rimetazidine ydrochloride odified Release ablets 35 mg,10's,20.63
+685,1091,ecuronium romide Injection I.P mg,Vial,45
+686,1097,itamin A Capsule P 25000 IU,30's,15
+687,1098,etformin ydrochloride 00mg (Sustained elease) and oglibose 0.2mg ablets,10's,14.44
+688,1099,etformin ydrochloride 00mg and oglibose 0.3mg ablets,10's,15.47
+689,1104,oledronic Acid njection IP 4mg per ial,Vial,165
+690,1105,olpidem Tablets IP 0mg,10's,16.88
+691,1106,etoprolol uccinate 50mg Extended Release) nd Telmisartan 0mg Tablets,10's,29.91
+692,1108,ildenafil Tablets IP 00 mg,4's,9.38
+693,1110,lobazam Tablet IP mg,10's,14.07
+694,1111,abapentin 400mg nd Nortriptyline 0mg Tablets,10's,51.57
+695,1112,innarizine Tablets P 25mg,10's,7.22
+696,1114,oxifloxacin ydrochloride Eye rops IP 0.5% w/v,5 ml,13.41
+697,1123,lomipramine ydrochloride ustained release ablets 75mg,10's,51.57
+698,1124,luvoxamine aleate Tablets IP 00mg,10's,69.38
+699,1125,ripiprazole Tablets P 5mg,10's,13.13
+700,1129,eneligliptin 20mg nd Metformin ydrochloride 00mg (Sustained elease) Tablets IP,10's,28.13
+701,1130,eneligliptin 20mg nd Metformin ydrochloride 000mg (Sustained elease) Tablets IP,10's,37.5
+702,1131,atural Micronised rogesterone apsules 200mg,10's,117.19
+703,1135,iacerein 50mg and lucosamine ulphate 750mg ablets,10's,46.88
+704,1149,isinopril Tablets IP 0mg,15's,21.57
+705,1152,arbamazepine rolonged-release ablets IP 200mg,10's,14.07
+706,1154,iethylcarbamazine itrate Tablets IP 00mg,30's,17
+707,1156,etoprolol uccinate 25mg Extended Release) nd Amlodipine esilate 5mg ablets IP,7's,12
+708,1157,oxylamine uccinate 20mg and yridoxine ydrochloride 20mg ablets,10's,14.07
+709,1162,etamethasone ream IP 0.1 % w/w,20 gm,9.29
+710,1164,androlone ecanoate Injection P 50 mg per ml,2 ml,37.5
+711,1166,efenamic Acid ablets 250 mg,10's,9.38
+712,1167,efenamic Acid ablets 500 mg,10's,15.94
+713,1168,etorolac Injection P 30mg per ml,1 ml,11.25
+714,1170,cetylcysteine njection 200 mg per 2 ml l,Ampoules,23.44
+715,1178,-Flurouracil njection 500mg,10 ml,11.5
+716,1181,arboplatin Injection 1 P 150mg,5 ml Vial,386.72
+717,1182,arboplatin Injection 4 P 450mg,5 ml Vial,1600.32
+718,1183,yclophosphamide njection IP 500 mg,VIAL,35
+719,1186,yclosporin apulses IP 25mg,5's,72
+720,1187,yclosporine apsules IP 100 mg,5's,230
+721,1191,lycopyrrolate njection IP 0.2mg,1 ml,6.57
+722,1199,ydroxyurea apsules IP 500mg,10's,66
+723,1201,fosfamide Injection P 1gm,VIAL,159.38
+724,1203,rotamine Sulphate njection IP 10mg 5 ml er ml,Vial/Ampoule,21
+725,1211,ocetaxel Injection P 80 mg,VIAL,1687.5
+726,1212,ocetaxel Injection P 120 mg,VIAL,2531.25
+727,1213,rlotinib Tablets IP 1 50 mg,0's Bottle,656.25
+728,1214,efitinib Tablets IP 50 mg,10's,412.5
+729,1215,emetrexed njection IP 100 mg,VIAL,759.38
+730,1216,emetrexed njection IP 500 mg,VIAL,2165.63
+731,1217,emozolomide 5' apsules IP 100mg,s in Bottle,1371.57
+732,1218,emozolomide apsules IP 250 mg,5's,2517.19
+733,1219,mino Acid Solution 200 ml or IV,Glass Bottle,247
+734,1220,seltamivir apsules IP 75mg,10's,178.13
+735,1221,hyroxine Sodium 100 ablets IP 50mcg,'s in Bottle,51.57
+736,1222,rtemether 80mg nd Lumefantrine 80mg Tablets,6's,28.13
+737,1223,"arbonyl Iron 50mg, olic Acid 0.5mg nd Zinc 61.8mg apsules",15's,20.63
+738,1225,rlistat Capsules 20 mg,10's,134.07
+739,1226,riamcinolone cetonide Injection P 40mg per ml,1 ml Vial,46.88
+740,1227,riamcinolone ablets IP 4mg,10's,32.82
+741,1228,abapentin 300mg nd Amitriptyline 0mg Tablets,10's,51.57
+742,1231,itamin E Acetate 00mg and evocarnitine 50mg Tablets,10's,0
+743,1232,scapine Syrup 83mg per 5ml,50 ml,37.5
+744,1236,bendazole Tablets 400mg,1's,3.1
+745,1238,azosin drochloride stained Release blets 2.5 mg,30's,56.25
+746,1240,iclazide 80mg and tformin drochloride 0mg Tablets,10's,26.82
+747,1241,faclor Dispersible blets 250 mg,10's,168.75
+748,1246,uconazole Tablets 150 mg,1's,5.16
+749,1248,"ematinic Syrup of on 32mg ,Folic 200 id 0.5mg and tamin B12 7.5mcg",ml Bottle,39.38
+750,1251,tamin B6 yridoxine drochloride) blets IP 100mg,10's,20.63
+751,1252,"lcium Phosphate mg, Vitamin D3 0IU and Vitamin 2 2.5mcg spension",200 ml,33.75
+752,1254,"phenhydramine -15mg, monium Chloride 5-150mg , 100 dium Citrate 57- mg, Menthol 0.9- 6mg Cough Syrup",ml Bottle,16.88
+753,1255,ebrophylline 0mg (Sustained lease) and ntelukast 10mg blets,10's,51.57
+754,1257,llylestrenol Tablets mg,10's,30.94
+755,1261,miloride 2.5mg and ydrochlorothiazide 5mg Tablet IP,10's,14.07
+756,1263,mpicillin Capsules P 500 mg,10's,37.5
+757,1281,hlordiazepoxide ablets IP 10 mg,10's,19.69
+758,1283,hlorthalidone ablets IP 6.25 mg,10's,9.38
+759,1284,ilnidipine 10mg nd Telmisartan 0mg Tablets,10's,22.69
+760,1285,initapride Tablets 1 g,10's,28.13
+761,1297,anitidine 150mg nd Domperidone 0mg Tablets,15's,14.07
+762,1298,onepezil Tablets IP mg,10's,18.75
+763,1301,rotaverine 80mg nd Aceclofenac 00mg Tablets,10's,30.94
+764,1302,uloxetine Gastro- esistant Tablets IP 0 mg,10's,25.32
+765,1306,scitalopram xalate 5mg and lonazepam 0.5mg ablets IP,10's,13.41
+766,1307,thinylestradiol .03mg and esogestrel 0.15mg ablets,21's,90
+767,1308,thinylestradiol .03mg and evonorgestrel .15mg Tablets IP,21's,35
+768,1310,ropenem Tablets 0mg,6's,281.25
+769,1311,nofibrate Tablets 145 mg,10's,20.63
+770,1312,avoxate Tablets IP 0 mg,15's,56.25
+771,1315,uticasone Furoate sal Spray 1 .5mcg,20 MDI,129.38
+772,1319,bapentin Tablets 100 mg,10's,14.44
+773,1328,oxsuprine Injection 2 5 mg,ml Vial,9.38
+774,1341,bendazole blets IP 100 mg,6's,8.44
+775,1342,beverine drochloride blets IP 200mg,10's,52.5
+776,1344,ropenem 1000mg d Sulbactam Vi 0mg Injection,al & Wfi,268.13
+777,1345,ropenem Vi jection IP 500 mg,al & Wfi,154.69
+778,1348,thylprednisolone blets IP 4mg,10's,15.47
+779,1353,rtazapine Tablets 7.5mg,10's,12.19
+780,1354,dafinil Tablets IP 0mg,10's,78.75
+781,1359,proxen Tablets IP 0 mg,15's,21.57
+782,1367,"mesartan20mg, lodipine 5mg and drochlorothiazide .5mg Tablets",10's,39.19
+783,1368,mesartan doxomil 20mg d drochlorothiazide .5mg Tablets IP,10's,25.32
+784,1375,henobarbitone ablets IP 60 mg,30's,26.25
+785,1382,rasugrel Tablets IP 0 mg,10's,61.88
+786,1383,regabalin 75mg nd Nortriptyline 0mg Tablets,10's,31.97
+787,1384,uetiapine Tablets P 25 mg,10's,10.32
+788,1392,spirin Gastro esistant 75mg and osuvastatin 10mg apsules IP,10's,34.69
+789,1393,osuvastatin 10mg nd Clopidogrel 5mg Capsules,10's,39.38
+790,1396,ertaconazole itrate Cream IP %w/w,15 gm,56.25
+791,1409,eicoplanin Injection P 400mg,1 ml Vial,750
+792,1410,"elmisartan 40mg, mlodipine 5mg and ydrochlorothiazide 2.5mg Tablets",10's,19.6
+793,1411,elmisartan 40mg nd Chlorthalidone .25mg Tablets,10's,18.75
+794,1414,erlipressin Injection 000 mcg (1 1 g/10ml),0 ml Vial,210.94
+795,1417,hiocolchicoside apsules IP 4mg,10's,42.19
+796,1418,igecycline Injection P 50 mg,5 ml Vial,618.75
+797,1427,"rypsin 48mg, romelain 90mg and utoside Trihydrate 00mg Tablets",10's,65.63
+798,1431,lethamate jection 8 mg per 1 m (For IM/IV use),l Ampoule,9.29
+799,1432,bramycin Eye ops 0.3%w/v,5 ml Vial,25
+800,1435,pecitabine blets IP 500mg,10's,234.38
+801,1437,fpodoxime oxetil Oral spension IP 50mg,30 ml,28.13
+802,1438,"tformin drochloride 0mg (Sustained lease), imepiride 2mg and glibose 0.2mg blets",10's,29.91
+803,1440,naushadhi Protein 1' wder 250g,s Tin 250g,177.97
+804,1441,naushadhi Nirmal icotine Polacrilex 1 x 9's ewing Gum 2 )),(mono carton pack),42
+805,1442,naushadhi Urja lucose Powder 3 range Flavour) 0 g),00 g Box,62.29
+806,1443,naushadhi Urja lucose Powder 100 gm range Flavour) 0 g),Tetra pack,26.7
+807,1444,naushadhi Urja lucose Powder 500g Sc range Flavour) wi 0g),rew-Cap jar th scoop,0
+808,1445,n Pudina Soft Gel psules,10's,15
+809,1446,nushadhi dhurak (Stevia 100 gm tural Sweetener),Plastic Jar,140
+810,1447,anaushadhi Janani 1' 50g,s Tin 250g,200.22
+811,1448,amotrigine ispersible Tablets P 100mg,10's,37.5
+812,1449,nzyme syrup ixed fruit flavour,200 ml,50.58
+813,1450,yrantel Pamoate ral Suspension IP 50mg per 5ml,10 ml,11.25
+814,1451,heophylline rolonged-release ablets IP 400 mg,10's,28.13
+815,1452,yridoxine ydrochloride ustained release ablets 100mg,10's,32.82
+816,1453,evetiracetam Oral olution IP 100mg,100 ml,79.69
+817,1454,"erbutaline 1.25mg, mbroxol 15mg, uaiphenesin 50mg er 5ml Syrup with enthol base",100 ml,30
+818,1455,-Arginine Granules g,5 gm,15
+819,1456,traconazole apsules 200 mg,4's,33
+820,1457,uliconazole Cream 10 P 1% w/w,gms tube,22.69
+821,1458,odium Chloride 500 njection IP 0.9%w/v Plast,ml IV Fluid ic Container,28.13
+822,1459,"anaushadhi 1's oshan (Malt based P ood, 500gm)",Screw Cap lastic Jar,160.17
+823,1460,nsulin Pen,1's,0
+824,1461,ildagliptin Tablets P 50mg,15's,18.75
+825,1462,ildagliptin 50mg nd Metformin ydrochloride 00mg Tablets IP,15's,28.13
+826,1463,ildagliptin 50mg nd Metformin ydrochloride 000mg Tablets IP,15's,32.82
+827,1464,anaushadhi Protein ar (35 gm),1's Bar,40.05
+828,1465,anaushadhi mmunity Bar (10 m),1's Bar,8.9
+829,1466,anaushadhi Protein owder (Vanilla) 1' 50 gm,s Tin 250g,177.97
+830,1467,anaushadhi Protein owder (Kesar 1' ista) 250 gm,s Tin 250g,177.97
+831,1471,"anaushadhi oshan (Malt based 1's ood with Cocoa, 00gm)",Screw Cap Plastic Jar,164.62
+832,1472,anaushadhi Janani 1' Vanilla) 250 gm,s Tin 250g,200.22
+833,1473,and Sanitizer 100 l (Each pack ontains: Ethanol 0% v/v and hlorhexidine luconate 0.5% w/v),100 ml,40
+834,1474,and Sanitizer 500 l (Each pack ontains: Ethanol 0% v/v and hlorhexidine luconate 0.5% w/v),500 ml,200
+835,1475,and Sanitizer 250 l (Each pack ontains: Ethanol 0% v/v and hlorhexidine luconate 0.5% w/v),250 ml,100
+836,1476,ydroxychloroquine ablet IP 400 mg,10's,76.88
+837,1479,anagliflozin ablets 100 mg,10's,174.38
+838,1480,etformin 500mg Prolonged release) nd Glimepiride .5mg Tablets IP,10's,16.5
+839,1481,etformin 1000mg Prolonged release) nd Glimepiride 1mg ablets IP,10's,26.82
+840,1482,etformin 1000mg Prolonged release) nd Glimepiride 3mg ablets IP,15's,39.19
+841,1483,etformin 1000mg Prolonged release) nd Glimepiride 4mg ablets IP,15's,43.13
+842,1485,esalazine rolonged release ablets IP 1200 mg,10's,129.38
+843,1487,elenium Sulphide hampoo 2.5% w/v,120 ml,174.38
+844,1488,carbose Tablets IP 5 mg,10's,37.5
+845,1489,cebrophylline 00mg and cetylcysteine 00mg Tablets,10's,56.25
+846,1490,cebrophylline ustained Release ablets 200 mg,10's,28.13
+847,1492,eclofenac 200mg ustained release) d Rabeprazole dium 20mg nteric-coated) psules,10's,28.13
+848,1493,"eclofenac 100mg, racetamol 325mg d iocolchicoside g Tablets",10's,51.57
+849,1495,"eclofenac 100mg, racetamol 325mg d Tizanidine 2mg blets",10's,18.75
+850,1496,iclovir Dispersible blets IP 400 mg,5's,28.13
+851,1497,itretin Capsules 25 mg,10's,234.38
+852,1498,otiamide Tablets 0mg,10's,68.44
+853,1501,antadine drochloride psules IP 100 mg,10's,46.88
+854,1502,iodarone Tablets 100 mg,10's,29.07
+855,1503,lodipine Besilate g and Bisoprolol marate 5mg blets,10's,18.57
+856,1504,orolfine Cream 25% w/w,30 g,51.57
+857,1505,oxycillin 400mg d Potassium avulanate 57mg al Suspension IP,30 ml,46.88
+858,1506,oxycillin 80mg d Potassium avulanate 11.4mg al Suspension IP,10 ml,32.82
+859,1507,"moxycillin 250mg, icloxacillin 250mg nd Lactic Acid acillus 2.5 billion apsules",10's,45
+860,1508,mpicillin 250mg nd Cloxacillin 50mg Capsules,10's,28.13
+861,1509,mpicillin 250mg nd Di-Cloxacillin 50mg Capsules,10's,42.19
+862,1510,nti-D (Rho) mmunoglobulin Monoclonal) 300 cg,1 ml Vial,0
+863,1511,ntioxidant apsules,30's,60.94
+864,1512,premilast Tablets P 10mg,10's,75
+865,1513,premilast Tablets P 20mg,10's,93.75
+866,1514,premilast Tablets P 30mg,10's,129.38
+867,1515,torvastatin 10mg nd Aspirin 150mg apsules,15's,24.38
+868,1516,torvastatin 20mg nd Clopidogrel 5mg Capsules,10's,36.1
+869,1517,"torvastatin 20mg, lopidogrel 75mg nd Aspirin 75mg apsules",10's,41.25
+870,1518,zilsartan 40mg and hlorthalidone .25mg Tablet,10's,60.94
+871,1519,zilsartan edoxomil 40mg ndChlorthalidone12 5mg Tablets,10's,68.44
+872,1520,ilsartan doxomil Tablets 40mg,10's,60
+873,1521,ithromycin Oral spension IP 200,15 ml,20.63
+874,1522,clomethasone 025%w/w and otrimazole 1%w/w eam,20 g,23.44
+875,1523,clomethasone 025%w/v and otrimazole 1%w/v tion,30 ml,28.13
+876,1524,potastine Besilate blets 10mg,10's,60.94
+877,1525,tahistine Tablets 16 mg,15's,15
+878,1526,tahistine Tablets 24 mg,15's,22.5
+879,1527,"tamethasone lerate 0.12%w/w, ntamicin 1%w/w and conazole Nitrate w/w Cream",20 g,15
+880,1528,lastine Tablets 20,10's,32.82
+881,1529,matoprost hthalmic Solution 01% w/v,3 ml,0
+882,1530,matoprost hthalmic Solution 03% w/v,3 ml,159.38
+883,1531,soprolol Fumarate blets 2.5 mg,10's,10.32
+884,1533,imonidine Tartrate 2%w/v and Timolol leate 0.5%w/v hthalmic Solution,5 ml,46.88
+885,1534,imonidine Tartrate e drops IP 0.1% v,5 ml,18.75
+886,1536,lcitriol 0.25mcg d Calcium 200mg psules,15's,32.82
+887,1537,lcium and Vitamin Capsules,10's,30.94
+888,1538,"lcium Citrate late 250mg, lcitriol 0.25mcg d Vitamin K2-7 mcg Tablets",10's,37.5
+889,1540,lcium (from Coral ains) 500mg and tamin D-3 500IU blets,10's,28.13
+890,1541,"lcium 1250mg, lcitriol 0.25mcg d Vitamin K2-7 mcg Capsules",10's,46.88
+891,1542,"lcium, gnesium, zinc d Vitamin D-3 al Suspension",200 ml,35.63
+892,1543,mylofin hydrochloride mg and racetamol 300mg blets,10's,18.75
+893,1544,"enzyme Q10 0mg, Lycopene 00mcg, Selenium mcg and Omega- Fatty Acids (EPA mg and DHA mg) Capsules",10's,140.63
+894,1545,rboxymethlycellul e Eye drops IP w/v,10 ml,28.13
+895,1548,efixime Oral uspension IP 100 g per 5ml,30 ml,30
+896,1549,efixime Oral uspension IP 25 g per ml,10 ml,20.63
+897,1551,efoperazone 1g ndSulbactam500m Injection,1 Vial,60.94
+898,1552,efoperazone 2g ndSulbactam1g njection,1 Vial,107.82
+899,1553,efpodoxime Oral uspension IP 00mg,30 ml,37.5
+900,1554,eftriaxone 250mg ndTazobactam31.2 1 mg Injection,Vial & wfi,22.5
+901,1555,eftriaxone Injection 1 P 2 g,Vial & wfi,56.25
+902,1556,ephalexin xtended Release ablets 750mg,10's,107.82
+903,1557,erebroprotein ydrolysate njection 30mg,1 vial,187.5
+904,1559,hloramphenicol apsules IP 250 mg,10's,37.5
+905,1560,hloramphenicol apsules IP 500 mg,10's,60.94
+906,1562,hlordiazepoxide mg and mitriptyline ydrochloride 2.5mg Tablets,10's,8.44
+907,1564,holecalciferol hewable Tablets 0000 IU,4'S,15.47
+908,1565,ilnidipine Tablets P 10 mg,10's,15.47
+909,1566,lnidipine Tablets 5 mg,10's,10.32
+910,1567,ntoprazole stro-resistant mg and nitapride stained release g Capsules,10's,51.57
+911,1568,nnarizine Tablets 75mg,10's,14.07
+912,1569,profloxacin 0.3% v and xamethasone 1% w/v Eye/Ear ops,10 ml,10.32
+913,1570,ticoline 500mg d Piracetam 0mg Tablets,10's,206.25
+914,1571,"idinium Bromide 5mg, lordiazepoxide g and cyclomine drochloride 10mg blets",10's,13.13
+915,1572,indamycin 1%w/w d Nicotinamide w/w Gel,15 g,18.75
+916,1574,obazam Tablets 10 mg,15's,30
+917,1575,obetasol opionate 05%w/w and ntamicin 1%w/w Cream,25 g,12.19
+918,1576,obetasol opionate 05%w/w and conazole Nitrate w/w Cream,15 g,26.25
+919,1577,lobetasol ropionate .05%w/w and eomycin Sulphate .5%w/w Cream,10 g,14.07
+920,1578,lobetasol ropionate .05%w/w and alicylic Acid %w/w Ointment,20g,28.13
+921,1579,lobetasol ropionate .05%w/w and alicylic Acid %w/w Ointment,20g,32.82
+922,1580,"lobetasol ropionate .05%w/w, entamicin .1%w/w and iconazole Nitrate %w/w Cream",15 g,20.63
+923,1581,lopidogrel 75mg nd Aspirin 150mg apsules,15's,58.13
+924,1582,lotrimazole 1% w/v nd Selenium ulfide 2.5% w/v uspension,75 ml,112.5
+925,1583,lotrimazole Mouth aint 1% w/v,25 ml,18.75
+926,1584,oenzyme Q10 Ubidecarenone) nd L-Carnitine ablets,10's,93.75
+927,1585,olistimethate odium for Injection Vi P 1 Million IU,al (10 ml),168.75
+928,1586,olistimethate odium for Injection Vi P 4.5 Million IU,al (10 ml),421.88
+929,1587,olistin Sulphate ral Suspension IP 2.5 mg per 5ml,30 ml,27.19
+930,1588,"ollagen eptide(Type I) 0mg, Sodium yaluronate 30mg, hondroitin Sulfate 00mg and Vitamin 35mg Tablets",10's,0
+931,1590,abigatran Etexilate esilate Capsules 10 mg,10's,128.91
+932,1591,abigatran Etexilate esilate Capsules 50 mg,10's,165
+933,1592,apagliflozin ablets 10 mg,10's,30
+934,1593,esloratadine 5mg nd Montelukast 0mg Tablets,10's,23.44
+935,1594,"iclofenac iethylamine 1.16% /w, hiocholchicoside .125% w/w, inseed Oil 3% w/w, ethylsalicylate 0% w/w and enthol 5% w/w Gel",30 gm,46.88
+936,1596,iclofenac otassium 50mg nd Metaxalone 00mg Tablets,10's,46.88
+937,1597,iclofenac rolonged release ablets IP 75 mg,10's,9.38
+938,1598,"ancreatin 170 mg containing 15000 nits of Amylase ctivity, 4000 units f Lipase activity, 5000 units of rotease activity) nd Sodium auroglycocholate 5mg Digestive nzyme Tablets",10's,70.32
+939,1599,iltiazem ydrochloride xtended Release apsules 120 mg,10's,32.82
+940,1601,iphenoxylate ydrochloride 2.5mg nd Atropine ulphate 0.025mg ablet,10's,5.63
+941,1602,ivalproex Tablets P 500 mg,10's,32.82
+942,1603,orzolamide 2% w/v nd Timolol 0.5% /v Eye Drops IP,5 ml,150
+943,1604,orzolamide Eye rops IP 2% w/v,5 ml,103.13
+944,1605,osulepin (or othiepin) Tablets 5 mg,10's,16.5
+945,1606,osulepine (or othiepin) Tablets P 75mg,10's,67.5
+946,1607,rotaverine ydrochloride ablets IP 80 mg,15's,18.75
+947,1608,"favirenz 600mg, mtricitabine 200mg nd Tenofovir isoproxil Fumarate 00mg Tablets IP",30's,1031.25
+948,1609,mpagliflozin ablets 10 mg,10's,37.5
+949,1610,mpagliflozin ablets 25 mg,10's,61.88
+950,1611,mtricitabine 200mg nd Tenofovir isoproxil Fumarate 00mg Tablets IP,30's,984.38
+951,1612,ntecavir Tablets IP .5 mg,10's,93.75
+952,1613,plerenone Tablets P 25 mg,10's,121.88
+953,1615,rythromycin stolate Tablets 500 g,10's,53.44
+954,1617,toricoxib 60mg and aracetamol 325mg ablets,10's,25.32
+955,1618,toricoxib 60mg and hiocolchicoside mg Tablets,10's,56.25
+956,1620,vening Primrose il 1000 mg,15's,79.69
+957,1621,vening Primrose il 500 mg,15's,51.57
+958,1622,"errous Ascorbate 00mg, Folic Acid .5mg and Zinc ulphate 22.5mg ablets",10's,30.94
+959,1623,exofenadine ydrochloride uspension 30mg/5ml),100 ml,28.13
+960,1624,lupentixol 0.5mg nd Melitracen 0mg Tablets,10's,18.75
+961,1625,luticasone ropionate Cream P 0.05%,10 g,18.75
+962,1626,moterol arate 6mcg and 12 esonide 200mcg aler,0 MD,154.69
+963,1627,moterol arate 6mcg and 12 esonide 400mcg aler,0 MD,164.07
+964,1628,moterol arate 12mcg Budesonide mcg Powder for alation IP,30's,93.75
+965,1630,moterol arate 6mcg and esonide 400mcg der for alation IP,30's,79.69
+966,1631,moterol arate 20mcg Budesonide mg Respirator pension,2 ml,14.07
+967,1632,moterol arate 20mcg Budesonide Respirator pension,2 ml,18.75
+968,1633,moterol arate 6mcg and ticasone pionate 250mcg der for alation,30's,103.13
+969,1635,mycetin Skin am 1 %,30 g,0
+970,1636,gal Diastase h Carminatives 2 up,00 ml,42.19
+971,1637,"ngal Diastase 0mg, Papain mg and Activated arcoal 75mg blets",10's,0
+972,1638,sidic Acid 2% w/w d Betamethasone lerate 0.1% w/w eam,15 g,33.75
+973,1639,bapentin 100 mg d Nortryptyline 10 Tablet,15's,23.44
+974,1640,bapentin 300mg d thylcobalamin 0mcg Tablet,10's,37.5
+975,1643,argine 100 IU Pre- lled Disposable 3ml Pr n,e-filled Pen,415
+976,1644,"ibenclamide 5 mg, tformin 500 mg d Pioglitazone 15 Tablet",10's,25.79
+977,1645,iclazide 60mg odified Release) d Metformin 0mg (Extended lease) Tablets,10's,28.13
+978,1646,"tformin 500mg ustained lease), imepiride 2mg and oglitazone 15mg blets",10's,22.69
+979,1647,tformin 850mg rolonged release) d Glimepiride 3mg Tablets,10's,23.44
+980,1650,ucosamine 750mg d Chondroitin 0mg Tablets,10's,173.44
+981,1657,"aifenesin 50mg, rbutaline 1.25 mg d Bromhexine 2 Expectorant",100 ml,23.44
+982,1659,man Normal munoglobulin for travenous use IP,100 ml,10000
+983,1660,man Normal munoglobulin IP 2 .5% (For IM use),ml vial,0
+984,1661,droxypropylmethy ellulose Eye Drop 3% w/v,10 ml,28.13
+985,1662,droxyzine Tablets 25mg,15's,11.25
+986,1663,oscine tylbromide 10mg d Mefenamic Acid 0mg Tablets,10's,46.88
+987,1664,uprofen 100mg d racetamol/Aceta nophen 162.5mg al Suspension,100 ml,21.57
+988,1665,dacaterol 110mcg d Glycopyrronium 30 cap mcg powder for halation,sules and 1 inhaler,686.25
+989,1668,"rbonyl Iron 0mg, Folic Acid 5mg and Vitamin 2 15mcg with nc Capsules",10's,14.07
+990,1669,osorbide 20mg d Hydralazine .5mg Tablets,10's,0
+991,1670,otretinoin psules IP 20mg,10's,46.88
+992,1671,abradine Tablets g,15's,84.38
+993,1672,etoconazole Soap 75 %,gm Pack,44.05
+994,1673,"-Methylfolate alcium 2.8mg, yridoxal-5- hosphate 25mg nd Mecobalamin mg Tablets",10's,56.25
+995,1674,"-Methylfolate 1mg, yridoxal-5 hosphate 0.5mg & ethylcobalamin 500mcg Tablets",10's,37.5
+996,1675,- Ornithine L- spartate Infusion gm per 10ml,10 ml,93.75
+997,1676,actitol 10 gm and spaghula 3.5 gm ranules,180 gm,187.5
+998,1678,"-carnitine 340mg, bidecarenone 0mg, Zinc 5mg, ycopene 2.5mg nd Astaxanthin mg Tablets",10's,0
+999,1679,ecithin Capsules 000mg,10's,56.25
+1000,1680,evetiracetam ablets IP 1000 mg,10's,112.5
+1001,1681,evetiracetam ablets IP 250 mg,10's,28.13
+1002,1682,evetiracetam ablets IP 750 mg,10's,84.38
+1003,1683,evocetirizine ihydrochloride ablets IP 10mg,15's,13.13
+1004,1684,evodopa 100mg nd Carbidopa 5mg Tablets IP,10's,0
+1005,1685,vodropropizine mg and 1 lorpheniramine leate 2mg Syrup,20 ml,38.44
+1006,1686,vosalbutamol 0mcg and 60 s i clomethasone 0mcg Rotacaps,n container,58.13
+1007,1687,vosalbutamol 0mcg and 20 clomethasone mcg Rotacaps,0 MDI,0
+1008,1688,vosalbutamol 0mcg and clomethasone 0mcg Rotacaps,30's,53.63
+1009,1689,vosalbutamol 25mg and 2ml desonide 0.5mg spules,respules,25.32
+1010,1690,vosalbutamol 0mcg and 60 s i ratropium 40mcg tacap,n container,70.32
+1011,1692,vosalbutamol spules 0.63mg r 2.5ml,2.5 ml,5.35
+1012,1694,nagliptin 2.5mg d Metformin 00mg Tablets,10's,36.57
+1013,1695,nagliptin 2.5mg d Metformin 0mg Tablets,10's,32.82
+1014,1696,nagliptin Tablets g,10's,35.63
+1015,1701,"galdrate 540mg, methicone 50mg d Oxetacaine 1 mg Oral spension",70 ml,39.38
+1016,1703,"etadoxine 500mg, ilymarin 140mg, L- rnithin L- Aspartate 50mg Tablets",10's,0
+1017,1704,"ethylcobalamin 500mcg with Alpha ipoic Acid 100mg nd B- Complex Thiamine ononitrate 10mg, yridoxine 3mg, olic acid 1.5mg) apsules",10's,61.88
+1018,1706,etoprolol 50mg Extended Release) nd Ramipril 5mg ablet,10's,84.38
+1019,1707,etoprolol uccinate extended elease capsules IP 0mg,10's,0
+1020,1708,etoprolol uccinate Prolonged elease tablets IP 5mg,15's,15.47
+1021,1709,inoxidil Solution %,60 ml,150
+1022,1710,inoxidil 5% and inasteride 0.1% opical Solution,60 ml,215.63
+1023,1711,ontelukast 4mg nd Levocetirizine .5mg Syrup,60 ml,18.75
+1024,1712,"anaushadhi osquito Repellent ream (N, N-Diethyl enzamide12% /wMosquito epellent Cream)",50 gm,30
+1025,1714,aproxen 250 mg nd Domperidone 0 mg Tablet,10's,28.13
+1026,1715,aproxen 500 mg nd Domperidone 0 mg Tablet,10's,48.75
+1027,1716,ebivolol 5 mg and - Amlodipine 2.5 g Tablet,10's,23.44
+1028,1717,"eomycin 3400IU, olymyxin B ulfates 5000IU and acitracin Zinc 00IU Ophthalmic intment",5 g,17.54
+1029,1718,icorandil Tablet IP 0mg,10's,46.88
+1030,1719,icorandil Tablet IP mg,10's,37.5
+1031,1720,icoumalone/Aceno oumarol Tablets IP mg,10's,37.5
+1032,1721,icoumalone/Aceno oumarol Tablets IP mg,10's,60.94
+1033,1722,icoumalone/Aceno oumarol Tablets IP mg,30's,46.88
+1034,1723,ifedipine Sustained elease Tablets IP 0mg,15's,11.25
+1035,1725,"imesulide 100 mg, aracetamol 325 mg nd erratiopeptidase 15 g Tablet",10's,23.44
+1036,1729,floxaxin 200mg nd Flavoxate 200 g Tablet,10's,60.94
+1037,1730,"lmesartan 40mg, mlodipine 5mg and ydrochlorothiazide 2.5mg Tablets",10's,42.19
+1038,1731,mesartan doxomil 20mg d Chlorthalidone .5mg Tablets,10's,28.13
+1039,1732,mesartan doxomil 40mg d Chlorthalidone .5mg Tablets,10's,42.19
+1040,1733,eprazole Gastro- sistant 20mg and mperidone stained Release mg Capsules,15's,25.79
+1041,1737,aceprol Capsules 0mg,10's,93.75
+1042,1738,Ornithine L- partate 150mg d Pancreatin 0mg Tablets,10's,18.75
+1043,1739,ncreatin Capsules 000,10's,84.38
+1044,1740,ncreatin Capsules 000,10's,196.88
+1045,1741,ntoprazole 20mg astro-resistant) d Domperidone mg (Prolonged lease) Capsules,10's,18.75
+1046,1742,racetamol fusion IP 1 gm per 0 ml,100 ml,46.88
+1047,1743,racetamol Drops 0 mg per ml,15 ml,12.19
+1048,1744,"racetamol 125 , Phenylephrine 5 mg and lorpheniramine 1 Drops",15 ml,18.75
+1049,1745,"racetamol 125 , Phenylephrine 5 and lorpheniramine 1 Suspension",60 ML,20.63
+1050,1747,racetamol 162.5 and Tramadol .75 mg Tablet,10's,9.38
+1051,1749,"racetamol 250 , Phenylephrine 5 and lorpheniramine 2 Suspension",60 ML,23.44
+1052,1751,racetamol 500mg d Caffeine 25mg blet IP,10's,11.25
+1053,1752,racetamol 500mg d Chlorzoxazone 0mg Tablet,10's,15
+1054,1753,"racetamol 500 , Phenylephrine mg and lorpheniramine 2 Tablet",10's,13.13
+1055,1755,racetamol spension IP 120,60 ml,12.19
+1056,1758,"enylephrine 5 ,Chlorpheniramin 2 mg and 1 xtromethorphan mg Syrup",00 ml,23.44
+1057,1759,"enylephrine 5 mg, lorpheniramine 2 and 1 xtromethorphan mg Syrup",00 ml,28.13
+1058,1760,racetam Tablet 0 mg,10's,31.88
+1059,1761,rfenidone Tablets 200mg,10's,0
+1060,1762,alcium Polystyrene ulphonate Powder 5g per sachet,15 gm,41.25
+1061,1763,razosin Extended elease Tablets mg,10's,26.25
+1062,1764,regabalin 75 mg nd ethylcobalamin 500 mcg ndNortriptyline10 g Tablets,10's,42.19
+1063,1765,regabalin 75mg nd ethylcobalamin 50mcg Capsule IP,10's,36.1
+1064,1767,robiotic Microbes apsules 5mg,10's,26.25
+1065,1769,rucalopride Tablet mg,10's,112.5
+1066,1770,rucalopride Tablets mg,10's,84.38
+1067,1774,acecadotril apsule IP 100 mg,15's,103.13
+1068,1775,etoprolol uccinate 25mg Extended release) nd Ramipril 2.5mg ablets,10's,23.44
+1069,1777,anitidine Syrup IP 5 mg per 5ml,100 ml,23.44
+1070,1778,anolazine xtended Release ablets 500mg,10's,51.57
+1071,1780,ivaroxaban Tablets 0mg,30's,196.88
+1072,1781,ivaroxaban Tablets 0mg,14's,140.63
+1073,1782,"osehip Extract 75mg, Devil's Claw xtract (20%) 00mg and oswellia serrata xtract (65%) 07.5mg Capsules",10's,84.38
+1074,1783,osuvastatin 20mg nd Fenofibrate 60mg Tablets IP,10's,37.5
+1075,1784,osuvastatin ablets IP 40mg,10's,41.25
+1076,1785,"osuvastatin 10mg, spirin 75mg and lopidogrel 75mg apsules",10's,46.41
+1077,1786,"osuvastatin 20mg, spirin 75mg and lopidogrel 75mg apsules",10's,51.57
+1078,1787,(-) Amlodipine ablets IP 5mg,15's,9.38
+1079,1789,(-) Amlodipine .5mg and Atenolol 0mg Tablets,10's,14.07
+1080,1790,accharomyces oulardii Capsule 50mg,5's,61.88
+1081,1791,accharomyces oulardii Powder 1 50mg,’s Sachet,14.07
+1082,1792,acubitril 24mg and alsartan 26mg ablets,10's,67.5
+1083,1793,acubitril 49mg and alsartan 51mg ablets,10's,131.25
+1084,1794,albutamol 60 s otacaps 200mcg,in Container,22.5
+1085,1795,"Salicylic acid 1.15%w/w, Dithranol 1.15%w/w and Coal Tar 5.3%w/w Ointment",30 gm,42.19
+1086,1796,Salmeterol 50mcg and Fluticasone Propionate 100mcg Powder for Inhalation IP,30's,70.32
+1087,1797,Saroglitazar Tablets 4mg,10's,0
+1088,1799,Saxagliptin Tablets 5mg,10's,87.19
+1089,1801,Sitagliptin Phosphate 50mg & Metformin Hydrochloride 1000mg Tablets,10's,56.25
+1090,1802,Sitagliptin Phosphate 50mg & Metformin Hydrochloride 500mg Tablets,10's,51.57
+1091,1803,Sitagliptin Phosphate Tablets IP 100mg,10's,75
+1092,1804,Sitagliptin Phosphate Tablets IP 50mg,10's,40.32
+1093,1805,Sodium Valproate Oral solution IP 200 ml 200mg per 5ml,Plastic Bottle,51.57
+1094,1806,Sodium Valproate 200mg and Valproic acid 87mg Controlled Release Tablets,10's,23.44
+1095,1807,odium Valproate 33mg and Valproic cid 145mg ontrolled Release ablets,10's,39.38
+1096,1810,acrolimus Ointment 1 .1% w/w,0 gm tube,93.75
+1097,1811,elmisartan 80mg nd Amlodipine 5mg ablets IP,10's,28.13
+1098,1812,elmisartan 80mg nd Cilnidipine 0mg Tablets,10's,32.82
+1099,1813,elmisartan Tablets P 80mg,10's,22.69
+1100,1814,"elmisartan 40mg, hlorthalidone 2.5mg and mlodipine 5mg ablets",10's,22.5
+1101,1815,"elmisartan 40mg, hlorthalidone .25mg and mlodipine 5mg ablets",10's,18.75
+1102,1816,"elmisartan 40mg, ilnidipine 10mg nd Chlorthalidone .25mg Tablets",10's,28.13
+1103,1817,erbinafine ydrochloride ream IP 1% w/w,10 gm,23.44
+1104,1818,etrabenazine ablets 25mg,10's,178.13
+1105,1819,icagrelor Tablets IP 0 mg,10's,121.88
+1106,1821,iotropium Bromide nhalation 9mcg per ctuation,200 mdi,206.25
+1107,1822,iotropium Powder or Inhalation IP 15's i 8mcg Rotacaps,n Monocarton,65.63
+1108,1824,olvaptan Tablets 5mg,10's,196.88
+1109,1825,orsemide 10mg nd Spironolactone 0mg Tablets,15's,30
+1110,1827,orsemide Tablets P 40mg,15's,46.88
+1111,1828,orsemide Tablets P 5mg,15's,9.38
+1112,1829,ravoprost phthalmic Solution P 0.004%w/v,2.5 ml,159.38
+1113,1830,rimetazidine ydrochloride ontrolled Release apsules 60mg,10's,41.25
+1114,1831,"rypsin 48mg, romelain 90mg, utoside Trihydrate 00mg and iclofenac Sodium 0mg Tablets",10's,46.88
+1115,1833,rsodeoxycholic cid Tablets IP 50mg,15's,100
+1116,1834,alacyclovir Tablets 000mg,3's,103.13
+1117,1837,ildagliptin 50mg nd Metformin ydrochloride 50mg Tablets IP,15's,30
+1118,1841,itamin D3 Oral olution 60000 IU,5 ml,23.44
+1119,1842,itamine B Complex njection (IM/IV) Use,2 ml,0
+1120,1843,"Voglibose 0.2mg, Glimepiride 1mg and Metformin Hydrochloride 500mg (Sustained Release) Tablets",10's,28.13
+1121,1844,"Voglibose 0.2mg, Glimepiride 2mg and Metformin Hydrochloride 1000mg (Sustained Release) Tablets",10's,23.44
+1122,1845,"Voglibose 0.3mg, Glimepiride 2mg and Metformin Hydrochloride 1000mg (Sustained Release) Tablets",10's,33.75
+1123,1846,Zoledronic Acid Injection IP 4 mg per vial,4mg/vial,200
+1124,1848,Etophyllin 84.7mg and Theophylline 25.3mg Injection per ml,2 ml,3.75
+1125,1849,Vitamin-C Chewable Tablets 500mg,10's,14.07
+1126,1850,Thyroxine Sodium 1 Tablets IP 12.5mcg,00's Bottle,60.94
+1127,1851,Thyroxine Sodium 1 Tablets IP 25mcg,00's Bottle,42.19
+1128,1852,Thyroxine Sodium 1 Tablets IP 75mcg,00's Bottle,56.25
+1129,1853,Thyroxine Sodium 1 Tablets IP 125mcg,00's Bottle,71.25
+1130,1854,Alfuzosin Prolonged- release Tablets IP 10mg,10's,42.19
+1131,1855,Alfuzosin 10mg and Dutasteride 0.5mg Tablets,10's,56.25
+1132,1856,isodium Hydrogen itrate Syrup 10 .53gm per 5ml,0ml Bottle,28.13
+1133,1857,itric Acid 334mg nd Potassium 20 itrate 1100mg yrup per 5ml,0ml Bottle,46.88
+1134,1858,arifenacin rolonged Release ablets IP 7.5mg,10's,89.07
+1135,1859,isodium Hydrogen itrate Syrup 10 .37gm per 5ml,0ml Bottle,42.19
+1136,1860,utasteride Capsule P 0.5 mg,10's,46.88
+1137,1861,inasteride Tablets P 1mg,10's,14.07
+1138,1862,irabegron xtended-release ablets 25 mg,10's,93.75
+1139,1863,irabegron xtended-release ablets 50 mg,10's,135.94
+1140,1864,otassium Citrate 100mg and 20 agnesium Citrate 75mg Oral Solution,0ml Bottle,51.57
+1141,1865,ilodosin Capsules mg,10's,46.88
+1142,1866,ilodosin Capsules mg,10's,70.32
+1143,1867,ilodosin 4mg and utasteride 0.5mg apsules,10's,93.75
+1144,1868,ilodosin 8mg and utasteride 0.5mg apsules,10's,131.25
+1145,1869,olifenacin uccinate Tablets IP mg,10's,60.94
+1146,1870,olifenacin uccinate Tablets IP 0 mg,10's,75
+1147,1871,amsulosin ydrochloride 0.4mg nd Tolterodine artrate 2mg xtended Release apsules,10's,56.25
+1148,1872,amsulosin ydrochloride 0.4mg nd Tolterodine artrate 4mg xtended Release apsules,10's,75
+1149,1873,olterodine Tartrate xtended Release apsules 2mg,10's,46.88
+1150,1874,olterodine Tartrate xtended Release apsules 4 mg,10's,65.63
+1151,1875,zithromycin Eye 3 rops 1% w/v,ml Drops,28.13
+1152,1876,etaxolol Eye Drops 5 P 0.5% w/v,ml Drops,18.75
+1153,1877,rinzolamide phthalmic 5 uspension IP 1% /v,ml Drops,37.5
+1154,1878,romfenac 0.09% /v and Moxifloxacin 5 .5% w/v Eye Drops,ml Drops,42.19
+1155,1879,hloramphenicol .5% w/v and examethasone 5 .1% w/v Eye/Ear rops,ml Drops,14.07
+1156,1880,palrestat Sustained elease Tablets 150 g,10's,79.69
+1157,1881,atifloxacin 0.3% /v and 5m examethasone .1% w/v Eye Drops,l Drops,18.75
+1158,1882,atifloxacin 0.3 % /v and 10 rednisolone 1% /v Eye Drops,ml Drops,23.44
+1159,1883,entamicin 0.3% /v and 10 examethasone .1% w/v Eye Drops,ml Drops,0
+1160,1884,omatropine ydrobromide Eye 5m rops IP 2% w/v,l Drops,26
+1161,1886,evofloxacin Eye 5m rops 0.5 % w/v,l Drops,23.44
+1162,1887,oxifloxacin 0.5% /v and 5m examethasone .1% w/v Eye Drops,l Drops,18.75
+1163,1888,atamycin phthalmic 5m uspension IP 5% /v,l Drops,52.5
+1164,1889,rtesunate Injection Vial P 120mg,with Diluent,46.88
+1165,1890,rteether Injection 1ml 5mg per ml,Ampoule,9.38
+1166,1892,"rtesunate 200mg ablets, Sulfadoxine 00mg and yrimethamine 5mg Tablets IP ombi kit",KIT,42.19
+1167,1893,rimaquine hosphate Tablets P 7.5 mg,10's,12.19
+1168,1894,rimaquine hosphate Tablets P 2.5 mg,10's,9.38
+1169,1897,uinine Sulphate ablets IP 600 mg,10's,50
+1170,1898,gomelatine Tablets 5 mg,10's,61.88
+1171,1899,lprazolam 0.25mg nd Propranolol ydrochloride 20mg ablets,10's,15
+1172,1900,lprazolam 0.25mg nd Propranolol ydrochloride 10mg ablets,10's,14.07
+1173,1901,lprazolam 0.5mg nd Sertraline ydrochloride 25mg ablets,10's,23.44
+1174,1902,lprazolam 0.5mg nd Sertraline ydrochloride 50mg ablets,10's,32.82
+1175,1903,misulpride Tablets P 100 mg,10's,37.5
+1176,1904,misulpride Tablets P 200 mg,10's,65.63
+1177,1905,mitriptyline ydrochloride ablets IP 75 mg,10's,18.75
+1178,1906,mitriptyline ydrochloride ablets IP 50 mg,10's,14.07
+1179,1907,mitriptyline ydrochloride ablets IP 5 mg,10's,0
+1180,1908,mitriptyline ydrochloride 25mg hlordiazepoxide 0mg Tablets,10's,9.38
+1181,1909,moxapine Tablets P 50mg,10's,48.29
+1182,1910,moxapine Tablets P 100mg,10's,69.38
+1183,1911,Aripiprazole Tablets IP 2.5 mg,10's,9.38
+1184,1912,Aripiprazole Tablets IP 10 mg,10's,23.44
+1185,1913,Aripiprazole Tablets IP 15 mg,10's,32.82
+1186,1914,Aripiprazole Tablets IP 20 mg,10's,42.19
+1187,1915,Aripiprazole Tablets IP 7.5 mg,10's,21.57
+1188,1916,Aripiprazole Tablets IP 30 mg,10's,28.13
+1189,1919,Bromocriptine Mesylate Tablets IP 1.25 mg,10's,32.82
+1190,1920,Bupropion Prolonged-release Tablets IP 150 mg,10's,42.19
+1191,1921,Chlordiazepoxide Tablets IP 25 mg,10's,23.44
+1192,1922,Chlorpromazine Tablets IP 100 mg,10's,6.19
+1193,1923,Chlorpromazine Tablets IP 50 mg,10's,5.16
+1194,1924,Chlorpromazine Tablets IP 25 mg,10's,3.38
+1195,1927,Cinnarizine 20mg and Dimenhydrinate 40mg Tablets,10's,18.75
+1196,1928,Citalopram Tablets IP 20mg,10's,18.75
+1197,1930,Citicoline Injection 2m IP 250mg per ml,l Ampoule,37.5
+1198,1931,Clonazepam Mouth Dissolving Tablets 0.25 mg,10's,9.38
+1199,1932,Clomipramine Hydrochloride Tablets 10mg,10's,11.25
+1200,1933,lomipramine ydrochloride ablets 25mg,10's,18.75
+1201,1934,lomipramine ydrochloride ablets 50mg,10's,32.82
+1202,1935,lozapine Tablets IP 5 mg,10's,14.07
+1203,1936,lozapine Tablets IP 0 mg,10's,23.44
+1204,1937,lozapine Tablets IP 00 mg,10's,37.5
+1205,1938,iazepam Tablets P 2 mg,10's,6.57
+1206,1939,iazepam Tablets P 10 mg,10's,18.75
+1207,1940,oxepin Capsules P 10mg,10's,14.07
+1208,1941,oxepin Capsules P 25mg,10's,37.5
+1209,1942,oxepin Capsules P 75mg,10's,56.25
+1210,1943,uloxetine Gastro esistant Tablets IP 0mg,10's,28.13
+1211,1944,scitalopram ablets IP 5 mg,10's,7.5
+1212,1945,tizolam Tablets IP .25mg,10's,6.57
+1213,1946,amotrigine ispersible Tablets P 25mg,10's,14.07
+1214,1947,amotrigine ispersible Tablets P 50mg,10's,18.75
+1215,1948,evosulpiride ablets 50 mg,10's,20.63
+1216,1949,evosulpiride ablets 75 mg,10's,30.94
+1217,1950,irtazapine Tablets P 30 mg,10's,42.19
+1218,1951,ifaximin Tablets 00 mg,10's,65.63
+1219,1952,ifaximin Tablets 50 mg,10's,159.38
+1220,1953,lanzapine 5mg and luoxetine 20mg ablets IP,10's,18.75
+1221,1954,henytoin Injection 2ml P 100mg per 2 ml,Ampoule,7.5
+1222,1955,aroxetine xtended Release 2.5mg and lonazepam 0.25mg ablets,10's,37.5
+1223,1957,isperidone Tablets P 1mg,10's,7.5
+1224,1958,isperidone Tablets P 2 mg,10's,9.38
+1225,1959,icosapentaenoic cid 180mg and ocosahexaenoic 3 cid 120mg Soft elatin Capsule,0's Bottle,112.5
+1226,1960,loe Vera 10% W/W nd Vitamin E 1% 60 /W Moisturising ream,gm Tube,50
+1227,1961,ethylcobalamin ablet 1500mcg,10's,23.44
+1228,1962,ethylcobalamin ablet 500mcg,10's,14.07
+1229,1963,-Acetylcysteine 50Mg And Taurine 00Mg Tablets,10's,28.13
+1230,1964,iphasic Insulin 3ml ispro Injection IP 00IU per ml (25:75),Pre-Filled Cartridge,0
+1231,1965,Insulin Aspart Injection IP 100IU per ml,10ml Vial,0
+1232,1966,Repaglinide Tablet IP 0.5mg,10's,14.07
+1233,1967,Repaglinide Tablet IP 1mg,10's,23.44
+1234,1968,Repaglinide Tablet IP 2mg,10's,32.82
+1235,1969,Repaglinide 1mg and Metformin Hydrochloride (Sustained-release) 500mg Tablets IP,10's,28.13
+1236,1970,Repaglinide 2mg and Metformin Hydrochloride (Sustained-release) 500mg Tablets IP,10's,32.82
+1237,1971,"Amoxycillin 200Mg , Clavulanic Acid 28.5Mg And Lactic Acid Bacillus 60 Million Spore Dry syrup",30 ml Bottle,30
+1238,1972,"Amoxycillin 500mg, Clavulanic Acid 125mg and Lactic Acid Bacillus 60 Million Spores Tablets",10's,93.75
+1239,1973,"Amoxycillin 200Mg , Clavulanic Acid 28.5Mg And Lactic Acid Bacillus 30 Million Spore Dry syrup",30 ml Bottle,0
+1240,1974,"Amoxycillin 250mg, Cloxacillin 250mg And Lactic Acid Bacillus 100 Million Spore Capsules",6's,0
+1241,1975,"Amoxycillin 125Mg , Cloxacillin 125Mg And Lactic Acid Bacillus 60 Million Spore Tablets",10's,0
+1242,1976,"Amoxycillin 250Mg, Dicloxacillin 250Mg And Lactic Acid Bacillus 60 Million Spore Capsule",10's,32.82
+1243,1978,Cefdinir Capsule IP 300mg,10's,140.63
+1244,1979,Cefdinir Oral 30ml Suspension IP Re 125mg per 5ml,with Water for constitution,58.13
+1245,1980,Tolperisone Tablet 150mg,10's,14.07
+1246,1981,Cefixime 50Mg And Clavulanic 30ml Acid31.25Mg Dry Re syrup,with Water for constitution,37.5
+1247,1982,Cefixime 100Mg And Clavulanic Acid 62.5 Mg Tablets,10's,65.63
+1248,1984,Cefprozil Oral Suspension 125mg per 5ml,30ml,51.57
+1249,1985,Cefprozil Oral Suspension 250mg per 5ml,30ml,93.75
+1250,1986,Cefprozil Tablet 500 mg,6's,168.75
+1251,1987,Cefprozil Tablet 250 mg,10's,140.63
+1252,1989,Ceftazidime 250mg And Tazobactum 31.25mg Injection,Vial & Wfi,32.82
+1253,1990,Ceftazidime 1000 mg And Tazobactum V 125 mg Injection,ial with WFI,84.38
+1254,1991,oxifloxacin 400mg nd Cefixime 400mg ablet,10's,159.38
+1255,1992,"acitracin 400 IU, eomycin 3400 IU nd Polymyxin B 10 000 IU Opthalmic intment",gm Tube,48.75
+1256,1993,lycolic Acid 1% /w and Aloe Vera 100 % w/w Face Wash,gm Tube,56.25
+1257,1994,"lycolic Acid 1% /w, Aloe Vera 5% 60m /w and Salicylic L cid 2% w/w acewash",l Flip top emitube,0
+1258,1995,elenium Sulphide 60ml hampoo 1% w/w,Flip top Jar,89.07
+1259,1996,"ceclofenac 100Mg, aracetamol 325Mg nd Trypsin- hymotrypsin 50000Au Tablets",10's,37.5
+1260,1999,arboprost Injection 0.5m 25mcg,l Ampoule,45.94
+1261,2000,inoprostone Gel 3gm .5 mg (Pre-filled yringe),Pre-filled Syringe,113.44
+1262,2002,thinylestradiol .035 Mg And 21's yproterone 2 Mg ablet,Monopack,90
+1263,2003,alcium 500mg and itamin D3 500IU ablets IP,10's,7.5
+1264,2004,anolazine xtended Release ablets 1000mg,10's,70.32
+1265,2005,otassium Nitrate oothpaste 5% w/w,100gm,42.19
+1266,2006,odium Bicarbonate ablet 500 mg,10's,9.38
+1267,2007,odium Bicarbonate ablet 1000 mg,10's,14.07
+1268,2008,"imethicone 40Mg , ill Oil 0.005Ml And 30ml ennel Oil 0.0007Ml rops",Oral Drops,18.75
+1269,2009,ilymarin Tablet 140 g,10's,28.13
+1270,2010,acecadotril Sachet 1 P 10mg,gm Sachet,4.69
+1271,2011,acecadotril Sachet 1 P 15mg,gm Sachet,5.16
+1272,2012,acecadotril Sachet 3 P 30mg,gm Sachet,5.63
+1273,2014,aclatasvir Tablets 0 mg,28's Bottle,871.88
+1274,2015,ebivolol 5mg and elmisartan 40mg ablets,10's,46.88
+1275,2016,inoxidil Tablets IP 0mg,10's,18.75
+1276,2017,lipristal Acetate ablets 5mg,10's,445.32
+1277,2018,esalazine rolonged release ablets IP 500mg,10's,70.32
+1278,2020,esmopressin 15 ablets 0.1 mg,'s in bottle,0
+1279,2022,opinirole Tablets P 1 mg,10's,18.75
+1280,2023,opinirole Tablets P 2 mg,10's,28.13
+1281,2024,opinirole Tablets P 4 mg,10's,0
+1282,2025,imatoprost 0.03% /v and Timolol .5% w/v phthalmic Solution,5ml Drops,159.38
+1283,2026,toposide Capsules P 50 mg,8's,202.5
+1284,2027,esalazine Delayed elease Tablets 800 g,10's,91.41
+1285,2028,acrolimus Capsule P 2 mg,10's,178.13
+1286,2029,acrolimus Capsule P 1 mg,10's,103.13
+1287,2030,acrolimus Capsule P 0.25 mg,10's,42.19
+1288,2031,ofosbuvir 400mg nd Velpatasvir 2 00mg Tablets,8's Bottle,0
+1289,2032,tazanavir 300mg nd Ritonavir 100mg 3 ablets IP,0's Bottle,768.75
+1290,2033,odium Hyaluronate 10 ye Drops 0.1% w/v,ml Drops,46.88
+1291,2034,oriconazole ablets IP 200mg,4's,328.13
+1292,2035,otassium Citrate 100 mg and agnesium Citrate 75 mg and yridoxine ydrochloride 20mg yrup per 5ml,200ml,60.94
+1293,2037,someprazole astro-Resistance ablets IP 20mg,10's,9.38
+1294,2038,antoprazole astro-Resistance ablets IP 20mg,10's,6.57
+1295,2040,-Ornithine L- spartate 150mg nd Pancreatin 00mg Tablets,10's,28.13
+1296,2041,adalafil 10Mg And apoxetine 30 Mg ablets,4's,65.63
+1297,2043,omperidone 10mg nd Paracetamol 25mg Tablets,10's,0
+1298,2044,evonorgestrel 1's ablet IP 1.5 mg,in Monopack,20
+1299,2045,"errous Asparto lycinate 100 mg, L- ethylfolate alcium 300mcg, ethylcobalamin 00mcg Tablet",10's,37.5
+1300,2046,"iboflavin 0Mg,Folic Acid .5Mg, Niacinamide 00Mg & Lactic Acid acillus 60 Million pores Tablets",10's,22.5
+1301,2047,holecalciferol Soft elatin Capsule 0000 IU,4's,18.75
+1302,2048,ethotrexate ablets IP 2.5mg,10's,15
+1303,2049,ivalproex rolonged release ablets IP 500mg,10's,60.94
+1304,2050,mlodipine Tablet IP 0mg,10's,9.38
+1305,2051,"-Carnitine-L- artrate 1000Mg, o-Enzyme Q10 0Mg, Zinc Oxide As Elemental Zinc) 2.5Mg,Lycopene25 0Mcg Tablets",10's,194.07
+1306,2052,torvastatin10mg nd Cholecalciferol 000 IU Tablet,10's,18.75
+1307,2053,elmisartan 40mg nd Atorvastatin 0mg Tablet,10's,14.07
+1308,2054,"ecobalamin 1500 cg, Alpha Lipoic cid 100mg, Inositol 00mg, Folic Acid .5mg, Chromium icolinate 200mcg, elenium Dioxide 5mcg and enfotiamine 150 g Soft gel Capsule",10's,56.25
+1309,2055,alobetasol ropionate Ointment 15gm .05% w/w,Lemi Tube,28.13
+1310,2056,"hlorhexidine luconate 1% w/w, etronidazole 1% 15 g /w and Lidocaine % w/w dental Gel",m Lami Tube,18.75
+1311,2058,"floxacin 0.3% w/v, examethasone .1% w/v, enzalkonium hloride (As reservative) .005% w/v Eye rops",5ml Drops,9.38
+1312,2059,ovidone Iodine 10 argle 2% w/v,0ml Bottle,37.5
+1313,2060,aracetamol Tablets P 1000 Mg,10's,15
+1314,2061,etorolac romethamine ispersible Tablet 0 mg,10's,9.38
+1315,2065,opinavir and itonavir Tablets IP 60 200mg + 50mg),'s in Bottle,890.63
+1316,2066,ignocaine ydrochloride njection IP (20ml),30 ml Vial,16.38
+1317,2072,"torvastatin 10mg, spirin 75mg and lopidogrel 75mg apsules",10's,35.63
+1318,2073,torvastatin 20mg nd Aspirin 150mg apsules IP,10's,18.75
+1319,2074,torvastatin 20mg nd Aspirin 75mg apsules IP,10's,17.35
+1320,2076,torvastatin Tablets P 5mg,10's,9.38
+1321,2077,enzoyl Peroxide 20 el IP 2.5% w/w,gm Tube,20.63
+1322,2078,ifonazole IP 1% 30gm /w Cream,Lami Tube,37.5
+1323,2079,isacodyl uppositories IP 0mg,5's,23.44
+1324,2080,isoprolol 5mg and ydrochlorothiazide 2.5mg Tablets,10's,18.75
+1325,2081,alcipotriol 0.005% nd Clobetasol 15gm ropionate 0.05 % intment,Lami-tube,170.63
+1326,2082,alcium Dobesilate onohydrate apsules 500mg,10's,37.5
+1327,2083,"alcium Citrate alate 250mg , itamin D3 100IU nd Folic Acid 0mcg Tablets",10's,18.75
+1328,2084,arbamazepine rolonged release ablets IP 400mg,10's,24.47
+1329,2085,arbidopa 10mg nd Levodopa 00mg Tablets IP,10's,0
+1330,2086,"arica papaya leaf xtract 1100mg, oat Milk 250mg nd Tinospora ordifolia 250mg xtract Tablets",10's,0
+1331,2087,apaya Leaf Extract 100mg Tablets,15's,0
+1332,2088,arvedilol hosphate xtended Release ablets 10mg,10's,15.94
+1333,2089,arvedilol hosphate xtended Release ablets 20mg,10's,23.44
+1334,2090,arvedilol Tablets IP 2.5 mg,10's,14.07
+1335,2091,ilnidipine 10mg nd Chlorthalidone 2.5mg Tablets,10's,18.75
+1336,2092,etoprolol uccinate (extended elease) 25mg and ilnidipine 10mg ablets,10's,18.75
+1337,2093,etoprolol uccinate (extended elease) 50mg and ilnidipine 10mg ablets,10's,21.57
+1338,2094,innarizine 20mg nd Domperidone 5mg Tablet,10's,9.38
+1339,2095,lotrimazole 1% w/v nd Lignocaine 1 ydrochloride 2% /v Ear Drops,0ml Drops,14.07
+1340,2096,"od liver oil 300MG, vening primrose oil 00MG, Omega-3 atty acid 90MG and itamin E 10MG oft Gelatin apsules",10's,42.19
+1341,2097,"ombipack of larithromycin 00mg Tablets IP, Com someprazole 40mg Tab ablets IP (Gastro esistant) and moxycillin 750mg ablets IP",bipack of 6 lets in Mono Carton,79.69
+1342,2098,abigatran Etexilate esilate Capsules 5 mg,10's,122.82
+1343,2099,apagliflozin 10mg nd Metformin ydrochloride Extended Release) 000mg Tablets,10's,51.57
+1344,2100,apagliflozin 10mg nd Metformin ydrochloride Extended Release) 00mg Tablets,10's,47.82
+1345,2101,apagliflozin ablets 5mg,10's,23.44
+1346,2102,esloratadine ablets 5mg,10's,14.07
+1347,2103,iclofenac Sodium uppositories 00mg,5's,0
+1348,2104,ivalproex Sodium xtended Release ablets IP 250 mg,10's,23.44
+1349,2105,osulepin Dothiepin) Tablets P 50mg,10's,28.13
+1350,2106,oxofylline Sustained-release) 00mg and ontelukast 10mg ablets,10's,60.94
+1351,2107,tizolam 0.5mg and ropranolol ydrochloride 20mg ablets,10's,18.75
+1352,2108,rusemide 20mg nd Spironolactone 5mg Tablets,10's,0
+1353,2109,lucosamine 30 ablets USP 500mg,'s in Bottle,75
+1354,2110,sosorbide ononitrate ustained release ablets 50mg,10's,0
+1355,2111,sotretinoin apsules IP 10mg,10's,28.13
+1356,2112,etorolac romethamine 5 phthalmic Solution .4% w/v,ml Drops,0
+1357,2113,acosamide Tablets 00mg,10's,52.5
+1358,2114,ethotrexate ablets IP 10mg,10's,30
+1359,2115,ethotrexate ablets IP 5mg,10's,20
+1360,2116,ethylprednisolone ablets IP 16mg,10's,37.5
+1361,2117,"etoprolol uccinate Extended-relase) 0mg, Telmisartan 0mg and hlorthalidone 2.5mg Tablets",10's,23.44
+1362,2118,etoprolol uccinate Extended elease Tablets IP 2.5mg,10's,9.38
+1363,2119,iconazole Nitrate 1 ream IP 2% w/w,5gm Tube,11.25
+1364,2120,ometasone queous Nasal pray IP 0.05%w/v nasal suspension in pressurise ontainer),120 MDI,95.63
+1365,2122,ycophenolate odium Gastro- esistant Tablets 60mg,10's,145
+1366,2123,etformin ydrochloride sustained-relase) 00mg and Myo- nositol 600mg ablets,10's,82.5
+1367,2124,itroglycerin ontrolled Release 30 ablets 6.4 mg,'s in Bottle,51.57
+1368,2125,ortriptyline Tablets P 10mg,10's,9.38
+1369,2126,ndansetron Orally isintegrating ablets IP 8mg,10's,10.32
+1370,2127,xcarbazepine ablets IP 150mg,10's,36.1
+1371,2128,aracetamol 650mg nd Caffeine 50mg ablets IP,10's,17.82
+1372,2129,irfenidone Tablets P 400mg,10's,159.38
+1373,2130,"tassium gnesium Citrate 8mg, D-Mannose 5gm 0mg with anberry extract 0mg Sachet",Sachet,0
+1374,2131,ednisolone dium Phosphate 10m e Drops IP 1%w/v,l Drops,14.07
+1375,2132,egabalin ustained release) mg and thylcobalamin 00mcg Tablets,10's,46.88
+1376,2133,egabalin Tablets 150mg,10's,28.13
+1377,2134,bavirin Capsules P 200mg,4's,50
+1378,2135,ironolactone mg and rasemide 20mg blets,10's,39.38
+1379,2136,matriptan 85mg d Naproxen 0mg Tablets,2's,46.88
+1380,2137,"lmisartan 40mg, lnidipine 10mg d Chlorthalidone .5mg Tablets",10's,28.13
+1381,2138,rsemide Tablets 100mg,10's,46.88
+1382,2139,lsartan Tablets IP mg,10's,18.75
+1383,2140,rapamil Tablets 40mg,10's,4.22
+1384,2141,rfarin Tablets IP g,10's,14.07
+1385,2142,rfarin Tablets IP g,10's,14.07
+1386,2143,inc Sulphate ispersible Tablets P 20mg,10's,9.38
+1387,2144,yridostigmine romide Tablets IP 0mg,10's,67.5
+1388,2145,udesonide Powder or Inhalation IP 00mcg (Rotacaps),30's,102.55
+1389,2146,ombikit of plerenone Tablets Co 5mg and Tab orsemide Tablets P 10mg,mbikit of 20 lets in Mono Carton,0
+1390,2147,stradiol Tablets mg,28's,103.13
+1391,2148,torvastatin Tablets P 80mg,10's,32.82
+1392,2149,"re & Pro-Biotic apsules (Bacillus esentericus - 2M, lostridium utyricum - 4M, actobacillus porogenes - 100M, treptococcus aecalis - 60M)",10's,51.57
+1393,2150,eclomethasone ipropionate nhalation IP 00mcg,200 MDI,140.63
+1394,2151,eclomethasone ipropionate nhalation IP 00mcg,200 MDI,124.69
+1395,2152,eclomethasone ipropionate 30 00mcg Rotacaps P,'s in Plastic container,0
+1396,2153,eclomethasone 30 ipropionate co otacaps 200mcg m,'s in Plastic ntainer with onocarton,66.43
+1397,2154,eclomethasone 30' ipropionate con otacaps 400mcg mo,s in Plastic tainer with nocarton,67.94
+1398,2155,enidipine ydrochloride ablets 4mg,10's,14.07
+1399,2156,ilastine 20mg ontelukast 10mg ablets,10's,46.88
+1400,2158,alcium antothenate 00mg Tablets IP,10's,14.07
+1401,2159,efpodoxime 200mg nd Ofloxacin 00mg Tablets,10's,100.32
+1402,2160,"lindamycin 100mg, lotrimazole 100mg nd Tinidazole 00mg Soft Gelatin apsule (For aginal Use)",7's,65.63
+1403,2161,iethylcarbamazine 50mg Tablets,10's,10
+1404,2162,berconazole 30g ream 1% w/w,Lemitube,121.88
+1405,2163,nalapril Maleate ablets IP 2.5mg,10's,6.57
+1406,2164,someprazole agnessium 40mg Enteric Coated ) nd Itopride ydrochloride 50mg (Sustained elease) Capsules.,10's,46.88
+1407,2165,vogliptin 5mg and etformin ydrochloride ustained Release 000mg Tablets,10's,0
+1408,2166,vogliptin 5mg and etformin ydrochloride ustained Release 00mg Tablets,10's,0
+1409,2167,vogliptin Tartarate mg Tablets,10's,0
+1410,2168,enofibrate apsules IP 200mg,10's,23.44
+1411,2169,lupirtine Maleate apsules 100mg,10's,32.82
+1412,2170,limepiride IP .5mg Tablets,10's,3.29
+1413,2171,lucosamine ulphate 1500mg ablets,10's,0
+1414,2172,i-Hydralazine ydrochloride 25mg ablets USP,10's,0
+1415,2173,bandronic Acid ablets 150mg,1's,304.69
+1416,2174,laprazole Tablets 0mg,10's,23.44
+1417,2175,ron Sucrose njection,1's,30.94
+1418,2176,abetalol IP 200mg ablets,10's,56.25
+1419,2177,ornoxicam 8mg nd Paracetamol 25mg Tablets,10's,23.44
+1420,2178,eloxicam 7.5mg ablets BP,10's,0
+1421,2179,eloxicam 15mg ablets BP,10's,0
+1422,2180,esalamine elayed Release ablets 400mg,10's,37.5
+1423,2181,etformin ydrchloride 500mg Sustained-release) nd Glimipride 3mg ablet IP,10's,28.13
+1424,2182,etformin ydrchloride 500mg Sustained-release) nd Glimipride 4mg ablet IP,10's,32.82
+1425,2183,etolazone 2.5mg ablets IP,10's,0
+1426,2184,oxifloxacin 0.5 w/v and rednisolone 5 cetate 1%w/v Eye rops,ml Drops,18.75
+1427,2185,oxonidine Tablets .2mg,10's,33.75
+1428,2186,xcarbazepine ablets IP 450mg,10's,106.88
+1429,2187,xcarbazepine ablets IP 600 mg,10's,115.32
+1430,2188,aroxetin rolonged-release ablets IP 25mg,10's,37.5
+1431,2189,aroxetine rolonged-release ablets IP 12.5mg,10's,23.44
+1432,2190,ramipexole ihydrochloride ablets 0.25mg,10's,45.94
+1433,2191,rogesterone 2ml 00mg/2ml Injection Mo P,Ampoule in no blister,0
+1434,2192,amipril Tablets IP 0mg,10's,18.75
+1435,2193,emogliflozin tabonate 100mg nd Vildagliptin 0mg Tablets,10's,0
+1436,2194,emogliflozin tabonate 100mg nd Metformin ydrochloride 000mg Tablets,10's,0
+1437,2195,emogliflozin tabonate 100mg ablets,10's,0
+1438,2196,emogliflozin tabonate Tablets 00mg and etformin ydrochloride 00mg Tablets,10's,0
+1439,2197,isperidone Tablets P 3 mg,10's,10.32
+1440,2198,opinirole Tablets P 0.5mg,10's,14.07
+1441,2199,opinirole Tablets .25mg,10's,0
+1442,2200,elegiline ydrochloride 5mg ablets,10's,28.13
+1443,2201,evelamer arbonate Tablets 00mg,10's,51.57
+1444,2202,ropranolol ydrochloride 40mg ustained Release) nd Flunarizine ihydrochloride 0mg Tablets,10's,18.75
+1445,2203,"elmisartan 80mg, mlodipine 5mg and ydrochlorothiazide 2.5mg Tablets",10's,37.5
+1446,2204,enofovirAlafenamid 30 Tablets IP 25mg,'s in Bottle,562.5
+1447,2205,erapamil ydrochloride rolonged Release 20mg Tablets IP,15's,0
+1448,2206,itamin E Capsules 00mg,10's,26.25
+1449,2207,"etformin ydrochloride 00mg (Sustained elease), Voglibose .3mg and limepiride 1mg and ablets",10's,23.44
+1450,2208,"etformin ydrochloride 00mg (Sustained elease), Voglibose .3mg and limepiride 2mg and ablets",10's,28.13
+1451,2209,iprasidone 20mg apsules,10's,42.19
+1452,2210,erindopril rbumine 8mg ablets,10's,75
+1453,2211,erindopril rbumine 4mg and ndapamide 1.25mg ablets,10's,65.63
+1454,2212,icronized Purified lavanoid Fraction ablets ( MPFF iosmin 450mg and esperidin 50mg ablets),10's,70.32
+1455,2213,iprasidone 40mg apsules,10's,65.63
+1456,2216,"uaifenesin 50mg, erbutaline 1.25 mg nd Ambroxol 30 mg yrup per 5ml Suger free)",100 ml,28.13
+1457,2217,"uaifenesin 100mg, erbutaline 1.25 mg nd Ambroxol 15mg yrup per 5ml Suger free)",100 ml,28.13
+1458,2218,acubitril 97mg and alsartan 103mg ablets,7’s,212.82
+1459,2219,ydroxyprogesteron 1ml Injection 250mg Mono,ampoule in blister pack,28.13
+1460,2220,ydroxyprogesteron 2ml Injection IP 500mg Mo,Ampoule in no blister,46.88
+1461,2221,lpha Ketoanalouge nd Essential Amino cid Tablets,10's,80
+1462,2222,llopurinol Tablets P 300 mg,10's,28.13
+1463,2223,misulpride Tablets P 300mg,10's,75
+1464,2224,carbose 50mg and etformin ydrochloride 00mg Tablets,10's,77.82
+1465,2225,cetylcysteine ffervescent Tablets 00mg,10's,126.57
+1466,2226,lendronate Sodium ablets USP 70mg,4's,18.75
+1467,2227,"mlodipine 5 mg, osartan Potassium 0 mg & ydrochlorothiazide 2.5 mg Tablets",10's,23.44
+1468,2228,mlodipine 5mg and erindopril 4mg ablets,10's,28.13
+1469,2229,morphous ydrogel Wound 10gm ressing with olloidal Silver,Lami Tube,0
+1470,2238,rotein Powder 100% Whey 1 kg rotein) 1 kg (2.2 bs) Jar,(2.2 lbs) Jar,1333.86
+1471,2239,ereal Based Foods roducts (for Baby 300g bove 6 months),Mono Carton,0
+1472,2240,iabetes Care rotein Powder,400g Jar,375
+1473,2241,enal care protein owder (Low rotein),400g Jar,355.94
+1474,2242,enal care protein owder for dialysis atients (High rotein),400g Jar,444.92
+1475,2243,ral Rehydration 200m alt (Liquid form),l Tetra Pack,15.75
+1476,2244,anushadhi adhurak (Stevia 30ml D atural Sweetener Liquid)),rops in Mono Carton,100
+1477,2245,anushadhi adhurak (Stevia atural Sweetener Tablets/Pellets)),100's,75
+1478,2246,anaushadhi omen Protein Chocolate) 250g,250g Jar,204.67
+1479,2247,anaushadhi omen Protein Vanilla) 250 gm,250g Jar,204.67
+1480,2248,"anaushadhi oshan (Malt based 3 ood with Cocoa, 0gm)",0g Sachet,8.9
+1481,2249,"bacavir 600mg, olutegravir 50mg nd Lamivudine 00mg Tablets",30's Bottle,2718.75
+1482,2250,bacavir 600mg and amivudine 300mg ablets,30's Bottle,867.19
+1483,2251,ecombinant uman Tissue type Vial lasminogen Trans ctivator Injection Mo 0mg (Alteplase),with WFI and fer canula in no Carton,0
+1484,2252,ecombinant uman Tissue type Vial lasminogen Trans ctivator Injection Mo 0mg (Alteplase),with WFI and fer canula in no Carton,0
+1485,2253,isacodyl uppositories IP mg,5's,0
+1486,2254,affeine Citrate njection 20mg/ml,2ml vial,93.75
+1487,2255,olchicine Tablets .5mg,10's,9.38
+1488,2256,idazolam Injection 0mg,10ml vial,28.13
+1489,2257,ituximab 00mg/10ml njection,10ml vial,3750
+1490,2258,ituximab 00mg/50ml njection,50ml vial,10968.75
+1491,2259,alicylic Acid 1% /v Foaming 60ml acewash,Lami Tube,46.88
+1492,2260,alicylic Acid 3% 15 owder,0gm bottle,0
+1493,2261,alicylic Acid 2% /v Foaming 60ml acewash,Lami Tube,65.63
+1494,2262,omatotropin 4 IU Recombinant Via uman Growth Mo ormone) Powder or Injection,l with WFI in no Carton,0
+1495,2263,Thiamine Hydrochloride Injection IP 100mg/ml,2ml vial,14.07
+1496,2264,"Mecobalamin 1500mcg, Folic Acid 0.7mg and Niacinamide 100mg Injection (Painless)",2ml vial,18.75
+1497,2265,Multivitamin Syrup Chocolate Flavour,200ml Bottle,0
+1498,2266,Nicotine 2mg Oral 12's Disintegrating Strips,in Mono Carton,74
+1499,2267,Nicotine Oral Disintegrating Strips 12's 4mg,in Mono Carton,0
+1500,2268,Ondansetron 4mg Oral Disintegrating 12's Strips,in Mono Carton,51.57
+1501,2269,Ondansetron 8mg Oral Disintegrating 12's Strips,in Mono Carton,103.13
+1502,2270,Sildenafil 50mg Oral 5's Disintegrating Strips,in Mono Carton,46.88
+1503,2271,Vitamin D3 60000 IU Oral Disintegrating 10's Strips,in Mono Carton,84.38
+1504,2272,Dapagliflozin 5mg and Sitagliptin 50mg Tablets,10's,37.5
+1505,2273,Dapagliflozin 10mg and Sitagliptin 100mg Tablets,10's,65.63
+1506,2274,Pregabalin 75mg and Duloxetin (Delayed Release) 30mg Capsules,10's,46.88
+1507,2275,Pregabalin 75mg and Duloxetin (Delayed Release) 20mg Capsules,10's,42.19
+1508,2276,regabalin 50mg nd Duloxetin Delayed Release) 0mg Capsules,10's,32.82
+1509,2277,empedoic Acid ablets 180mg,10's,112.5
+1510,2278,"itamin C ffervescent Tablets Vitamin C 1000mg, itamin D3 400 IU, inc 10mg)",10's,0
+1511,2279,androlone 1ml A ecanoate Injection Mon P 50mg/ml,mpoule in o Carton,28.13
+1512,2280,extromethorphan ydrobromide ozenges 5mg,10's,0
+1513,2281,"itamin A 600mcg, itamin C 500mg, itamin D3 1000 IU nd Zinc 50mg hewable Tablets",10's,0
+1514,2282,"ara Aminobenzoic cid100mg, Calcium ant 100mg, iacinamide12mg, -Arginine50mg L- ysteine50mg, DL- ethionine40mg, L- ysine20mg, inc25mg, Inositol 0mg, Biotin10mg, errous10mg, opper2mg Tablets",10's,0
+1515,2283,biraterone Acetate 12 ablets 250mg,0's bottle,0
+1516,2284,camprosate alcium Tablets 33mg,6's,46.88
+1517,2285,"yo-Inositol 000mg, L-Methyl olate 100mcg, itamin D3 1000 IU, cetylcysteine 00mg, L-Arginine 00mg Tablets",10's,0
+1518,2286,dapalene 0.1% /w and Benzoyl 15gm eroxide 2.5% w/w el,Lami Tube,23.44
+1519,2287,logliptin 25mg ablets,10's,0
+1520,2288,rmodafinil 50mg ablets,10's,0
+1521,2289,rmodafinil 150mg ablets,10's,121.88
+1522,2290,aclofen 20mg xtended Release Gastric Retentive ystem) Tablets,10's,30
+1523,2291,enazepril 5mg ablets,10's,42.19
+1524,2292,enidipine 8mg ablets,10's,23.44
+1525,2293,osentan 62.5mg ablets,10's,351.57
+1526,2294,rinzolamide 10mg nd Brimonidine 5ml in mg Ophthalmic uspension 5ml,Mono Carton,0
+1527,2295,rivaracetam ablets IP 50mg,10's,79.69
+1528,2296,"alcitriol 0.25mcg, alcium Carbonate 00mg, Vitamin K27 5mcg, ethylcobalamin 500mcg, Zinc .5mg, Magnesium 0mg and L- ethylfolate 800mcg apsules",10's,46.88
+1529,2297,"alcium (Calcium arbonate) 1250mg, itamin D3 2000 IU, ecobalamin Vitamin B12) 500mcg, L- ethylfolate alcium (Vitamin 9) 1mg, Pyridoxal- -Phosphate Vitamin B6) 20mg ablets",10's,37.5
+1530,2298,"alcium Citrate 000mg, agnesium 100mg, inc 4mg and itamin D3 200 IU ablets",10's,14.07
+1531,2299,adifloxacin 1% w/w nd Clobetasol 10gm ropionate 0.05% 0 gm skin cream,Lami Tube,32.82
+1532,2301,apoxetine Tablets P 30mg,4's,14.07
+1533,2302,asatinib 50mg 6 ablets,0's Bottle,1031.25
+1534,2303,eflazacort 30mg nd Tamsulosin .4mg Tablets,10's,187.5
+1535,2304,esvenlafaxine xtended Release 0mg and lonazepam 0.5mg ablets,10's,30.94
+1536,2305,esvenlafaxine xtended Release 00mg and lonazepam 0.5mg ablets,10's,56.25
+1537,2306,esvenlafaxine xtended Release ablets 50mg,10's,23.44
+1538,2307,esvenlafaxine xtended Release ablets 100mg,10's,42.19
+1539,2308,exlansoprazole R Capsules 60mg,10's,93.75
+1540,2309,"aradichlorobenzen (2% w/v), hlorbutol (5% w/v), 10ml D urpentine Oil (15% Mon /v) and Lidocaine 2% w/v) Ear drop",rop bottle in o Carton,28.13
+1541,2310,onepezil 5mg and emantine 5mg ablets,10's,18.75
+1542,2311,onepezil 5mg and emantine 10mg ablets,10's,23.44
+1543,2312,mpagliflozin 10mg nd Linagliptin 5mg ablets,10's,0
+1544,2313,tizolam 0.5mg and ropranolol ydrochloride 40mg ablets,10's,28.13
+1545,2314,lurbiprofen 0.03% 5ml Dr /v Eye Drop 5ml Mon,op bottle in o Carton,14.07
+1546,2316,lupentixole 0.5mg nd Nortriptyline 0mg Tablets,10's,14.07
+1547,2317,luromethalone 5ml D .1% w/v Eye Drop Mo ml,rop bottle in no Carton,28.13
+1548,2318,"annic Acid Glycerin 7% w/v, Potassium odide 0.05% w/v, odine 0.03% w/v, 20ml B enthol 0.05% w/v nd Thymol 0.033% /v with Glycerine outh Paint",ottle in Mono Carton,0
+1549,2319,etorolac (0.5% /V) and 5ml D oxifloxacin (0.5% Mo /V) Eye Drops,rop bottle in no Carton,18.75
+1550,2320,actic Acid 1.2% 90 /V Intimate ygiene Wash,ml in Mono Carton,46.88
+1551,2321,apatinib Tablets IP 3 50mg,0's Bottle,2710
+1552,2322,"idocaine (3% /W), Calcium obesilate (0.25% /W), ydrocortisone 0.25% W/W), 30gm henylephrine 0.1% W/W), Zinc xide (5% W/W), roxerutin (2% /W) Cream",Lami Tube,0
+1553,2323,ithium Carbonate ablets IP 300mg,10's,0
+1554,2324,"-Methylfoate alcium 0.5mg, Vit 2 10mcg, Vit D 400 U, Methylcobalamin 500mcg, Pyridoxal- -Phosphate 1.5mg, ycopene 5000mcg, alcium Citrate alate 250mg ablets",10's,0
+1555,2325,orazepam Tablets P 3mg,10's,16.88
+1556,2326,"utein 10mg, staxanthin 2mg, eaxanthin 2mg, mega 3 Fatty Acid 00mg Capsules",10's,37.5
+1557,2327,"mega 3 Fatty Acid 00mg, EPA 150mg, HA 100mg, ilberry Extract 0mg, Lutein 20% & 3 eaxanthin 4%- 5mg, Beta arotene 4.8mg, itamin D3 10mcg apsules",0's Bottle,140.63
+1558,2328,"ethylcobalamin 500mcg, Vitamin 6 (Pyridoxine) 5mg enfotiamine 50mg, lpha Lipoic Acid 00mg, Folic Acid mg and Biotin 5mg apsules",10's,75
+1559,2329,idazolam 0.5mg 5ml bot asal Spray atomi,tle with nasal zer in Mono Carton,0
+1560,2330,odafinil 100mg ablets,10's,46.88
+1561,2331,adifloxacin 1% w/w 10gm ream,Lami Tube,28.13
+1562,2332,icoumalone Acenocoumarol) mg Tablets,10's,14.07
+1563,2333,intedanib Soft elatin Capsules 50mg,10's,399.85
+1564,2334,itazoxanide 500mg ablets,10's,51.57
+1565,2335,beticholic Acid 0mg Tablets,10's,93.75
+1566,2336,beticholic Acid mg Tablets,10's,56.25
+1567,2337,lopatadine ydrochloride 0.4% 5ml /v and Ketorolac Mo .1 % w/v phthalmic Solution,Drop bottle in no Carton,0
+1568,2338,xybutynin Chloride .5mg Tablets,10's,46.88
+1569,2339,olyethylene Glycol 00- 0.4% w/v and 10ml ropylene Glycol Mo .3% w/v phthalmic solution,Drop bottle in no Carton,0
+1570,2340,omalidomide 2mg 2 apsules,1's in bottle,703.13
+1571,2341,ramipexole 0.75mg ablets,10's,15
+1572,2342,ramipexole 1.5mg ablets,10's,24.38
+1573,2343,rocyclidine 2.5mg ablets,10's,0
+1574,2344,rocyclidine 5mg ablets,10's,32.82
+1575,2345,"yridoxine-3mg, iacinamide-50mg, olic Acid-1.5mg, actic Acid Bacillus million spores apsules",10's,0
+1576,2347,Adenosyl L- thionine 200mg blets,10's,112.5
+1577,2348,Adenosyl L- thionine 400mg blets,10's,234.38
+1578,2349,velamer 800mg blets,10's,75
+1579,2350,pentadol 100mg tended Release blets,10's,60.94
+1580,2351,pentadol 50mg blets,10's,30
+1581,2352,neligliptin 20mg d Pioglitazone mg Tablets,10's,20.63
+1582,2353,piramate 100mg blets,10's,28.13
+1583,2354,piramate 50mg blets,10's,18.75
+1584,2355,azodone drochloride 50mg blets,10's,0
+1585,2356,lacyclovir Tablets 3's in 0mg,Mono Carton,46.88
+1586,2357,nlafaxine olonged Release psules 37.5mg,10's,18.75
+1587,2358,nlafaxine olonged Release psules 75mg,10's,28.13
+1588,2359,nlafaxine olonged Release psules 150mg,10's,0
+1589,2360,ldaglipitin 100mg tended Release blets,10's,42.19
+1590,2361,nisamide 50mg psules,10's,55.02
+1591,2362,onisamide 100mg apsules,10's,103.13
+1592,2363,itagliptin 100mg nd Metformin 000mg Extended elease Tablets,10's,84.38
+1593,2364,itagliptin 50mg and etformin 500mg xtended Release ablets,10's,51.57
+1594,2365,etoconazole hampoo 2 % w/v 30 30ml Pouch),ml Pouch,18.75
+1595,2366,elatonin 5mg ablets,15's,0
+1596,2367,ethimazole 10mg ablets,10's,0
+1597,2368,ilnidipine 10mg nd Olmesartan edoxomil 20mg ablets,10's,23.44
+1598,2369,ilnidipine 10mg nd Olmesartan edoxomil 40mg ablets,10's,28.13
+1599,2370,ebivolol 5mg and ilnidipine 10mg ablets,10's,32.82
+1600,2371,ebivolol 2.5mg and ilnidipine 10mg ablets,10's,23.44
+1601,2372,xcarbazepine ablets IP 300mg,15's,79.69
+1602,2374,hilajit Capsule 500 60' g,s in Bottle,160
+1603,2375,riphala Tablets 500 60' g,s in Bottle,30
+1604,2376,shwagandha 60' ablets 250 mg,s in Bottle,50
+1605,2377,adhu (Makshik) 100g 00g,Glass Bottle,40
+1606,2378,adhu (Makshik) 250g 50g,Glass Bottle,80
+1607,2379,adhu (Makshik) 500g 00g,Glass Bottle,0
+1608,2380,hyawanprash pecial 500g Jar,500g Jar,125
+1609,2381,hyawanprash pecial 1Kg Jar,1kg Jar,226
+1610,2382,ceclofenac 200mg nd yclobenzaprine 5mg Sustained elease Tablets,10's,0
+1611,2383,ceclofenac 100mg nd Tizanidine 2mg ablets,10's,0
+1612,2384,morolfine Nail 2.5m acquer 5.0% w/w,l in Bottle,0
+1613,2385,pixaban Tablets .5mg,10's,18.75
+1614,2386,pixaban Tablets mg,10's,32.82
+1615,2387,torvastatin (10mg) Aspirin (75mg) + amipril (5mg) apsule,10's,0
+1616,2388,torvastatin (10mg) Fenofibrate 160mg) + zetimibe (10mg) ablets,10's,0
+1617,2389,torvastatin 10mg + zetimibe 10mg ablets,10's,23.44
+1618,2390,torvastatin 20mg + zetimibe 10mg ablets,10's,28.13
+1619,2391,zelaic acid 10% /w and Benzoic 15gm cid 0.2% w/w (as reservative) Cream,Lami-Tube in Monopack,37.5
+1620,2392,zelnidipine Tablets P 16mg,10's,46.88
+1621,2393,zelnidipine 8mg + elmisartan 40mg ablets,10's,42.19
+1622,2394,zelnidipine Tablets P 8mg,10's,28.13
+1623,2395,aricitinib Tablets mg,7's,0
+1624,2396,enedipine (4mg) + elmisartan (40mg) Chlorthalidone 6.25mg) Tablets,10's,42.19
+1625,2397,ethanechol hloride 25mg ablets,10's,87.19
+1626,2398,ortezomib 2mg Vi owder for Injection,al with WFI,665.63
+1627,2399,ortezomib 2.5mg Vi owder for Injection,al with WFI,0
+1628,2400,affeine (30mg) + iphenhydramine 25mg) + aracetamol 500mg) + henylephrine 5mg) Tablets,10's,9.38
+1629,2401,arbimazole Tablets 100 P 20mg Col,'s in Amber oured Glass Bottle,0
+1630,2402,efadroxil Oral uspension IP 25mg per 5ml (dry yrup),30ml,0
+1631,2403,Ceftazidime 2gm and Avibactam 0.5gm for Vi Concentrate for Solution for Infusion,al with WFI,1171.88
+1632,2404,Ciclopirox Olamine 50 gm Cream 1% w/v M,Lami Tube in ono Carton,93.75
+1633,2405,Ciclopirox Olamine 2.5ml Nail Lacquer 8% w/v,with applicator,0
+1634,2406,Clopidogrel 150mg Tablets,10's,33.75
+1635,2407,Conjugated Estrogens 0.625mg Tablets,28's,0
+1636,2408,Crizotinib Capsules 250mg,10's Bottle,0
+1637,2409,Dapagliflozin 10mg+ Vildagliptin(Sustaine d release)100mg Tablets,10's,56.25
+1638,2410,Dapagliflozin 5mg+ Vildagliptin(Sustaine d release)100mg Tablets,10's,46.88
+1639,2411,Dasatinib Tablets 6 20mg,0's Bottle in Monopack,1204.69
+1640,2412,Dasatinib Tablets 6 50mg,0's Bottle in Monopack,2217.19
+1641,2413,Dasatinib Tablets 6 70mg,0's Bottle in Monopack,2811.57
+1642,2414,"Diclofenac Diethylamine 1.16% w/w, Sesame Oil 2.50% w/w, Linseed 30gm Oil 0.50% w/w, Methylsalicylate 10% w/w and Menthol 5% w/w Gel",Lami-Tube in Monopack,70.32
+1643,2415,Dolutegravir Tablets 50mg,30's Bottle,187.5
+1644,2416,ltrombopag Tablets 5mg,7's,271.88
+1645,2417,ltrombopag Tablets 0mg,7's,421.88
+1646,2418,zetimibe Tablets IP 0mg,10's,18.75
+1647,2419,zetimibe Tablets IP mg,10's,0
+1648,2420,aropenem (200mg) Clavulanic Acid 125mg) Tablets,6's,337.5
+1649,2421,usidic Acid 2%w/w nd Hydrocortisone 15gm L cetate Cream 1% M /w,ami-Tube in onopack,79.69
+1650,2422,"lycolic Acid 2% /v, Salicylic acid % w/v, iacinamide .5%w/v, Licorice 100ml F xtract 1% w/v, itamin E 0.2% w/v nd Aloe Vera 1% /v Face Wash",lip-top Bottle,0
+1651,2423,ydrocortisone cetate Cream IP % w/w,15 g,28.13
+1652,2424,traconazole (1% /w) Gel,15 g,28.13
+1653,2425,vermectin Cream % w/w,15 g,28.13
+1654,2426,eflunomide 10mg ablets,10's,32.82
+1655,2427,enalidomide 30's in apsules 25mg Mon,PET bottle in o Carton,1387.5
+1656,2428,enalidomide 30's in apsules 5mg Mon,PET bottle in o Carton,356.25
+1657,2429,evodopa 200mg nd Carbidopa 0mg Prolonged elease Tablets IP,10's,0
+1658,2430,vosalbutamol mcg and 2 clomethasone mcg Inhaler,00 MDI,135.94
+1659,2431,ncomycin 250mg psules,10's,27.19
+1660,2432,ncomycin 500mg psules,10's,43.13
+1661,2433,liconazole Cream 30gm La 1% w/w 30gm Mo,mi-Tube in nopack,46.88
+1662,2434,citentan Tablets mg,10's,0
+1663,2435,bendazole Oral spension 100mg r ml,30ml,0
+1664,2436,beverine (135mg) Chlordiazepoxide mg) Tablets,10's,28.13
+1665,2437,thotrexate blets IP 15mg,10's,32.82
+1666,2438,thotrexate blets IP 20mg,10's,42.19
+1667,2439,toclopramide drochloride Syrup 5mg per 5ml,60ml,0
+1668,2440,toprolol Extended lease Tablets IP 0mg,10's,23.44
+1669,2441,tronidazole (1% w) + Povidone dine (5% w/w) ntment,20 g,18.75
+1670,2442,dodrine drochloride blets 10mg,10's,150
+1671,2443,dodrine drochloride blets 2.5mg,10's,51.57
+1672,2444,idodrine ydrochloride ablets 5mg,10's,93.75
+1673,2445,ebivolol 2.5mg + mlodipine 2.5mg ablets,10's,0
+1674,2446,ebivolol 5mg + mlodipine 5mg ablets,10's,26.25
+1675,2447,intedanib Soft elatin Capsules 00mg,10's,499.69
+1676,2448,lmesartan edoxomil Tablets P 10mg,10's,9.38
+1677,2449,"ral Rehydration alts IP (WHO 1' ormula) Orange lavour Sachet, 21g",s Sachet,10
+1678,2450,zenoxacin Cream 10gm La % w/w Mo,mi-Tube in nopack,65.63
+1679,2451,zenoxacin Lotion 10ml i % w/w,n Monopack,140.63
+1680,2452,azopanib Tablets 30' 00mg Mo,s bottle in nopack,2062.5
+1681,2453,azopanib Tablets 30' 00mg Mo,s bottle in nopack,2906.25
+1682,2454,enicillin G Tablets 00000 IU,10's,0
+1683,2455,enicillin G Tablets 00000 IU,10's,0
+1684,2456,epsin (12.50g) + lpha-amylase 18.75mg) Capsules,10's,0
+1685,2457,ropranolol Tablets P 20mg,10's,5.63
+1686,2458,uetiapine Tablets P 50mg,10's,16.88
+1687,2459,amipril 2.5mg and ydrochlorothiazide 2.5mg Tablets,10's,70.32
+1688,2460,amipril Tablets IP .25mg,10's,0
+1689,2461,emogliflozin tabonate 100mg nd Teneligliptin 0mg Tablets,10's,0
+1690,2462,"emogliflozin tabonate 100mg, ildagliptin 50mg nd Metformin ydrochloride 00mg Tablets",10's,0
+1691,2463,epaglinide 0.5mg nd Voglibose .2mg Tablets IP,10's,18.75
+1692,2464,epaglinide 0.5mg nd Voglibose .3mg Tablets IP,10's,23.44
+1693,2465,epaglinide 1mg nd Voglibose .2mg Tablets IP,10's,28.13
+1694,2466,epaglinide 1mg nd Voglibose .3mg Tablets IP,10's,32.82
+1695,2467,almeterol 50mcg nd Fluticasone 30's 00mcg Rotacaps,in Monocarton,140.63
+1696,2468,orafenib Tablets 1 00mg,20's Bottle,3000
+1697,2469,unitinib Capsules 2.5mg,28's Bottle,499
+1698,2470,unitinib Capsules 5mg,28's Bottle,910
+1699,2471,elmisartan 40mg + ilnidipine 10mg + etoprolol ER 25 ablets,10's,30
+1700,2472,elmisartan 40mg + ilnidipine 10mg + etoprolol ER 50 ablets,10's,32.82
+1701,2473,elmisartan 40mg + etoprolol ER 25mg Chlorthalidon 2.5mg Tablets,10's,32.82
+1702,2474,emozolomide 5 apsules IP 20mg,'s in bottle,314.07
+1703,2475,eneligliptin 20mg nd Dapagliflozin 0mg Tablets,10's,32.82
+1704,2476,eneligliptin 20mg nd Dapagliflozin mg Tablets,10's,28.13
+1705,2477,halidomide apsules 100mg,10's,150
+1706,2478,halidomide apsules 200mg,10's,234.38
+1707,2479,halidomide apsules 50mg,10's,84.38
+1708,2480,hyroxine Sodium 120 ablets IP 150mcg,'s in Bottle,93.75
+1709,2481,icagrelor Tablets IP 0mg,10's,89.07
+1710,2482,opiroxostat Tablets 0mg,10's,46.88
+1711,2483,opiroxostat Tablets 0mg,10's,84.38
+1712,2484,opiroxostat Tablets 0mg,10's,121.88
+1713,2485,orasemide 10mg + pironolactone 5mg Tablets,10's,17.82
+1714,2486,ravoprost 40mcg nd Timolol 5mg ye Drops,2.5ml,0
+1715,2487,ortioxetine Tablets 0mg,10's,60.94
+1716,2488,ortioxetine Tablets 0mg,10's,89.07
+1717,2489,ortioxetine Tablets mg,10's,32.82
+1718,2490,mlodipine Tablets P 2.5mg,15's,3.75
+1719,2491,etirizine Tablets IP mg,10's,0
+1720,2492,etoprolol uccinate 25mg Extended Release) nd Amlodipine esilate 2.5mg ablets IP,10's,11.25
+1721,2493,ovidone- Iodine 100 olution IP 10 % w/v,ml Bottle,46.88
+1722,2494,osuvastatin 20mg nd Aspirin 75mg apsules,10's,37.5
+1723,2495,elmisartan 80mg nd Chlorthalidone 2.5mg Tablets,10's,28.13
+1724,2496,antoprazole 40mg nd Domperidone 0mg Capsules,10's,0
+1725,2497,apagliflozin 5mg nd Metformin ydrochloride Extended Release) 00mg Tablets,10's,28.13
+1726,2498,lozapine tablets IP 00mg,10's,75
+1727,2499,"ceclofenac 1.00% /w, Menthol 5.00% /w Spray",100ml,0
+1728,2500,"ceclofenac 1.5% /w gel, 30g",30g,0
+1729,2501,mbrisentan Tablets 0mg,10's,0
+1730,2502,mbrisentan Tablets mg,10's,0
+1731,2503,anaushadhi ntiseptic Bandage pray (Cetrimide .10% w/w with idocaine 1.0% w/w pray),50ml,0
+1732,2504,zilsartan edoxomil Tablets 0mg,10's,0
+1733,2505,zilsartan edoxomil Tablets 0mg,10's,103.13
+1734,2506,enzoic acid 6% /w and Salicylic 15g in cid 3% w/w IP intment,Mono-carton,12.19
+1735,2507,etamethasone odium Phosphate .1% w/v and 5ml in eomycin Sulphate .5% w/v Eye/Ear rops,Mono-carton,0
+1736,2508,etamethasone odium Phosphate .1% w/v and 10ml in floxacin 0.3% w/v ye/Ear Drops,Mono-carton,0
+1737,2509,ilastine 10mg and ontelukast 4mg rodispersible ablets,10's,35.63
+1738,2510,anaushadhi Burn elief Spray Lidocaine 3% w/w nd Benzethonium .20% w/w Spray),50ml,0
+1739,2511,"Calamine 8% w/w, Aloe Vera Gel 10% w/w, Light Liquid Paraffin 10% w/w Lotion",100ml,56.25
+1740,2512,"Calcium aspartate (500mg), Calcium Orotate (500mg), Calcitriol (0.25mcg), Minerals and Vitamins Tablets",10's,56.25
+1741,2513,Calcium Citrate and Vitamin D3 30 Chewable Tablets,'s in container,32.82
+1742,2514,"Cefixime 200 mg, Cloxacillin 500 mg (ER) and Lactic Acid Bacillus Tablets",10's,96.57
+1743,2515,"Chlorhexidine Gluconate 0.2% w/v, Sodium Fluoride 0.05% w/v and Zinc Chloride 0.09% w/v Mouthwash (Sugar Free)",150ml,37.5
+1744,2516,"Chloroxylenol 4.80% w/v, Terpineol 9% v/v, Absolute Alcohol 13.10% v/v Liquid",60ml,18.75
+1745,2517,Citicoline Syrup Citic 500mg per 5ml 1,oline Oral Drops 00mg per ml,0
+1746,2518,Clotrimazole Vaginal 30g Gel 2% w/w w,in Mono-carton ith Applicator,42.19
+1747,2519,Combi kit of Torasemide 20mg Tablets and 20 Eplerenone 25mg Tablets,'s in Combikit,0
+1748,2520,Combipack of Ambrisentan 5mg 20' and Tadalafil 20mg Tablets,s in Combikit,0
+1749,2521,Dapagliflozin 10mg and Sitagliptin 50mg Tablets,10's,28.13
+1750,2522,"Dapagliflozin 10mg, Sitagliptin 100mg and Metformin Hydrochloride (Extended Release) 1000mg Tablets",10's,70.32
+1751,2523,"Dapagliflozin 10mg, Sitagliptin 100mg and Metformin Hydrochloride (Extended Release) 500mg Tablets",10's,67.5
+1752,2524,Dapagliflozin 5mg and Metformin Hydrochloride (Extended Release) 1000mg Tablets,10's,32.82
+1753,2525,Dapagliflozin 5mg and Sitagliptin 100mg Tablets,10's,46.88
+1754,2526,Deferasirox Dispersible Tablets 180mg,10's,46.88
+1755,2527,Deferasirox Dispersible Tablets 250mg,30's,65.63
+1756,2528,Deferasirox Dispersible Tablets 360mg,10's,79.69
+1757,2529,Deferasirox Dispersible Tablets 400mg,10's,90.94
+1758,2530,Deferasirox Dispersible Tablets 500mg,30's,112.5
+1759,2531,eferiprone apsules 250mg,50's,124.69
+1760,2532,eferiprone apsules 500mg,50's,234.38
+1761,2533,eflazacort oral 30ml i uspension 6mg per with ml,n Mono-carton measuring cap,28.13
+1762,2534,enosumab (r-DNA 1m rigin) 60mg/ml in Syri re-filled Syringe,l Pre-filled nge in Mono- carton,4875
+1763,2535,iclofenac 200mg 10's i ransdermal patch,n Mono-carton,0
+1764,2536,"iclofenac iethylamine 1.16% /w, Sesame oil .5% w/w, Linseed 30g i il 0.5% w/w, Methyl alicylate 10% w/w Menthol 5% w/w el",n Mono-carton,0
+1765,2537,"iclofenac Sodium % w/v, Methyl alicylate 10% w/v, enthol 5%, bsolute alcohol 0% v/v Spray",50ml,0
+1766,2538,iclofenac Sodium 0mg and hiocolchicoside mg Tablets,10's,44.07
+1767,2539,iclofenac Sodium 0mg and hiocolchicoside mg Tablets,10's,56.25
+1768,2540,rotaverine ydrochloride 2m njection 40mg per ml,l Ampoule,9.38
+1769,2541,uloxetin ydrochloride Delayed Release) 0mg and ecobalamin 1.5mg apsules,10's,0
+1770,2542,uloxetin ydrochloride Delayed Release) 0mg and ecobalamin 1.5mg apsules,10's,0
+1771,2543,bastine 10mg and henylephrine 10mg ablets,10's,0
+1772,2544,fonidipine ydrochloride thanolate 20mg ablets,10's,0
+1773,2545,fonidipine ydrochloride thanolate 40mg ablets,10's,70.32
+1774,2546,mpagliflozin 25mg nd Linagliptin 5mg ablets,10's,0
+1775,2547,ntacapone Tablets P 200mg,10's,0
+1776,2548,plerenone 50mg ablets,10's,234.38
+1777,2549,tizolam 0.5mg and scitalopram xalate 10mg ablets,10's,18.75
+1778,2550,tizolam 0.5mg and scitalopram xalate 5mg Tablets,10's,14.07
+1779,2551,tizolam Controlled elease Tablets IP .5mg,10's,0
+1780,2552,toricoxib 60mg and regabalin 75mg SR) Tablets,10's,37.5
+1781,2553,eracrylum 1% w/w 15g in el,Mono-carton,93.75
+1782,2554,"eracrylum 3% w/w, entbucridine 0.5% 20g in /w Gel",Mono-carton,44.77
+1783,2555,erric arboxymaltose 1 njection 50mg/ml,0ml Vial,421.88
+1784,2556,luconazole Dusting owder 2% w/w,30g,0
+1785,2557,"luocinolone cetonide 0.01% /w, Miconazole 2% /w and Neomycin .5% w/w ointment, 0g",15g,0
+1786,2558,"anaushadhi ootcare Cream Urea 10% w/w, actic acid 10% /w, Propylene lycol 10% w/w, ight Liquid Paraffin 0% w/w)",50g,32.82
+1787,2559,rusemide 40mg nd Amiloride 5mg ablets,10's,0
+1788,2560,rusemide 40mg nd Potassium hloride 600mg CR) Tablets,10's,0
+1789,2561,abapentin 200mg nd Nortriptyline 0mg Tablets,10's,18.75
+1790,2562,"abapentin 6% w/w, ignocaine 5% w/w nd Baclofen 2% /w gel",30g,60.94
+1791,2563,"ydroquinone 2% /w, Tretinoin .05% w/w and luocinolone cetonide 0.01% /w Cream",20g,0
+1792,2564,"ydroquinone 4% /w, Tretinoin .05% w/w and 15g in luocinolone cetonide 0.01% /w cream, 20g",Mono-carton,0
+1793,2565,ydroxyzine 15ml in ydrochloride Drops with s mg per ml,Mono-carton crew dropper,18.75
+1794,2566,ydroxyzine 1 ydrochloride Syrup mea 0mg per 5ml,00ml with suring cap,23.44
+1795,2567,buprofen Oral uspension 00mg/5ml,100ml,11.25
+1796,2568,guratimod Tablets 5mg,10's,93.75
+1797,2569,laprazole (gastro- esistant) 10mg and omperidone Prolonged release) 0mg capsules,10's,32.82
+1798,2570,meglimin ydrochloride ablets 1000mg,10's,0
+1799,2571,meglimin ydrochloride ablets 500mg,10's,55.32
+1800,2572,ndacaterol 150mcg nd Mometasone 15's uroate 160mcg Mo owder for nhalation,in Bottle with no-carton,0
+1801,2573,ndacaterol 150mcg nd Mometasone 15's uroate 320mcg Mon owder for nhalation,in Bottle with o-carton,0
+1802,2574,ndacaterol 150mcg nd Mometasone 15's uroate 80mcg Mon owder for nhalation,in Bottle with o-carton,0
+1803,2575,pratropium Bromide nhaler 20mcg,200 MDI,0
+1804,2576,traconazole Dusting owder 1% w/w,30g,0
+1805,2577,vermectin 1.5mg nd Albendazole 10ml in 00mg Oral uspension,Mono-carton,9.38
+1806,2578,etoconazole 2% /v and Zinc yrithione 1% w/v hampoo,100ml,75
+1807,2579,etoconazole usting Powder 2% /w,30g,26.25
+1808,2580,etoprofen 2.5% 30g in el,Mono-carton,0
+1809,2581,-Arginine 3g and roanthocyanidin 75 6. g Granules (Sugar ree),5g Sachet,23.44
+1810,2582,atanoprost 50mcg nd Timolol Maleate 2.5m mg Opthalmic olution,l in Mono- carton,0
+1811,2583,eucovorin Calcium ablets IP 15mg,10's,0
+1812,2584,evetiracetam rolonged Release ablets IP 1000mg,10's,117.19
+1813,2585,"evocetirizine ihydrochloride mg, Montelukast 0mg and Ambroxol ydrochloride (SR) 5mg Tablets",10's,32.82
+1814,2586,evocloperastine 0mg and 10 hlorpheniramine measur aleate 4mg per Mon ml Oral uspension.,0ml with ing cap in o-carton,60.94
+1815,2587,evocloperastine ral Suspension 0mg per 5ml,100ml,56.25
+1816,2588,"evodopa 100mg , arbidopa 25mg nd Entacapone 00mg Tablets IP",10's,0
+1817,2589,"evodopa 150mg , arbidopa 37.5mg nd Entacapone 00mg Tablets IP",10's,0
+1818,2590,"evodopa 50mg, arbidopa 12.5mg nd Entacapone 00mg Tablets IP",10's,0
+1819,2591,ignocaine Lidocaine) ydrochloride 1.5% /w and Nifedipine .3% w/w Cream,30g,75
+1820,2592,ignocaine Lidocaine) ydrochloride 2.5% /w and Prilocaine .5% w/w Gel,30g,0
+1821,2594,"ignocaine 4% w/w, etronidazole 1% /w and Sucralfate % w/w Cream",20g,32.82
+1822,2595,inagliptin 2.5mg nd Dapagliflozin 0mg Tablets,10's,0
+1823,2596,inagliptin 2.5mg nd Dapagliflozin mg Tablets,10's,0
+1824,2597,inagliptin 2.5mg nd Metformin 50mg Tablets,10's,33.75
+1825,2598,inagliptin 5mg and apagliflozin 10mg ablets,10's,42.19
+1826,2599,inagliptin 5mg and apagliflozin 5mg ablets,10's,0
+1827,2601,obeglitazone ulfate Tablets .5mg,10's,46.88
+1828,2602,ethotrexate 1m njection IP 25mg/ml,l Ampoule,0
+1829,2603,ethotrexate njection IP 2m 0mg/2ml,l Ampoule,0
+1830,2604,etronidazole 2% /w and Mupirocin % w/w Ointment,5g,75
+1831,2605,"iconazole Nitrate 0mg, Mometasone uroate 1mg and adifloxacin 10 mg ream",10g,0
+1832,2606,olnupiravir apsules 200mg,10's,37.5
+1833,2607,ontelukast Sodium 0mg and Ebastine 0mg Tablets,10's,23.44
+1834,2608,"anaushadhi Mouth lcer Gel (Choline alicylate 8.7% w/w, ignocaine ydrochloride 2% /w & Benzalkonium hloride 0.01% w/w)",10g,14.07
+1835,2609,aftifine ydrochloride 20g i ream 2% w/w,n Mono-carton,89.07
+1836,2610,"eomycin Sulphate 400 Units, olymyxin B Sulfate 000 units and acitracin Zinc 400 nits Powder",10g,32.82
+1837,2611,eostigmine ethylsulphate 5m njection IP .5mg/ml,l Ampoule,13.13
+1838,2612,eostigmine ethylsulphate 1m njection IP .5mg/ml,l Ampoule,0
+1839,2613,itrofurantoin 50mg ablets,10's,0
+1840,2614,itrofurantoin ustained Release ablets 100mg,15's,28.13
+1841,2615,orethisterone cetate Controlled elease Tablets 0mg,10's,25.32
+1842,2616,floxacin 100mg nd Metronidazole 60ml i 00mg per 5ml Oral with uspension,n Mono-carton measuring cap,32.82
+1843,2617,"anaushadhi Pain elief Spray Wintergreen Tel 0% w/w, karpura 0% w/w, turpentine il 10% w/w, Nilgiri a Tel 6% w/w, udina ka Phool 4% /w, Lavang ka Tel % w/w, Cinnamon il 0.5% w/w)",50ml,0
+1844,2618,anitumumab 00mg Infusion,5ml Vial,0
+1845,2619,anitumumab 00mg Infusion,20ml Vial,0
+1846,2620,"apain 10mg, ungal Diastase Alpha Amylase :800) 20mg, 15ml in araway oil 2mg, with s nise Oil 2mg and il oil 2mg Oral rops",Mono-carton crew dropper,0
+1847,2621,apain 60mg and ungal Diastase 200m Alpha Amylase :800) 75mg Syrup,l in Mono- carton,0
+1848,2622,otassium Nitrate % w/w and Sodium onofluoro hosphate 0.7% /w Toothpaste Gel Fresh-Mint Flavour),100g,32.82
+1849,2623,ovidone Iodine IP % w/w Spray,50ml,0
+1850,2624,uetiapine rolonged release ablets IP 300mg,10's,70.32
+1851,2625,asagiline Tablets .5mg,10's,0
+1852,2626,asagiline Tablets mg,10's,0
+1853,2627,elexipag Tablets 00mcg,10's,393.75
+1854,2628,elexipag Tablets 00mcg,10's,0
+1855,2629,ertaconazole usting Powder 2% /w,30g,0
+1856,2630,ildenafil Tablets IP 0mg,10's,6.57
+1857,2631,irolimus Tablets mg,10's,187.5
+1858,2632,itagliptin 100mg nd Metformin 00mg Extended elease Tablets,10's,65.63
+1859,2633,trontium chloride exahydrate 10% /w Toothpaste,100g,0
+1860,2634,"urgical Spirit IP Methyl Salicylate .5% v/v, Diethyl thalate 2% v/v & astor Oil 2.5% v/v)",100ml,0
+1861,2635,elmisartan 40mg nd Bisoprolol umarate 2.5mg ablets,10's,18.75
+1862,2636,elmisartan 40mg nd Bisoprolol umarate 5mg ablets,10's,23.44
+1863,2637,"eneligliptin 20mg, etformin ydrochloride 000mg (Sustained elease) and ioglitazone 15mg ablets IP",10's,70.32
+1864,2638,"Teneligliptin 20mg, Metformin Hydrochloride 500mg (Sustained Release) and Pioglitazone 15mg Tablets IP",10's,42.19
+1865,2639,Terbinafine Hydrochloride Dusting Powder 1% w/w,30g,0
+1866,2640,"Throat Spray (Chamomile extract, peppermint oil, Sage oil, Pine Needle oil, Bergamot oil, Cineole oil, Methyl 50ml salicylate, Ethyl Alcohol, Propylene Glycol, Glycerin, Citric acid, Polysorbate 80, water)",in Mono-carton,0
+1867,2641,Tobramycin 0.3% w/v and Fluoromethalone 5ml 0.1% w/v Opthalmic Solution IP,in Mono-carton,0
+1868,2642,Tofacitinib 2.0% w/w Ointment,20g,328.13
+1869,2643,Tofacitinib Extended Release Tablets 11mg,10's,126.57
+1870,2644,Tofacitinib Extended Release Tablets 22mg,10's,225
+1871,2645,Tofacitinib Tablets 10mg,10's,93.75
+1872,2646,Tofacitinib Tablets 5mg,10's,51.57
+1873,2647,Tolperisone Hydrochloride 150mg and Diclofenac Sodium 50mg Tablets,10's,18.75
+1874,2648,Torasemide 10mg and Amiloride 5mg Tablets,10's,0
+1875,2649,Tramadol Hydrochloride (IR) 50mg and Diclofenac Sodium (SR) 75mg Tablets,10's,18.75
+1876,2650,Tranylcypromine Tablets 10mg,10's,0
+1877,2651,Triclofos oral 30ml Solution IP,in Mono-carton,0
+1878,2652,Tulobuterol Transdermal patch 14's 0.5mg,in Mono-carton,0
+1879,2653,Vildagliptin 100mg and Metformin Hydrochloride (sustained release) 1000mg Tablets,10's,42.19
+1880,2654,Vildagliptin 100mg and Metformin Hydrochloride (sustained release) 500mg Tablets,10's,37.5
+1881,2655,Vildagliptin 50mg and Metformin Hydrochloride (sustained release) 1000mg Tablets,15's,32.82
+1882,2656,Vildagliptin 50mg and Metformin Hydrochloride (sustained release) 500mg Tablets,15's,28.13
+1883,2657,Acyclovir Dispersible Tablets IP 200 mg,5's,14.07
+1884,2658,misulpride Tablets P 25 mg,10's,0
+1885,2659,misulpride ustained Release ablets 100 mg,10's,0
+1886,2660,misulpride ustained Release ablets 200 mg,10's,0
+1887,2661,misulpride ustained Release ablets 300 mg,10's,0
+1888,2662,misulpride ustained Release ablets 400 mg,10's,0
+1889,2663,udesonide 160 cg and Formoterol 60 d .5mcg Inhalation owder,oses in MDI inhaler,0
+1890,2664,abozantinib ablets 20 mg,30's bottle,1453.13
+1891,2665,abozantinib ablets 40 mg,30's bottle,2296.88
+1892,2666,abozantinib ablets 60 mg,30's bottle,3562.5
+1893,2667,ariprazine apsules 1.5 mg,10's,50.63
+1894,2668,ariprazine apsules 3 mg,10's,81.57
+1895,2669,ariprazine apsules 4.5 mg,10's,0
+1896,2670,ariprazine apsules 6 mg,10's,0
+1897,2671,efazolin Sodium Vi njection IP 250 mg,al with WFI,0
+1898,2672,efazolin Sodium Vi njection IP 500 mg,al with WFI,0
+1899,2673,efazolin Sodium Vi njection IP 1g,al with WFI,0
+1900,2674,lindamycin hosphate Gel 2 %w/w,0gm Tube,30
+1901,2675,yclobenzaprine xtended-release apsules 15mg,10's,0
+1902,2676,liclazide 60 mg Extended Release) nd Metformin ydrochloride 1000 g (Extended elease) Tablets,10's,68.44
+1903,2677,"apagliflozin 10mg, ildagliptin 100mg SR) and Metformin ydrochloride 000mg (SR) ablets",15's,65.63
+1904,2678,"apagliflozin 10mg, ildagliptin 100mg SR) and Metformin ydrochloride 00mg (SR) Tablets",15's,60.94
+1905,2679,esloratadine ablets 10 mg,10's,23.44
+1906,2680,exchlorpheniramin Maleate Sustained elease Tablets mg,10's,0
+1907,2681,exchlorpheniramin Maleate Tablets IP mg,10's,0
+1908,2682,onepezil ydrochloride Orally 10's isintegrating Strips 0 mg,in mono-carton,82.5
+1909,2683,onepezil ydrochloride Orally 10's isintegrating Strips mg,in mono-carton,57.19
+1910,2684,verolimus Tablets .25 mg,10's,250
+1911,2685,verolimus Tablets .5 mg,10's,450
+1912,2686,verolimus Tablets mg,10's,3600
+1913,2687,verolimus Tablets 0 mg,10's,7000
+1914,2688,eracrylum mouth ash/Gargle 1% w/v Mint Flavour),50ml,98.44
+1915,2689,eracrylum Sterile ntiseptic Solution % w/v,100ml,140.63
+1916,2690,luocinonide Topical 1 el 0.05%w/w,5gm Tube,0
+1917,2691,ydrochlorothiazide ablets IP 25 mg,10's,8.44
+1918,2692,ydrocortisone ablets 10mg,10's,18.75
+1919,2693,ydrocortisone ablets 5mg,10's,10.32
+1920,2694,nosine Pranobex ablets 500 mg,10's,271.88
+1921,2695,traconazole apsules 130mg,10's,70.32
+1922,2696,traconazole apsules 65mg,10's,42.19
+1923,2697,traconazole Eye rops 1% w/v,5ml Drops,0
+1924,2698,evocetirizine Orally isintegrating Strips 10's i .5 mg,n mono-carton,0
+1925,2699,evocetirizine Orally isintegrating Strips 10's i mg,n mono-carton,70.32
+1926,2700,inagliptin 5mg and etformin ydrochloride 000mg Tablets,15's,65.63
+1927,2701,urasidone ydrochloride ablets 20 mg,10's,0
+1928,2702,urasidone ydrochloride ablets 40 mg,10's,86.25
+1929,2703,urasidone ydrochloride ablets 80 mg,10's,134.07
+1930,2704,araviroc Tablets 60 50 mg,'s in bottle,0
+1931,2705,ecobalamin Orally isintegrating Strips 10's i 500 mcg,n mono-carton,65.63
+1932,2706,etformin ydrochloride ablets IP 250 mg,10's,3.75
+1933,2707,etoprolol Tartrate 0mg and ydrochlorothiazide 2.5 mg Tablets,10's,14.07
+1934,2708,ontelukast Sodium mg and 6 exofenadine 60mg er 5ml Suspension,0ml Bottle,0
+1935,2709,meprazole 20mg owder for Oral 10 uspension (Sodium mo icarbonate as uffer),sachet in nocarton,74.07
+1936,2710,-Acetylcysteine 00 mg And yridoxine ydrochloride 50 mg ablets,10's,0
+1937,2711,aproxen 500 mg elayed Release nd Esomeprazole 0mg Tablet,10's,0
+1938,2712,Nebivolol Hydrochloride Tablets IP 10 mg,10's,42.19
+1939,2713,Nifedipine Extended Release Tablets IP 30 mg,10's,14.07
+1940,2714,Nifedipine Extended Release Tablets IP 60 mg,10's,0
+1941,2715,Octreotide long acting release Injection 20mg (Lyophilised),Vial,0
+1942,2716,Octreotide long acting release Injection 30mg (Lyophilised),Vial,12000
+1943,2717,Octreotide injection 1 50 mcg,ml Ampoule,80
+1944,2718,Octreotide injection 1 100mcg,ml Ampoule,140
+1945,2719,Olaparib Tablet 100 3 mg,0's in bottle,0
+1946,2720,Olaparib Tablet 150 3 mg,0's in bottle,0
+1947,2721,Olmesartan 40mg and Amlodipine 5mg Tablets,10's,32.82
+1948,2722,"Olmesartan Medoxomil 20mg, Cilnidipine 10mg and Chlorthalidone 12.5mg Tablets",10's,32.82
+1949,2723,"Olmesartan Medoxomil 20mg, Cilnidipine 10mg and Chlorthalidone 6.25mg Tablets",10's,28.13
+1950,2724,"lmesartan edoxomil 40mg, ilnidipine 10mg nd Chlorthalidone 2.5mg Tablets",10's,37.5
+1951,2725,seltamivir hosphate Capsules P 30mg,10's,84.38
+1952,2726,ancreatin Capsules 0000,10's,0
+1953,2727,ilocarpine Tablets mg,10's,0
+1954,2728,ebamipide Tablets 00 mg,10's,46.88
+1955,2729,isperidone 2mg rihexyphenidyl 2 g Tablets (mouth issolving ),10's,9.38
+1956,2730,isperidone 3mg rihexyphenidyl 2 g Tablets,10's,0
+1957,2731,ivaroxaban Tablet 5 mg,14's,117.19
+1958,2732,ivaroxaban Tablet .5 mg,14's,42.19
+1959,2733,ivastigmine apsules 1.5mg,10's,46.88
+1960,2734,ivastigmine apsules 3mg,10's,0
+1961,2735,ivastigmine apsules 4.5 mg,10's,0
+1962,2736,ivastigmine apsules 6 mg,10's,0
+1963,2737,ivastigmine ransdermal Patch 30's i mg (4.6mg/24 our),n monocarton,0
+1964,2738,Rivastigmine Transdermal Patch 30' 18mg (9.5mg/24 hour),s in monocarton,0
+1965,2739,Rivastigmine Transdermal Patch 30' 27mg (13.3mg/24 hour),s in monocarton,0
+1966,2740,Rizatriptan Benzoate Orally 5's Disintegrating Strips 5 mg,in Mono-carton,90.94
+1967,2741,Rizatriptan Benzoate Orally 5's Disintegrating Strips 10 mg,in Mono-carton,150
+1968,2742,Romiplostim Powder and Solvent for solution for Injection 250mcg per 0.5 vial,Vial,0
+1969,2743,Romiplostim Powder and Solvent for solution for Injection 500mcg per vial,Vial,0
+1970,2744,Latanoprost Eye Drops IP 0.005% w/v (50mcg per ml),3ml Drop,187.5
+1971,2745,Sildenafil Orally Disintegrating Strips 5's 100 mg,in mono-carton,0
+1972,2746,"Sitagliptin 50mg, Glimepiride 1mg and Metformin Hydrochloride 1000mg Tablets",10's,58.13
+1973,2747,"Sitagliptin 50mg, Glimepiride 2mg and Metformin Hydrochloride 1000mg Tablets",10's,60.94
+1974,2748,Spironolactone Tablets IP 50 mg,15's,34.22
+1975,2749,Spironolactone Tablets IP 100mg,15's,79.69
+1976,2750,Tadalafil Oral Disintegrating Strips 10 mg,1's,9.38
+1977,2751,Tadalafil Oral Disintegrating Strips 20 mg,1's,14.07
+1978,2752,Tadalafil Tablets IP 2.5 mg,10's,9.38
+1979,2753,Tadalafil Tablets IP 5 mg,10's,11.25
+1980,2754,Tadalafil Tablets IP 10 mg,4's,9.38
+1981,2755,"Teneligliptin 20mg, Dapagliflozin 10mg and Metformin Hydrochloride (Sustained Release) 1000mg Tablets",10's,46.88
+1982,2756,"Teneligliptin 20mg, Dapagliflozin 10mg and Metformin Hydrochloride (Sustained Release) 500mg Tablets",10's,42.19
+1983,2757,Thyroxine Sodium Tablets IP 62.5mcg,100's Bottle,54.38
+1984,2758,Torsemide 20 mg and Spironolactone 25 mg Tablets,15's,39.38
+1985,2759,Torsemide 5 mg and Spironolactone 50 mg Tablets,15's,42.19
+1986,2760,Trazodone Hydrochloride Tablets IP 100 mg,10's,46.88
+1987,2761,Trazodone Hydrochloride Tablets IP 25 mg,10's,14.07
+1988,2762,rientine ydrochloride 100 apsules 250 mg,'s in Bottle,10231.88
+1989,2763,bidecarenone (Co- nzyme Q10) apsules 100 mg,10's,84.38
+1990,2764,bidecarenone (Co- nzyme Q10) apsules 300 mg,10's,234.38
+1991,2765,ancomycin ydrochloride for ntravenous Infusion P 1000 mg,Vial,0
+1992,2766,ancomycin ydrochloride apsules IP 250mg,10's,0
+1993,2767,asopressin 1m njection IP 20IU,l Ampoule,80
+1994,2768,ildagliptin 50mg nd Dapagliflozin mg Tablets,15's,0
+1995,2769,incristine Injection mg,1ml Vial,0
+1996,2770,olpidem Tablets IP mg,10's,9.38
+1997,2771,luconazole Tablets P 50 mg,4's,7.5
+1998,2772,luconazole Tablets P 200 mg,4's,22.5
+1999,2773,luconazole Tablets P 400 mg,1's,9.38
+2000,2774,luconazole 10 njection 2mg per ml,0ml Bottle,0
+2001,2775,anaushadhi Urja Glucose Powder 1kg S Orange Flavour) w kg),crew-Cap jar ith scoop,0
+2002,2776,anaushadhi Urja 500g S Glucose Powder w 00g),crew-Cap jar ith scoop,0
+2003,2777,anaushadhi Urja 1kg Sc Glucose Powder w kg),rew-Cap jar ith scoop,0
+2004,2778,anaushadhi Onco- 50 are Protein C owder,0g HDPE ontainer,0
+2005,2779,"anaushadhi oshan (Malt based 100 ood with Cocoa, C 000gm)",0g HDPE ontainer,266.95
+2006,2780,"anaushadhi 100 oshan (Malt based C ood, 1000gm)",0g HDPE ontainer,266.95
+2007,2781,anaushadhi Ragi 50 alt based food C 500gm),0g HDPE ontainer,169.07
+2008,2782,anaushadhi Ragi 100 alt based food C 1000gm),0g HDPE ontainer,0
+2009,2783,anaushadhi Ragi Screw ticks (Chocolate) c,-cap plastic ontainer,0
+2010,2784,anaushadhi Energy rink (Orange 200ml lavour),Tetra Pack,0
+2011,2785,biraterone Acetate 6 ablets 500mg,0's bottle,0
+2012,2786,mlodipine + nalapril Tablet (5/5 g),10's,0
+2013,2787,mlodipine + ndapamide Tablet 5/1.5 Mg),10's,0
+2014,2789,tenolol + hlorthalidone ablet (25/12.5 Mg),10's,0
+2015,2790,tenolol + hlorthalidone ablet (50/12.5 Mg),10's,0
+2016,2791,tenolol + ndapamide Tablet 50/2.5 Mg),10's,0
+2017,2792,tenolol + Losartan ablet (50/50 Mg),10's,0
+2018,2793,tenolol + Nifedipine ablet (50/20 Mg),10's,0
+2019,2794,tomoxetine Tablet 10 Mg),10's,0
+2020,2795,zelaic Acid 20% ream,15GM,0
+2021,2796,enidipine + elmisartan Tablet 4/40 Mg),15's,0
+2022,2797,enzoyl Peroxide % Soap,75GM,0
+2023,2798,enzoyl Peroxide el 5%,15GM,0
+2024,2799,uspirone Tablet 10 Mg),10's,0
+2025,2800,uspirone Tablet (5 g),10's,0
+2026,2801,arbetocin Injection 00mcg /ml,1ML,0
+2027,2802,lonazepam + ropranolol Tablet 0.25/10 Mg),10's,0
+2028,2803,lonazepam + ropranolol Tablet 0.25/20 Mg),10's,0
+2029,2804,lonazepam + ropranolol Tablet 0.5/20 Mg),10's,0
+2030,2805,"ombo pack of itamin C Injection P and Vitamin B12, olic acid and iacinamide njection",1's,0
+2031,2806,nzalutamide Tablet 28 0Mg,'s in Bottle,0
+2032,2807,ilgrastim injection 00mcg,1ML Vial,0
+2033,2808,lecanide Tablets 00Mg,10's,0
+2034,2809,lecanide Tablets 0Mg,10's,0
+2035,2810,luoxetine 10 Mg ablet,10's,0
+2036,2811,luoxetine Capsules 0Mg,10's,0
+2037,2812,liclazide + ioglitazone + etformin Tablet 30/15/500 Mg),10's,0
+2038,2813,liclazide + ioglitazone + etformin Tablet 60/15/500 Mg),10's,0
+2039,2814,lycolic Acid Cream 2%,30GM,0
+2040,2815,lycolic Acid Cream %,30GM,0
+2041,2816,lycopyrrolate ablet 1Mg,10's,0
+2042,2817,lycopyrrolate ablet 2Mg,10's,0
+2043,2818,alobetasol & usidic Acid Cream .05/2%,10GM,0
+2044,2819,"uman apillomavirus uadrivalent (Types 0.5 m , 11, 16, And 18) accine, ecombinant",l in 1 prefilled syringe,0
+2045,2820,brutinib Capsule 30 40 Mg,'s in Bottle,0
+2046,2821,mipramine + iazepam Tablet 25/2 Mg),10's,0
+2047,2822,Imipramine + Diazepam Tablet (25/5 Mg),10's,0
+2048,2823,Testosterone Enanthate Injection 250mg per 1 ml,1 ML,0
+2049,2824,Lenvatinib Capsules IP 4Mg,10's bottle,0
+2050,2825,Levetiracetam Tablets IP 500 Mg XR,10's,0
+2051,2826,Losartan + Chlorthalidone Tablet (25/6.25 Mg),10's,0
+2052,2827,Losartan + S- Amlodipine Tablet (50/2.5 Mg),10's,0
+2053,2828,Melatonin + Zolpidem Tablet (3/10 Mg),10's,0
+2054,2829,Melatonin + Zolpidem Tablet (3/5 Mg),10's,0
+2055,2830,Methylphenidate Tablet 10Mg,10's,0
+2056,2831,Methylphenidate Tablet 18Mg,10's,0
+2057,2832,Methylphenidate Tablet 20Mg,10's,0
+2058,2833,Methylphenidate Tablet 5Mg,10's,0
+2059,2834,Metoprolol + Chlorthalidone Tablet (25/6.25 Mg),10's,0
+2060,2835,Metoprolol + Chlorthalidone Tablet (50/12.5 Mg),10's,0
+2061,2836,Metoprolol + Chlorthalidone Tablet (50/6.25 Mg),10's,0
+2062,2837,inoxidil 5Mg Tablet,10's,0
+2063,2838,altrexone 50Mg ablets,10's,0
+2064,2839,imodipine Tablet 30 Mg),10's,0
+2065,2840,lmesartan + mlodipine + hlorthalidone ablet (40/5/12.5 g),10's,0
+2066,2841,lmesartan + etoprolol Tablet 20/25 Mg),10's,0
+2067,2842,lmesartan + etoprolol Tablet 20/50 Mg),10's,0
+2068,2843,pipramol ihydrochloride ablets (50 Mg),10's,0
+2069,2844,pipramol Tablet 50 Mg),10's,0
+2070,2845,rlistat Capsules 0Mg,10's,0
+2071,2846,erampanel Tablet 2 Mg),10's,0
+2072,2847,erampanel Tablet 4 Mg),10's,0
+2073,2848,ioglitazone + limepiride Tablet 15/2 Mg),10's,0
+2074,2849,olmacoxib 2 Mg apsules,10's,0
+2075,2850,osuvastatin + holecalciferol ablet (10 Mg/1000 U),10's,0
+2076,2851,osuvastatin + zetimibe Tablet 10/ 10Mg),10's,0
+2077,2852,Rosuvastatin + Ezetimibe Tablet (20/ 10Mg),10's,0
+2078,2853,Rosuvastatin 20Mg And Clopidogrel 75Mg Capsules,10's,0
+2079,2854,Safinamide Tablet (50 Mg),10's,0
+2080,2855,S-Amlodipine + Hydrochlorothiazide Tablet (2.5/12.5 Mg),10's,0
+2081,2856,Sitagliptin + Pioglitazone + Metformin Tablet (100/15/500 Mg),10's,0
+2082,2857,S-Metoprolol + S- Amlodipine Tablet (25/2.5 Mg),10's,0
+2083,2858,S-Metoprolol + S- Amlodipine Tablet (25/5 Mg),10's,0
+2084,2859,S-Metoprolol + Telmisartan Tablet (25/ 20Mg),10's,0
+2085,2860,Telmisartan + Indapamide Tablet (40/1.5 Mg),10's,0
+2086,2861,Telmisartan + Rosuvastatin Tablet (40/10 Mg),10's,0
+2087,2862,Telmisartan + S- Amlodipine Tablet (40/2.5 Mg),15's,0
+2088,2863,Telmisartan + S- Amlodipine Tablet (40/5 Mg),15's,0
+2089,2864,Tianeptine Tablet (12.5 Mg),10's,0
+2090,2865,Tofisopam Tablet (50 Mg),10's,0
+2091,2866,Trifluoperazine + Trihexyphenidyl Tablet (2.5/1 Mg),10's,0
+2092,2867,Trifluoperazine + Trihexyphenidyl Tablet (5/2 Mg),10's,0
+2093,2868,Voglibose + Metformin + Gliclazide Tablet (0.2/500/80 Mg),10's,0
+2094,2869,Voglibose + Metformin + Gliclazide Tablet (0.3/500/80 Mg),15's,0
+2095,2870,Cefepime 250 Mg 1.0 Inection,Injection in 1 vial,0
+2096,2871,Cefepime 1000Mg and Tazobactam 1.0 125Mg Injection,Injection in 1 vial,0
+2097,2872,Ciclesonide (200Mcg) + Formoterol (6Mcg) + 200 Tiotropium (9Mcg) Inhaler,MDI in 1 packet,0
+2098,2873,Dolutegravir (50 Mg) + Emtricitabine (200 Mg) + Tenofovir Alafenamide (25 Mg) Tablets,30's in Bottle,0
+2099,2874,Dolutegravir (50Mg) + Lamivudine (300Mg) + Tenofovir Disoproxil Fumarate (300Mg) Tablets,30's in Bottle,0
+2100,2875,Ketoprofen 30 Mg Patch,7's pack,0
+2101,2876,Lamivudine 100 Mg Tablets,10's,0
+2102,2877,Levetiracetam (100Mg) Injection,5.0 ml in 1 vial,0
+2103,2878,evetiracetam 500 5.0 g Injection,ml in 1 vial,0
+2104,2879,agnesium ulphate Injection 2 0%,ml/ 1 Vial,0
+2105,2880,inocycline (100Mg) odified Release apsule,10's,0
+2106,2881,inocycline (45Mg) xtended Release ablet,10's,0
+2107,2882,inocycline (50Mg) ablet,10's,0
+2108,2883,inocycline (65Mg) xtended Release ablet,10's,0
+2109,2884,inocycline 100 Mg ab,10's,0
+2110,2885,osapride (5Mg) + imethicone 125Mg) Chewable ablet,10's,0
+2111,2886,osapride Citrate 5 g Tablet,10's,0
+2112,2887,ifedipine 5Mg apsule,10's,0
+2113,2888,lopatadine 5 Mg ab,10's,0
+2114,2889,antoprazole (40 g) + Mosapride 15 Mg) Tablet,10's,0
+2115,2890,henobarbitone 1 00mg/1ml Injection,0 ml /vial,0
+2116,2891,henobarbitone odium 20mg per ml Syrup,100 ml,0
+2117,2892,rednisolone 60 m 15Mg/5Ml) Syrup,l / 1 Bottle,0
+2118,2893,ednisolone spersible Tablet 0Mg),15's,0
+2119,2894,ednisolone Tablet 0Mg),10's,0
+2120,2895,beprazole (20 ) + Mosapride 5Mg) Tablet,10's,0
+2121,2896,patadine (10Mg) Montelukast 0Mg) Tablet,10's,0
+2122,2897,patadine 10 Mg b,10's,0
+2123,2898,matriptan 50 Mg blets,10's,0
+2124,2899,razosin (1Mg) b,10's,0
+2125,2900,razosin (2Mg) b,10's,0
+2126,5001,sorbent Cotton ol IP 75 g,1's,27.19
+2127,5002,sorbent Cotton ol IP 200 g,1's,63.75
+2128,5003,sorbent Cotton ol IP 500 g,1's,161.25
+2129,5004,epe Bandage B.P. cm x 4 M,1's,51.57
+2130,5005,epe Bandage B. 10 cm x 4 M,1's,33.75
+2131,5006,tton Bandage 7.5 x 4 M,1's,14.07
+2132,5007,tton Bandage 10 x 4 M,1's,18.75
+2133,5008,tton ndages(Non erile) 15 cm x 4 M,1's,28.13
+2134,5009,naushadhi raksha (Adhesive ndages shproof),1's,0.94
+2135,5010,Syringe 2 ml with needle 24G,1's,2.35
+2136,5011,Syringe 5 ml with needle 24G,1's,2.82
+2137,5012,Syringe 10 ml with needle 21G,1's,4.22
+2138,5013,Syringe 20 ml with needle 23G,1's,8.44
+2139,5014,Needle 16G,1's,1.88
+2140,5015,Needle 18G,1's,1.41
+2141,5016,Needle 23G,1's,0.94
+2142,5017,Needle 26G half inch,1's,1.41
+2143,5019,Paper Adhesive Plaster 1 inch X 9m,1's,23.44
+2144,5020,Paper Adhesive Plaster 2 inch X 9m,1's,51.57
+2145,5021,Paper Adhesive Plaster 3 inch X 9m,1's,75
+2146,5022,Plaster of Paris BP Bandages 15cm X 2.7m / Roll,1's,79.69
+2147,5023,Plaster of Paris BP Bandages 10cm X 2.7m / Roll,1's,56.25
+2148,5024,Scalp Vein Set (Disposable) (18G),1's,6.57
+2149,5025,Scalp Vein Set (Disposable) (20G),1's,6.57
+2150,5026,Scalp Vein Set (Disposable) (22G),1's,6.57
+2151,5027,Scalp Vein Set (Disposable) (24G),1's,6.57
+2152,5030,"Surgical Blade, No. 22, Sterilized",1's,3.75
+2153,5033,"Surgical Blade, No. 15, Sterilized",1's,3.75
+2154,5037,"I.V Cannula (Sterile, Disposable), 26 G",1's pack,15.94
+2155,5039,Sterile Disposable Spinal Needle 22G x 3 ½ inch,1's,51.57
+2156,5040,Sterile Disposable Spinal Needle 25G x 3 ½ inch,1's,51.57
+2157,5041,"Urine Collecting Bag, Disposable, 2000ml",1's pack,30
+2158,5046,"Endotracheal Tube Plain, Size 2.5, Sterile, Single use",1's,32.82
+2159,5047,"Endotracheal Tube Plain, Size 3, Sterile, Single use",1's,32.82
+2160,5048,"Endotracheal Tube Plain, Size 3.5, Sterile, Single use",1's,32.82
+2161,5049,"Endotracheal Tube Plain, Size 4, Sterile, Single use",1's,32.82
+2162,5050,"Endotracheal Tube Plain, Size 4.5, Sterile, Single use",1's,32.82
+2163,5051,"Endotracheal Tube Plain, Size 5, Sterile, Single use",1's,32.82
+2164,5052,"Endotracheal Tube Plain, Size 8.5, Sterile, Single use",1's,37.5
+2165,5053,"Endotracheal Tube Cuffed, Size 4",1's,75
+2166,5054,"Endotracheal Tube Cuffed, Size 4.5",1's,70.32
+2167,5055,"Endotracheal Tube Cuffed, Size 5",1's,65.63
+2168,5056,"Endotracheal Tube Cuffed, Size 6",1's,65.63
+2169,5057,"Endotracheal Tube Cuffed, Size 6.5",1's,65.63
+2170,5058,"Endotracheal Tube Cuffed, Size 7",1's,65.63
+2171,5059,"Endotracheal Tube Cuffed, Size 7.5",1's,65.63
+2172,5060,"Endotracheal Tube Cuffed, Size 8",1's,65.63
+2173,5061,"Endotracheal Tube Cuffed, Size 8.5",1's,65.63
+2174,5062,"Endotracheal Tube Cuffed, Size 9",1's,65.63
+2175,5064,"Tracheostomy Tube (PVC), Sterilised, single use Size-24",1's,206.25
+2176,5065,"Abdominal Drainage Kit, Sterile (2000ml, 24 Graduate)",1's,93.75
+2177,5066,"Abdominal Drainage Kit, Sterile (2000ml, 28 Graduate)",1's,93.75
+2178,5067,Corrugated Drainage Sheet,1's,26
+2179,5070,Sterilized Umbilical Cotton Tape 3mm x 75cm,1's,39.38
+2180,5071,"Bone Wax, Sterilised",1's,45
+2181,5073,Crepe Bandage B.P. 6 cm x 4 M,1's,22.5
+2182,5077,Rapid Diagnostic 1's Malaria Test Kit,mono-carton,25.32
+2183,5078,Dengue Test Kit 1's,mono-carton,42.19
+2184,5079,Janaushadhi Ankur (HCG- Pregnancy Test Kit),1's,18.75
+2185,5094,Sterile Gauze Pad size 2X2,1's,6.57
+2186,5095,Sterile Gauze Pad size 3X3,1's,7.5
+2187,5096,Sterile Gauze Pad size 4X4,1's,8.44
+2188,5097,Alcohol Swab (Spirit Swab),1's,0.94
+2189,6001,"Surgical Rubber Gloves-Disposable, Sterile, 6.5 inch",PAIR,18.75
+2190,6002,"Surgical Rubber Gloves-Disposable, Sterile, 7 inch",PAIR,18.75
+2191,6003,"Surgical Rubber Gloves-Disposable, Sterile, 7.5 inch",PAIR,18.75
+2192,6004,"Surgical Rubber Gloves-Disposable, Sterile, 8 inch",PAIR,18.75
+2193,6006,"Rubber Examination Gloves, Non-sterile (Small)",1's,3.29
+2194,6007,"Rubber Examination Gloves, Non-sterile (Medium)",1's,3.61
+2195,6009,"Surgical Cap, Disposable(for Surgeons/Nurses)",1's,2
+2196,6010,Suction Catheter FG 5,1's,13.13
+2197,6011,"Suction Catheter FG (6), 50 cm, Sterilized",1's,6.57
+2198,6012,"Suction Catheter FG (8), 50 cm, Sterilized",1's,6.57
+2199,6013,"Suction Catheter FG (10), 50 cm, Sterilized",1's,7.5
+2200,6014,"Suction Catheter FG (12), 50 cm, Sterilized",1's,7.5
+2201,6015,"Suction Catheter FG (14), 50 cm, Sterilized",1's,8.44
+2202,6016,"Suction Catheter FG (16), 50 cm, Sterilized",1's,9.38
+2203,6017,"Suction Catheter FG (18), 50 cm, Sterilized",1's,9.38
+2204,6018,"Suction Catheter FG (20), 50 cm, Sterilized",1's,10.32
+2205,6020,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (8FG)",1's,60.94
+2206,6021,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (10FG)",1's,60.94
+2207,6022,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (16FG)",1's,37.5
+2208,6023,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (18FG)",1's,37.5
+2209,6024,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (20FG)",1's,37.5
+2210,6025,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (22FG)",1's,37.5
+2211,6026,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (24FG)",1's,37.5
+2212,6027,"Infant Feeding Tube, Sterile (Size-10 Fg, length 50 cm)",1's,9.38
+2213,6028,"Infant Feeding Tube, Sterile (Size-8 Fg, length 50 cm)",1's,9.38
+2214,6029,"Infant Feeding Tube, Sterile (Size-5 Fg, length 50 cm)",1's,9.38
+2215,6030,Sterile Disposable Perfusion set with airway and needle adult use 150cm long smooth kink resist,1's,12.19
+2216,6031,Sterile Disposable Infusion set with Microdrip (I.V.) (Pediatric use),1's,51.57
+2217,6032,Sterile Disposable Infusion set with Microdrip (I.V.) (Adult use),1's,14.07
+2218,6033,Insulin Syringe (40 units) with 30G needle,1's,4.69
+2219,6035,"I.V Cannula (Sterile, Disposable), 18 G",1's,14.07
+2220,6036,"I.V Cannula (Sterile, Disposable), 20 G",1's,14.07
+2221,6037,".V Cannula (Sterile, isposable), 22 G",1's,14.07
+2222,6038,".V Cannula (Sterile, isposable), 24 G",1's,14.07
+2223,6039,"asal Oxygen annula set, Twin ore (Adult)",1's,28.13
+2224,6040,"bsorbent Gelatin ponge, Sterilized 80mm x 50mm x 0mm)",1's,93.75
+2225,6042,lood Transfusion et with Filter 170 icron,1's,16.88
+2226,6045,yles ube/Nasogastric ube (Size 10),1's,10.32
+2227,6046,yles ube/Nasogastric ube (Size 12),1's,10.32
+2228,6047,yles ube/Nasogastric ube (Size 14),1's,10.32
+2229,6048,yles ube/Nasogastric ube (Size 16),1's,10.32
+2230,6049,yles ube/Nasogastric ube (Size 18),1's,10.32
+2231,6050,nee Cap (Small),Pair,120
+2232,6051,nee Cap (Medium),Pair,120
+2233,6052,nee Cap (Large),Pair,120
+2234,7001,ot Water Bag Small),1's,160
+2235,8001,"hromic Suture (3/8 ir Rb Needle 0mm, Length 76 m)",1's,42.19
+2236,8002,"Chromic Suture (1/2 Cir Rb Needle 20mm, Length 76 cm)",1's,75
+2237,8003,"Chromic Suture (1/2 Cir Rb Needle 30mm, Length 76 cm)",1's,42.19
+2238,8005,"Chromic Suture (1/2 Cir Rb Needle 40mm, Length 76 cm)",1's,42.19
+2239,8006,"Chromic Suture (3/8 Cir Rb Needle 30mm, Length 76 cm)",1's,42.19
+2240,8007,"Chromic Suture (1/2 Cir Rb Needle 45mm, Length 100 cm)",1's,46.88
+2241,8012,"Surgical Suture (Absorbable, Synthetic) 1/2 Cir Rb, Niddle 20mm, Length 70cm",1's,46.88
+2242,8013,"Surgical Suture (Absorbable, Synthetic) 1/2 Cir Rb, Niddle 30mm, Length 90cm, USP- 2/0",1's,42.19
+2243,8014,"Surgical Suture (Absorbable, Synthetic) 1/2 Cir Rb, Niddle 30mm, Length 90cm, USP- 1/0",1's,51.57
+2244,8015,"Surgical Suture (Absorbable, Synthetic) 1/2 Cir Rb, Tapercut Niddle 40mm, Length 90cm",1's,220.32
+2245,8019,"Surgical Suture (Absorbable, Synthetic) 1/2 Cir Rb, Niddle 40mm, Length 90cm, USP- 2/0",1's,220.32
+2246,8021,"Surgical Suture (Absorbable, Synthetic) 3/8 Cir Rb, cutting Niddle 22mm, Length 45cm",1's,37.5
+2247,8022,"Surgical Suture (Absorbable, Synthetic) 1/2 Cir Rb, Niddle 20mm, Length 70cm, USP 4/0",1's,42.19
+2248,8023,"Silk Suture (1/2 Cir Rb needle 20mm, Length 76 cm), USP-3/0",1's,28.13
+2249,8024,"Silk Suture (3/8 Circle Reverse cutting needle 26mm, Length 76 cm), Silk Suture (3/8 Circle Reverse cutting needle 26mm, Length 76 cm), USP3/0",1's,28.13
+2250,8025,"Silk Suture (3/8 Circle Reverse cutting needle 45mm, Length 76 cm), USP 2/0",1's,28.13
+2251,8026,"Silk Suture (3/8 Cir Rb needle 20mm, Length 76 cm) USP 2/0,",1's,51.57
+2252,8027,"Silk Suture (3/8 Cir Rb needle 16mm, Length 76 cm), USP 4/0",1's,32.82
+2253,8028,"olyamide (3/8 Cir icropoint patulated,6mm,len th 38 Cm) size 8/0",1's,328.13
+2254,8029,"olyamide (3/8 onventional utting Needle 6mm Length 70 m), USP 3/0",1's,28.13
+2255,8030,"olyamide (3/8 onventional utting Needle 9mm Length 60 m), Polyamide (3/8 onventional utting Needle 9mm Length 60 m), USP 4/0",1's,56.25
+2256,8031,"olyamide (3/8 Cir lim Blade Cutting eedle 15mm, ength 70 Cm)size /0",1's,65.63
+2257,8032,"olyamide (3/8 R utting Needle 5mm, Length 70 m.)size 2./0",1's,26.25
+2258,8034,"olyamide (3/8 utting Edge eedle, Double rms Needle 6 mm, uture Length 35-42 m Size 10/0",1's,403.13
+2259,8035,"olypropylene uture (1/2 Cir Rb, 3mm Needle, uture Length 5cm, double arm), SP 5/0",1's,187.5
+2260,8036,"olypropylene uture (3/8 Cir Rb, mm Needle, Suture ength 60cm), USP /0",1's,112.5
+2261,8038,"olypropylene uture (3/8 Cir Rb, 6mm Needle, uture Length 0cm), USP 5/0",1's,42.19
+2262,8039,"olypropylene uture (1/2 Cir Rb, 0mm Needle, uture Length 0cm), USP 2/0",1's,46.88
+2263,8040,"olypropylene uture (1/2 Cir Rb, 5mm Needle, uture Length 0cm), olypropylene uture (1/2 Cir Rb, 5mm Needle, uture Length 0cm), USP 1",1's,56.25
+2264,8041,"olypropylene uture (1/2 Cir Rb, 7mm Needle, uture Length 0cm), USP 4/0",1's,46.88
+2265,8042,"olypropylene uture (1/2 apercut, 17mm ouble Needle, uture Length 0cm), USP3/0",1's,79.69
+2266,8043,"olypropylene uture (1/2 Cir Rb, 5mm Needle, uture Length 0cm), USP 3/0",1's,46.88
+2267,8044,"olypropylene uture (1/2 Cir Rb, 0mm Needle, uture Length 0cm) double arm, SP 1/0",1's,65.63
+2268,8045,"olypropylene uture (1/2 apercut, 17mm ouble Needle, uture Length 5cm) double arm, SP 5/0",1's,243.75
+2269,8046,"olypropylene uture (1/2 apercut, 25mm ouble Needle, uture Length 0cm) double arm, SP 1/0",1's,201.57
+2270,8048,"olypropylene uture (3/8 Cir Rb, 3mm Needle, uture Length 0cm) double arm, SP 6/0",1's,229.69
+2271,8051,"olypropylene uture (1/2 Cir Rb, 0mm Needle, uture Length 0cm), USP 1",1's,51.57
+2272,8052,"olypropylene uture (1/2 Cir Rb, everse Cutting, 5mm Needle, uture Length 00cm), USP 1",1's,51.57
+2273,8053,"olypropylene uture (3/8 Cir Rb mm Double eedle, Suture ength 70cm), USP /0",1's,112.5
+2274,8055,"Polypropylene Suture (1/2 Cir Rb 13mm Needle, Suture Length 70cm, double arm), USP 6/0",1's,239.07
+2275,8056,"Polypropylene Suture (1/2 Circle, Tapercut, 17mm Needle, Suture Length 90cm, double arm), USP 3/0",1's,65.63
+2276,8057,"Polypropylene Suture (1/2 Cir Rb, 25mm Needle, Suture Length 75cm, double arm), USP 3/0",1's,60.94
+2277,8058,"Polybutylate / Silicon Coated Polyster Braided Green / Blue (1/2 Cir Tapercut, 17 Mm Double Needle, Suture Length 75 Cm)size 4/0",1's,79.69
+2278,8059,"Polybutylate Coated Polyster Braided White (1/2 Cir Tapercut, 17 Mm Double Needle, Suture Length 90 Cm)size 2/0",1's,79.69
+2279,8060,"Polybutylate / Silicon Coated Polyster Braided Green / Blue (1/2 Cir Tapercut,17 Mm Double Needle, Suture Length 90 Cm)size 2/0,",1's,79.69
+2280,8061,"Polybutylate Coated with Polyster Braided (green/ Blue) 1/2 Circle Tapercut, 17mm Double Armed Needle, Suture Length of 90cm with Pledgets Size 6 x 3 x 1.5mm",1's,239.07
+2281,8062,"Polybutylate Coated with Polyster Braided (green/ Blue) 1/2 Circle Tapercut, 25mm Double Armed Needle, Suture Length of 90cm with Pledgets Size 6 x 3 x 1.5mm",1's,239.07
+2282,8066,"Polyglecaprone/Poly glyconate Suture (1/2 Circle Cutting 16mm Needle, Suture length 70cm), USP 4/0",1's,131.25
+2283,8067,"Polyglecaprone/Poly glyconate Suture (3/8 Circle Cutting 25mm Needle, Suture length 70cm), USP 3/0",1's,60.94
+2284,8078,Skin Grafting Knife Blade (Sterile),1's,84.38
+2285,8080,"Surgical Face Mask, Disposable",1's,2
+2286,8082,Umbilical Catheter (For New Born),1's,56.25
+2287,8087,Automatic Snap-Out Folding Walking Cane Stick with Adjustable Length,1's,0
+2288,8088,alking Stick Tripod,1's,540
+2289,8089,"bdominal Belt elcro, Cream color Large)",1's,240
+2290,8090,"bdominal Belt elcro, Cream color Small)",1's,240
+2291,8091,"bdominal Belt elcro, Cream color Medium)",1's,240
+2292,8092,"bdominal Belt elcro, Cream color XL)",1's,250
+2293,8093,"bdominal Belt elcro, Cream color XXL)",1's,250
+2294,8099,ervical Collar Small),1's,120
+2295,8100,ervical Collar Medium),1's,120
+2296,8101,ervical Collar Large),1's,120
+2297,8102,ervical Collar Extra Large),1's,120
+2298,8103,humb and Wrist race (Small),1's,90
+2299,8104,humb and Wrist race (Medium),1's,90
+2300,8105,humb and Wrist race (Large),1's,90
+2301,8106,humb and Wrist race (Extra Large),1's,90
+2302,8107,anaushadhi wabhiman (Adult iaper (Medium)),5's,121.88
+2303,8108,anaushadhi wabhiman (Adult iaper (Large)),5's,131.25
+2304,8109,anaushadhi wabhiman (Adult iaper (XL)),5's,150
+2305,8110,anaushadhi achpan (Baby iaper (Small)),5's,28.13
+2306,8111,anaushadhi achpan (Baby iaper (New Born)),5's,28.13
+2307,8113,ernia Belt (Small) 1's,mono-carton,180
+2308,8114,nee Brace Belt 1's Medium),mono-carton,525
+2309,8115,nee Brace Belt 1's Large),mono-carton,525
+2310,8116,V Cannula Fixator Medium 6cm x cm),1's pack,9.38
+2311,8117,"ervical Pillow 1's polyester, PU foam)",mono-carton,500
+2312,8120,"ancets, Round 5 terile, 28G",0 pcs/Box,37.5
+2313,8121,lucometer Test trip,25 Strips,210.94
+2314,8122,"LUCOMETER IGITAL (1 lucometer, 25 trips, 25 lancets,1 ancing device,1 attery 3V, Warranty ard)",1 Kit,492.19
+2315,8123,dhesive Surgical aper Tape Size cmx5m,1's,24.38
+2316,8124,dhesive Surgical aper Tape Size .5cmx5m,1's,12.19
+2317,8125,dhesive Surgical aper Tape Size .25cmx5m,1's,6.57
+2318,8126,Pollution Control Mask/Nanofiber Mask: made up of 1' high efficiency nanofiber material with non ret,s Monopack,56.25
+2319,8127,Nebulizer Mask with Tubing,1's pack,56.25
+2320,8128,Medical Digital 1's Thermometer,mono-carton,88.99
+2321,8130,Manual breast pump 1',s Monopack,600
+2322,8131,Plastic Urine Pot collector (For both Male & Female),1's,46.88
+2323,8132,Plastic Bedpan,1's,65.63
+2324,8133,Digital Blood Pressure Instrument 1' ( 100% mercury free),s Monopack,937.5
+2325,8134,Ice bag,1's,20
+2326,8135,Breathing Exerciser 1' (3 Chambers),s Monopack,150
+2327,8136,Elecrical Nebulizer 1' Machine,s Monopack,750
+2328,8140,Janaushadhi Suvidha (Oxo- Biodegradable Pack Sanitary Napkins Regular Size with wings),of 4 Sanitary Napkins,4
+2329,8141,Janaushadhi Suvidha (Oxo- Biodegradable Pack Sanitary Napkins Large Size with wings),of 4 Sanitary Napkins,12
+2330,8142,anaushadhi uvidha (Oxo- iodegradable Pack anitary Napkins xtra Large (XL) ize with wings),of 4 Sanitary Napkins,15
+2331,8145,anaushadhi uvidha (Oxo- iodegradable Pack o anitary Napkin egular size with ings),f 10 Sanitary Napkins,10
+2332,8146,aby Feeding Bottle 1's 50 ml,mono-carton,42.19
+2333,8147,-95 Mask with 1's xpiratory Valve,Mono-pack,30
+2334,8148,-95 Mask without 1's xpiratory Valve,Mono-pack,25
+2335,8150,-way stopcock with 0 cm extension line,1's,28.13
+2336,8151,"dhesive wound ressings, 25cm x 0cm",1's,18.75
+2337,8153,"rm Sling Pouch Large), Grey",1's,130
+2338,8154,"rm Sling Pouch Medium), Grey",1's,130
+2339,8155,aby Wipes (Pack Pack f 20 wipes),of 20 wipes,45
+2340,8156,ed Bath Towel,1's,55
+2341,8158,hlorhexidine auze Dressing B.P 1 0cmx10cm (Sterile),pc in a pack,11.25
+2342,8160,isposable Plastic and Gloves (Free ize),Pair,3
+2343,8161,lastic gauze andages 10cm,1's,178.13
+2344,8162,lastic gauze andages 7.5cm,1's,140.63
+2345,8167,arman cannula 4 m,1's,37.5
+2346,8168,umbar Spinal race (Grey),1's,770
+2347,8169,agnetic Posture orrector Back upport Belt - osture Fit,1's,580
+2348,8172,ulse Oximeter,1's,464.07
+2349,8177,pecican 30 ml,1's,8
+2350,8178,urgical Cap,1's,3
+2351,8179,urgical shoe cap,1's,4
+2352,8181,ransparent film ressings (Sterile) 0cm X 12cm,1's,60.94
+2353,8182,ein Compression tocking Knee ength (Extra Large),1's,130
+2354,8183,ein Compression tocking Knee ength (Large),1's,140
+2355,8184,ein Compression tocking Knee ength (Medium),1's,140
+2356,8185,ein Compression tocking Knee ength (Small),1's,140
+2357,8186,ein Compression tocking Knee ength (XXL),1's,140
+2358,8187,ein Compression tocking Thigh ength (Extra Large),1's,170
+2359,8188,ein Compression tocking Thigh ength (Large),1's,170
+2360,8189,ein Compression tocking Thigh ength (Medium),1's,170
+2361,8190,ein Compression tocking Thigh ength (Small),1's,170
+2362,8191,ein Compression tocking Thigh ength (XXL),1's,180
+2363,8192,ig zag cotton,100 gm,47.44
+2364,8193,ovid 19 Self- esting Kit (ICMR One i pproved),n Monopack,196.88
+2365,8194,otton Balls Pack o,f 100 in a Zip Lock Bag,90
+2366,8195,otton Pads Pack o Round),f 50 in a Zip Lock Bag,46.88
+2367,8196,eating Pad 1’s in Electrical),Mono Carton,0
+2368,8197,xercise Ball 1’s in Universal Size),Mono Carton,0
+2369,8198,aternity Sanitary Pack ads,of 5 Napkins,68.25
+2370,8199,anaushadhi uvidha (Oxo- iodegradable Pack anitary Napkins egular Size With ings),of 5 Sanitary Napkins,5
+2371,9000,eusable Menstrual One in up (Small),Mono-Pack,175
+2372,9001,eusable Menstrual One in up (Medium),Mono-Pack,180
+2373,9002,eusable Menstrual One in up (Large),Mono-Pack,185
+2374,9003,emale Natural Three i atex Condom,n Mono-Pack,115
+2375,9004,anaushadhi avach (Male Latex Three i ondom (Plain)),n Mono-Pack,12
+2376,9005,naushadhi vach (Male Latex Three i ndom (Extra in)),n Mono-Pack,12
+2377,9006,naushadhi vach (Male Latex Three i ndom (Normal t)),n Mono-Pack,12
+2378,9007,naushadhi vach (Male Latex Three i ndom (1740 Dot)),n Mono-Pack,15
+2379,9008,naushadhi vach (Male Latex Three i ndom (Ribbed)),n Mono-Pack,15
+2380,9009,naushadhi vach (Male Latex Three i ndom (Three In e)),n Mono-Pack,12
+2381,9010,dicated Corn Four Str mover,ips in Mono- Pack,0
+2382,9011,rforated Plaster Five in,Mono-Pack,0
+2383,9012,mbo-Sacral pport Belt (Waist One in d Back Support) mall),Mono-Pack,370
+2384,9013,mbo-Sacral pport Belt (Waist One in d Back Support) edium),Mono-Pack,375
+2385,9014,mbo-Sacral pport Belt (Waist One in d Back Support) arge),Mono-Pack,380
+2386,9015,mbo-Sacral pport Belt (Waist One in d Back Support) xtra Large),Mono-Pack,385
+2387,9016,umbo-Sacral upport Belt (Waist nd Back Support) One in Double Extra arge),Mono-Pack,390
+2388,9017,nklet (Tubular Pair upport) (Small),in Mono-Pack,150
+2389,9018,nklet (Tubular Pair upport) (Medium),in Mono-Pack,150
+2390,9019,nklet (Tubular Pair upport) (Large),in Mono-Pack,155
+2391,9020,nklet (Tubular upport) (Extra Pair arge),in Mono-Pack,155
+2392,9021,lbow Support Pair Small),in Mono-Pack,140
+2393,9022,lbow Support Pair Medium),in Mono-Pack,140
+2394,9023,lbow Support Pair Large),in Mono-Pack,150
+2395,9024,lbow Support Pair Extra Large),in Mono-Pack,150
+2396,9025,ombined Dressing Five in ad (10X10Cm),Mono-Pack X 100,28.13
+2397,9026,ombined Dressing Five i ad (10X20Cm),n Mono-Pack,42.19
+2398,9027,icrofine/Hypodermi Needle for Insulin en Sterile Single- Ten i se Needle for nsulin Pen Needles easurement,n Mono-Pack,0
+2399,9028,edical Steam One in aporizer,Mono-Pack,234.38
+2400,9029,igital Weighing One in cale,Mono-Pack,0
+2401,9030,Janaushadhi Suvidha (Oxo- Biodegradable Pack Sanitary Napkins Regular Size with Wings),of 10 Sanitary Napkins,30
+2402,9031,Janaushadhi Bachpan (Baby 10's Diaper; Pant Style; Small (3Kg - 8Kg)),in Mono-Pack,84.38
+2403,9032,Janaushadhi Bachpan (Baby Diaper; Pant Style; 10's Medium (6Kg - 11Kg)),in Mono-Pack,93.75
+2404,9033,Janaushadhi Bachpan (Baby 10's Diaper; Pant Style; Large (9Kg - 13Kg)),in Mono-Pack,135.94
+2405,9034,Janaushadhi Swabhiman (Adult Diaper; Pant Style 10's Small; Waist Size: 28 inch - 35 inch),in Mono-Pack,0
+2406,9035,Janaushadhi Swabhiman (Adult Diaper; Pant Style 10's Medium; Waist Size: 28 inch - 45 inch),in Mono-Pack,346.88
+2407,9036,Janaushadhi Swabhiman (Adult Diaper; Pant Style 10's Large; Waist Size: 38 inch - 54 inch),in Mono-Pack,379.69
+2408,9037,Janaushadhi Swabhiman (Adult Diaper; Pant Style 10's Extra Large; Waist Size: 48 inch - 65 inch),in Mono-Pack,0
+2409,9038,Janaushadhi Bachpan (Baby Diaper; Pant Style; 10' New Born (2Kg - 5Kg)),s in Mono-Pack,79.69
+2410,9039,Knee Cap with 1' patellar ring (Large) po,s pair in sealed ly pack and in Mono-carton,200
+2411,9040,Knee Cap with 1' Patellar Ring po (Medium),s pair in sealed ly pack and in Mono-carton,200
+2412,9041,Knee Cap with 1' Patellar Ring (Small) po,s pair in sealed ly pack and in Mono-carton,200
+2413,9042,Nebulizer Mask with 1's Tubing (Child),pack in sealed poly pack,0
+2414,9043,Walker (Sit Assist- 1' to-stand support),s in sealed poly pack,0
+2415,9044,Elbow Crutch 1' (Adjustable),s in sealed poly pack,0
+2416,9045,1 C Insulin/Medicine uni Cooling Case 1 U Fol,"ooling Case, 2 t Gel Cool Pack, nit Insulin Pen der and 1 Carry Bag",0
+2417,9046,Cervical Collar - Hard,1's,0
+2418,9047,Range of Motion - Knee Brace,1's,0
+2419,9048,Range of Motion - Elbow Brace,1's,0
+2420,9049,Disposable Maternity Pad Fixator,5's in a pack,0
+2421,9050,Non-Woven Adhesive Wound Dressing,3's in a pack,0
+2422,9051,Finger Saperator - Hand,1 pair,0
+2423,9052,Finger Saperator - Feet,1 pair,0
+2424,9053,Cervical Collar - Hard (large),One in Mono-Carton,0
+2425,9054,Disposable Maternity Pad Fixator (Extra Large),5's in a pack,0
+2426,9055,Hydrophillic Foam Silver Wound Dressing (Non- Adhesive) 5cm x 5cm,Pack of 5 pcs,0
+2427,9056,Fibrin Sealant Kit I.P. (2inch X 4 inch),Pack of 2,0
+2428,9057,Disposable Under Sheet,Pack of 10 pcs,0
+2429,9058,Foldable Commode Stool (U - Shape),One in Mono-Carton,0
+2430,9059,Pregnancy Back Support Belt,One in Mono-Carton,0
+2431,9060,Reinforced Adhesive Skin Closures,1/4 inch x 4 in 10 strips pack,0
+2432,9061,Foot Elevator Pillow with Adjustable Hook and Loop,One in Mono-Carton,0
+2433,9062,Elastic Net Fixator Bandage,2 cm X 3 m in Monopack,0
+2434,9063,Elastic Net Fixator Bandage,3 cm X 3 m in Monopack,0
+2435,9064,Elastic Net Fixator Bandage,4 cm X 3 m in Monopack,0
+2436,9065,Elastic Net Fixator Bandage,5 cm X 3 m in Monopack,0
+2437,9066,Ankle binder Support (Medium),One in Mono-Carton,0
+2438,9067,Ankle binder Support (Large),One in Mono-Carton,0
+2439,9068,Cotton Ear Buds,100 Ear Buds,0
