@@ -217,3 +217,25 @@ As the table grows and the query becomes more selective, PostgreSQL may choose t
 - Query: `metadata @> '{"assessment_year": "2023"}'::jsonb`
 - Index usage confirmed by `Bitmap Index Scan`.
 - Command: `uv run python scripts/explain.py assessment_year 2023`
+
+
+| First interrupted run | 8 | 0 | 1 | 0 |
+
+### Test results
+
+| Run | Downloaded | Skipped | Blocked | Failed |
+|---|---:|---:|---:|---:|
+| First interrupted run | 8 | 0 | 1 | 0 |
+| Second resumed run | 1 | 8 | 1 | 0 |
+| Third run | 0 | 9 | 1 | 0 |
+| Deleted-file recovery | 1 | 8 | 1 | 0 |
+
+### Verification
+- Completed downloads were preserved after interruption.
+- Existing files were skipped during resume.
+- Third run downloaded no new files.
+- No incomplete `.part` files were found.
+- Deleted PDF was successfully downloaded again.
+- Robots.txt restrictions were respected.
+
+**Result:** Downloader resume and recovery tests passed.
