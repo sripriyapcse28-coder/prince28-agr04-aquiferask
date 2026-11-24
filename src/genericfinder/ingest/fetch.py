@@ -13,6 +13,7 @@ import hashlib
 import json
 import random
 import re
+import ssl
 import time
 from collections.abc import Awaitable, Callable
 from dataclasses import dataclass
@@ -22,6 +23,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 import httpx
+import truststore
 from protego import Protego
 
 CONTACT = "https://github.com/sripriyapcse28-coder/prince28-agr04-aquiferask"
@@ -138,10 +140,7 @@ def retry_after_seconds(value: str | None) -> float | None:
     if when.tzinfo is None:
         when = when.replace(tzinfo=UTC)
 
-    return max(
-        0.0,
-        (when - datetime.now(UTC)).total_seconds(),
-    )
+    return max(0.0, (when - datetime.now(UTC)).total_seconds())
 
 
 def read_sources(path: Path) -> list[Source]:
@@ -274,7 +273,12 @@ class HostGate:
 
 
 def make_client(max_concurrency: int = 4) -> httpx.AsyncClient:
+    """Create an HTTP client using Windows' trusted certificate store."""
+
+    ssl_context = truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+
     return httpx.AsyncClient(
+        verify=ssl_context,
         headers={"User-Agent": USER_AGENT},
         timeout=httpx.Timeout(30.0, connect=10.0),
         limits=httpx.Limits(max_connections=max_concurrency),
@@ -316,6 +320,12 @@ async def _download(
 
                     digest.update(chunk)
                     handle.write(chunk)
+            if target.suffix.lower() == ".pdf":
+                with part.open("rb") as downloaded:
+                    header = downloaded.read(1024)
+
+                if b"%PDF-" not in header:
+                    raise DownloadError("response is not a valid PDF (missing PDF signature)")
 
             part.replace(target)
 
