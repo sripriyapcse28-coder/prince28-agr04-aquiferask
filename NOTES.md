@@ -1,4 +1,4 @@
-
+﻿
 # AquiferAsk — Project Notes
 
 ## D05 · CI/CD, monitoring and rollback
@@ -239,3 +239,30 @@ As the table grows and the query becomes more selective, PostgreSQL may choose t
 - Robots.txt restrictions were respected.
 
 **Result:** Downloader resume and recovery tests passed.
+
+
+## Day 7 – Parser inspection notes
+
+- PDF parsing successfully extracted document titles, page numbers, headings, and readable text.
+- Drug Code page text contains medicine/product names, codes, and prices.
+- Table columns appear flattened into text.
+- National List contains readable content, including medicine categories and section headings.
+- Page 1 of National List has an empty headings array.
+- Page 2 contains the heading Medicines.
+- Some extracted text includes Markdown-style heading markers (#, ###).
+- Further inspection may be useful for documents with unusual titles or scanned pages.
+
+### OCR results
+
+- Installed Tesseract OCR 5.5.3 on Windows and configured PATH.
+- English OCR language (`eng`) verified successfully.
+- Retried the two previously failed scanned PDFs using `--retry-failed --ocr eng`.
+- Successfully parsed 2 additional PDFs and extracted 10 pages.
+- Both documents now use the `ocr-eng` parser:
+  - Ceiling Prices for Scheduled Formulations under NLEM 2022 (April 2026): 2 pages.
+  - 66 Cardio-Vascular Formulations: 8 pages.
+- Confirmed the `parse_failures` table contains no remaining failures.
+- OCR extracted readable medicine names, strengths, dosage forms, and ceiling prices.
+- Some OCR errors remain, particularly in headers, medicine names, and table values.
+- Table data is flattened into text rather than preserved as structured rows and columns.
+- OCR output should be validated before using it for reliable medicine or price lookups.
