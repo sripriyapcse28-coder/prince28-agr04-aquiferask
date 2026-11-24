@@ -1,4 +1,4 @@
-
+﻿
 # AquiferAsk — Project Notes
 
 ## D05 · CI/CD, monitoring and rollback
@@ -239,3 +239,108 @@ As the table grows and the query becomes more selective, PostgreSQL may choose t
 - Robots.txt restrictions were respected.
 
 **Result:** Downloader resume and recovery tests passed.
+
+
+## Day 7 – Parser inspection notes
+
+- PDF parsing successfully extracted document titles, page numbers, headings, and readable text.
+- Drug Code page text contains medicine/product names, codes, and prices.
+- Table columns appear flattened into text.
+- National List contains readable content, including medicine categories and section headings.
+- Page 1 of National List has an empty headings array.
+- Page 2 contains the heading Medicines.
+- Some extracted text includes Markdown-style heading markers (#, ###).
+- Further inspection may be useful for documents with unusual titles or scanned pages.
+
+### OCR results
+
+- Installed Tesseract OCR 5.5.3 on Windows and configured PATH.
+- English OCR language (`eng`) verified successfully.
+- Retried the two previously failed scanned PDFs using `--retry-failed --ocr eng`.
+- Successfully parsed 2 additional PDFs and extracted 10 pages.
+- Both documents now use the `ocr-eng` parser:
+  - Ceiling Prices for Scheduled Formulations under NLEM 2022 (April 2026): 2 pages.
+  - 66 Cardio-Vascular Formulations: 8 pages.
+- Confirmed the `parse_failures` table contains no remaining failures.
+- OCR extracted readable medicine names, strengths, dosage forms, and ceiling prices.
+- Some OCR errors remain, particularly in headers, medicine names, and table values.
+- Table data is flattened into text rather than preserved as structured rows and columns.
+- OCR output should be validated before using it for reliable medicine or price lookups.
+
+### Corpus parsing verification
+
+- Ran `scripts/parse_corpus.py` twice successfully.
+- Both runs confirmed all 12 corpus files were already parsed.
+- Verified `parse_failures` in Neon: 0 failures out of 12 files.
+- Previously fixed two scanned PDFs using Tesseract OCR.
+- Retrying failed files with OCR successfully parsed both PDFs (10 pages total).
+- Confirmed parsing is idempotent: rerunning the script does not create duplicate documents or pages.
+
+## D07 · Parser comparison
+
+<!-- parsers:start -->
+| File | Parsers (A / B) | Pages | A found | B found | Time (A / B) | Better, why |
+|---|---|---|---|---|---|---|
+| 2845-fb-posts-anti-cancer-e3f335bfae6294a35741b3 | PyMuPDF / pypdf | 15 | 14,373 chars, 3 headings, 2 tables | 8,381 chars, 0 headings, 0 tables | 4.21 s / 1.12 s | |
+| 2845-fb-posts-anti-diabetes-a2491c25ce7e20c92008 | PyMuPDF / pypdf | 3 | 3,381 chars, 3 headings, 2 tables | 1,374 chars, 0 headings, 0 tables | 1.40 s / 0.53 s | |
+| 2845-fb-posts-anti-hiv-834be8c8fdb7b0dce18e87266 | PyMuPDF / pypdf | 5 | 7,266 chars, 1 headings, 4 tables | 2,883 chars, 0 headings, 0 tables | 1.85 s / 0.42 s | |
+| 2845-fb-posts-anti-tb-4767550580d2ed15f1877932bd | PyMuPDF / pypdf | 5 | 5,958 chars, 3 headings, 1 tables | 2,432 chars, 0 headings, 0 tables | 1.46 s / 0.41 s | |
+| 2845-fb-posts-cardio-ea1e3eda2076b6367cf9a9685da | PyMuPDF / pypdf | - | FAILED: no_text_layer | 3,123 chars, 0 headings, 0 tables | 3.90 s / 1.28 s | |
+| 8dd8f0fac9c82fa3c9646aee6f2968d9-37bb8111.pdf | PyMuPDF / pypdf | - | FAILED: no_text_layer | FAILED: no_text_layer | 0.19 s / 0.03 s | |
+| om-dated-11112026-11-11-2026-9de7fbf05e94d4db270 | PyMuPDF / pypdf | 2 | 2,918 chars, 30 headings, 0 tables | 2,760 chars, 0 headings, 0 tables | 0.06 s / 1.07 s | |
+| retail-price-42-e18ca14c9c470c2d712cd09657187bdc | PyMuPDF / pypdf | 13 | 34,520 chars, 31 headings, 12 tables | 32,263 chars, 0 headings, 0 tables | 16.60 s / 3.57 s | |
+| pmbi-products.pdf | PyMuPDF / pypdf | 194 | 167,442 chars, 4 headings, 0 tables | 165,152 chars, 0 headings, 0 tables | 1.11 s / 3.37 s | |
+| productlist-d1c67217.html | trafilatura / strip tags | 1 | 186 chars, 1 headings, 0 tables | 1,609 chars, 0 headings, 0 tables | 0.11 s / 0.00 s | |
+<!-- parsers:end -->
+
+
+
+### Parser comparison — inspecting real pages
+
+Inspected three documents in Neon:
+
+1. **Find Product details (HTML), page 1**
+   - Parser: Trafilatura.
+   - Product information and page text were extracted.
+   - Headings array was empty, even though the extracted text contains a title.
+
+2. **NPPA Anti-Cancer PDF, pages 1–2**
+   - Parser: PyMuPDF.
+   - Page 1 contains the document title, but headings are empty.
+   - Page 2 detects the heading `formulations`.
+   - Table content is extracted in Markdown-like rows, but some cells are duplicated and misaligned.
+
+3. **NPPA Retail-price PDF, pages 1–2**
+   - Parser: PyMuPDF.
+   - Page 1 contains Hindi and English text, but some Hindi characters are incorrectly extracted.
+   - Page 2 detects three headings and extracts a Markdown-style table.
+   - Hindi characters and line breaks in the table are imperfect.
+
+### My parser choice
+
+- **PDFs:** PyMuPDF. In the comparison, it generally extracted more text and detected headings and tables that pypdf missed.
+- **HTML:** Trafilatura. It provides cleaner structured extraction than simple HTML tag stripping.
+- **Scanned PDFs:** Neither PyMuPDF nor pypdf can reliably extract text without OCR. Tesseract is needed.
+- Table extraction and non-Unicode Hindi/Tamil text remain areas requiring improvement and validation.
+
+### One issue and how I fixed it
+
+- Two scanned PDFs initially failed with `no_text_layer`.
+- Installed Tesseract OCR and retried with `--retry-failed --ocr eng`.
+- Both PDFs were successfully parsed, adding 10 pages to the database.
+- PyMuPDF table detection also took too long on `nlem2022.pdf` during comparison, so I excluded that file from the timed comparison rather than changing the production parser.
+
+### Corpus parsing verification
+- Documents stored in Neon: 14
+- Pages stored in Neon: 383
+- Current parse failures: 0
+- Two initially scanned PDFs were successfully recovered using Tesseract OCR.
+
+### Corpus parsing verification
+- Unique downloaded files in manifest: 11
+- Files currently present: 11
+- Documents stored in Neon: 14
+- Pages stored in Neon: 383
+- Current parse failures: 0
+- Two initially scanned PDFs were successfully recovered using Tesseract OCR.
+- Parser comparison completed for 10 files.
