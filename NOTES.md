@@ -1,7 +1,6 @@
+﻿# AquiferAsk — Project Notes
 
-# AquiferAsk ΓÇö Project Notes
-
-## D05 ┬╖ CI/CD, monitoring and rollback
+## D05 · CI/CD, monitoring and rollback
 
 ### Live application
 
@@ -83,7 +82,7 @@ Running upgrade 2c25fac5af3e -> 53027269c641, add gin index on metadata
 
 &lt;base&gt; -> 2c25fac5af3e, create documents and pages
 
-## D04 ┬╖ Docker, Compose and tests
+## D04 · Docker, Compose and tests
 
 ### The image
 
@@ -116,10 +115,10 @@ uid=999(app) gid=999(app) groups=999(app)
 docker compose ps -a
 
 NAME                   IMAGE                    SERVICE   STATUS
-aquiferask-api-1        aquiferask-api           api       Up (healthy)
-aquiferask-db-1         pgvector/pgvector:pg17   db        Up (healthy)
-aquiferask-migrate-1    aquiferask-migrate       migrate   Exited (0)
-aquiferask-redis-1      redis:7-alpine           redis     Up (healthy)
+aquiferask-api-1       aquiferask-api           api       Up (healthy)
+aquiferask-db-1        pgvector/pgvector:pg17   db        Up (healthy)
+aquiferask-migrate-1   aquiferask-migrate      migrate   Exited (0)
+aquiferask-redis-1     redis:7-alpine            redis     Up (healthy)
 ```
 
 Fresh database migration:
@@ -171,12 +170,12 @@ Areas with lower coverage from the previous report:
 
 These are areas to investigate for uncovered lines; check the latest coverage report's `Missing` column before identifying exact lines that were never executed.
 
-## D03 ┬╖ PostgreSQL EXPLAIN and GIN index
+## D03 · PostgreSQL EXPLAIN and GIN index
 
 ### Query plan: normal execution
 
 ```text
-Seq Scan on documents  (cost=0.00..1.04 rows=1 width=36) (actual time=0.016..0.017 rows=3.00 loops=1)
+Seq Scan on documents (cost=0.00..1.04 rows=1 width=36) (actual time=0.016..0.017 rows=3.00 loops=1)
   Filter: (metadata @> '{"assessment_year": "2023"}'::jsonb)
   Buffers: shared hit=1
 Planning:
@@ -188,119 +187,8 @@ Execution Time: 0.042 ms
 ### Query plan: sequential scan disabled
 
 ```text
-Bitmap Heap Scan on documents  (cost=8.52..12.54 rows=1 width=36) (actual time=0.048..0.049 rows=3.00 loops=1)
+Bitmap Heap Scan on documents (cost=8.52..12.54 rows=1 width=36) (actual time=0.048..0.049 rows=3.00 loops=1)
   Recheck Cond: (metadata @> '{"assessment_year": "2023"}'::jsonb)
   Heap Blocks: exact=1
   Buffers: shared hit=3
-  -> Bitmap Index Scan on ix_documents_metadata_gin (cost=0.00..8.52 rows=1 width=0) (actual time=0.008..0.008 rows=3.00 loops=1)
-       Index Cond: (metadata @> '{"assessment_year": "2023"}'::jsonb)
-       Index Searches: 1
-       Buffers: shared hit=2
-Planning:
-  Buffers: shared hit=1
-Planning Time: 0.076 ms
-Execution Time: 0.087 ms
-```
-
-### Why did PostgreSQL choose a Seq Scan?
-
-The documents table is small, so scanning all its rows is cheaper than using the index. A sequential scan is efficient for small tables.
-
-### When would PostgreSQL switch to the GIN index?
-
-As the table grows and the query becomes more selective, PostgreSQL may choose the GIN index to locate matching JSONB records without scanning the entire table.
-
-### Verification
-
-- Database migration: `53027269c641 (head)`
-- Index: `ix_documents_metadata_gin`
-- Query: `metadata @> '{"assessment_year": "2023"}'::jsonb`
-- Index usage confirmed by `Bitmap Index Scan`.
-- Command: `uv run python scripts/explain.py assessment_year 2023`
-
-
-
-### Test results
-
-| Run | Downloaded | Skipped | Blocked | Failed |
-|---|---:|---:|---:|---:|
-| First interrupted run | 8 | 0 | 1 | 0 |
-| Second resumed run | 1 | 8 | 1 | 0 |
-| Third run | 0 | 9 | 1 | 0 |
-| Deleted-file recovery | 1 | 8 | 1 | 0 |
-
-### Verification
-- Completed downloads were preserved after interruption.
-- Existing files were skipped during resume.
-- Third run downloaded no new files.
-- No incomplete `.part` files were found.
-- Deleted PDF was successfully downloaded again.
-- Robots.txt restrictions were respected.
-
-**Result:** Downloader resume and recovery tests passed.
-
-
----
-
-# D06 ┬╖ Collecting the groundwater corpus
-
-## Corpus collection
-
-- Source: Central Ground Water Board (CGWB).
-- Sources registered: 11.
-- District brochures downloaded: 10.
-- Existing Tamil Nadu Groundwater Assessment 2025 PDF: 1.
-- Total documents: 11.
-- Total pages: 355.
-- Total storage: 49.82 MB.
-- Target: 6,000 pages.
-- Progress: 5.92%.
-
-## Licence and robots.txt
-
-- CGWB copyright policy permits free reproduction of its own materials when accurately presented with prominent source acknowledgement.
-- Third-party copyrighted materials are excluded.
-- Source: https://cgwb.gov.in/en/website-policies
-- Robots file: https://cgwb.gov.in/robots.txt
-- Robots.txt returned HTTP 200.
-- All 11 source URLs were allowed.
-- No robots restrictions were bypassed.
-
-## Downloader results
-
-Command: `uv run python scripts/fetch.py urls --delay 3`
-
-- Downloaded: 10
-- Skipped: 1
-- Blocked: 0
-- Failed: 0
-- Time: 28.6 seconds.
-
-## TLS issue
-
-The initial downloader could not verify the CGWB SSL certificate. Installed `truststore` and configured the HTTP client to use the Windows trusted certificate store. Certificate verification remained enabled.
-
-## Dataset and capacity
-
-- `DATASET.md` generated successfully.
-- `docs/CAPACITY.md` generated successfully.
-- Current corpus: 355 pages and 49.82 MB.
-- Remaining target: 5,645 pages.
-- Estimated storage for 6,000 pages: 842.11 MB.
-
-## Known gaps
-
-- Only one assessment-year PDF is currently registered.
-- More assessment years and district groundwater reports are needed.
-- PDF text extraction, OCR validation and indexing remain future work.
-- The assessment PDF shows a header warning, although its 130 pages were counted successfully.
-
-## Validation
-
-- Ruff check: passed.
-- Unit tests: 38 passed.
-- Downloader: 10 downloaded, 1 skipped, 0 blocked, 0 failed.
-
-## What went wrong
-
-The first downloader run failed because of a TLS certificate verification issue. Adding `truststore` resolved it without disabling certificate verification or bypassing robots.txt.
+  -> Bitmap Index Scan on ix_documents_metadata_gin (cost=0.00..8.52 rows=1 width=0) (actual time=0.008..0.008 rows=3.00
