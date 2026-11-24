@@ -1,5 +1,5 @@
 ﻿
-# AquiferAsk ╬ô├ç├╢ Project Notes
+# AquiferAsk — Project Notes
 
 ## D05 · CI/CD, monitoring and rollback
 
