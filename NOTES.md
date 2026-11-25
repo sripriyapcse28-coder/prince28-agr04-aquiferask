@@ -284,16 +284,16 @@ As the table grows and the query becomes more selective, PostgreSQL may choose t
 <!-- parsers:start -->
 | File | Parsers (A / B) | Pages | A found | B found | Time (A / B) | Better, why |
 |---|---|---|---|---|---|---|
-| 2845-fb-posts-anti-cancer-e3f335bfae6294a35741b3 | PyMuPDF / pypdf | 15 | 14,373 chars, 3 headings, 2 tables | 8,381 chars, 0 headings, 0 tables | 4.21 s / 1.12 s | |
-| 2845-fb-posts-anti-diabetes-a2491c25ce7e20c92008 | PyMuPDF / pypdf | 3 | 3,381 chars, 3 headings, 2 tables | 1,374 chars, 0 headings, 0 tables | 1.40 s / 0.53 s | |
-| 2845-fb-posts-anti-hiv-834be8c8fdb7b0dce18e87266 | PyMuPDF / pypdf | 5 | 7,266 chars, 1 headings, 4 tables | 2,883 chars, 0 headings, 0 tables | 1.85 s / 0.42 s | |
-| 2845-fb-posts-anti-tb-4767550580d2ed15f1877932bd | PyMuPDF / pypdf | 5 | 5,958 chars, 3 headings, 1 tables | 2,432 chars, 0 headings, 0 tables | 1.46 s / 0.41 s | |
-| 2845-fb-posts-cardio-ea1e3eda2076b6367cf9a9685da | PyMuPDF / pypdf | - | FAILED: no_text_layer | 3,123 chars, 0 headings, 0 tables | 3.90 s / 1.28 s | |
-| 8dd8f0fac9c82fa3c9646aee6f2968d9-37bb8111.pdf | PyMuPDF / pypdf | - | FAILED: no_text_layer | FAILED: no_text_layer | 0.19 s / 0.03 s | |
-| om-dated-11112026-11-11-2026-9de7fbf05e94d4db270 | PyMuPDF / pypdf | 2 | 2,918 chars, 30 headings, 0 tables | 2,760 chars, 0 headings, 0 tables | 0.06 s / 1.07 s | |
-| retail-price-42-e18ca14c9c470c2d712cd09657187bdc | PyMuPDF / pypdf | 13 | 34,520 chars, 31 headings, 12 tables | 32,263 chars, 0 headings, 0 tables | 16.60 s / 3.57 s | |
-| pmbi-products.pdf | PyMuPDF / pypdf | 194 | 167,442 chars, 4 headings, 0 tables | 165,152 chars, 0 headings, 0 tables | 1.11 s / 3.37 s | |
-| productlist-d1c67217.html | trafilatura / strip tags | 1 | 186 chars, 1 headings, 0 tables | 1,609 chars, 0 headings, 0 tables | 0.11 s / 0.00 s | |
+| bulk_17781482536411file.pdf | PyMuPDF / pypdf | 130 | 514,697 chars, 496 headings, 70 tables | 399,766 chars, 0 headings, 0 tables | 1117.19 s / 9.21 s | |
+| vellore-7c526c0a.pdf | PyMuPDF / pypdf | 26 | 34,121 chars, 45 headings, 14 tables | 29,850 chars, 0 headings, 0 tables | 4.95 s / 1.50 s | |
+| tirunelveli-b93d41e2.pdf | PyMuPDF / pypdf | 21 | 27,156 chars, 35 headings, 7 tables | 27,131 chars, 0 headings, 0 tables | 3.85 s / 2.37 s | |
+| madurai-63898229.pdf | PyMuPDF / pypdf | 20 | 20,680 chars, 42 headings, 8 tables | 17,952 chars, 0 headings, 0 tables | 3.49 s / 0.95 s | |
+| kancheepuram-6ac7c0e9.pdf | PyMuPDF / pypdf | 23 | 26,493 chars, 44 headings, 9 tables | 23,719 chars, 0 headings, 0 tables | 2.87 s / 1.09 s | |
+| coimbatore-626d25ae.pdf | PyMuPDF / pypdf | 24 | 30,392 chars, 39 headings, 8 tables | 28,926 chars, 0 headings, 0 tables | 4.23 s / 1.42 s | |
+| tiruvallur-a2e6ec69.pdf | PyMuPDF / pypdf | 26 | 37,658 chars, 54 headings, 14 tables | 32,406 chars, 0 headings, 0 tables | 4.75 s / 1.57 s | |
+| sivaganga-87a33b37.pdf | PyMuPDF / pypdf | 22 | 27,837 chars, 50 headings, 9 tables | 24,542 chars, 0 headings, 0 tables | 3.96 s / 1.28 s | |
+| chennai-e341ee77.pdf | PyMuPDF / pypdf | 19 | 23,515 chars, 40 headings, 7 tables | 21,888 chars, 0 headings, 0 tables | 2.51 s / 1.02 s | |
+| dindigul-6de1608d.pdf | PyMuPDF / pypdf | 23 | 35,074 chars, 52 headings, 10 tables | 24,871 chars, 1 headings, 0 tables | 5.55 s / 0.92 s | |
 <!-- parsers:end -->
 
 
