@@ -19,6 +19,7 @@ dependencies = [
     "sqlalchemy[asyncio]>=2.1.9",
     "trafilatura>=2.4.0",
     "truststore>=0.10.5",
+    "uvicorn[standard]>=0.34.0",
 ]
 
 [build-system]
