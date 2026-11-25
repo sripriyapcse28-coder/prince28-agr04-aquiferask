@@ -219,7 +219,10 @@ As the table grows and the query becomes more selective, PostgreSQL may choose t
 - Command: `uv run python scripts/explain.py assessment_year 2023`
 
 
+
 | First interrupted run | 8 | 0 | 1 | 0 |
+
+
 
 ### Test results
 
@@ -344,3 +347,66 @@ Inspected three documents in Neon:
 - Current parse failures: 0
 - Two initially scanned PDFs were successfully recovered using Tesseract OCR.
 - Parser comparison completed for 10 files.
+
+
+# D06 · Collecting the groundwater corpus
+## Corpus collection
+
+- Source: Central Ground Water Board (CGWB).
+- Sources registered: 11.
+- District brochures downloaded: 10.
+- Existing Tamil Nadu Groundwater Assessment 2025 PDF: 1.
+- Total documents: 11.
+- Total pages: 355.
+- Total storage: 49.82 MB.
+- Target: 6,000 pages.
+- Progress: 5.92%.
+
+## Licence and robots.txt
+
+- CGWB copyright policy permits free reproduction of its own materials when accurately presented with prominent source acknowledgement.
+- Third-party copyrighted materials are excluded.
+- Source: https://cgwb.gov.in/en/website-policies
+- Robots file: https://cgwb.gov.in/robots.txt
+- Robots.txt returned HTTP 200.
+- All 11 source URLs were allowed.
+- No robots restrictions were bypassed.
+
+## Downloader results
+
+Command: `uv run python scripts/fetch.py urls --delay 3`
+
+- Downloaded: 10
+- Skipped: 1
+- Blocked: 0
+- Failed: 0
+- Time: 28.6 seconds.
+
+## TLS issue
+
+The initial downloader could not verify the CGWB SSL certificate. Installed `truststore` and configured the HTTP client to use the Windows trusted certificate store. Certificate verification remained enabled.
+
+## Dataset and capacity
+
+- `DATASET.md` generated successfully.
+- `docs/CAPACITY.md` generated successfully.
+- Current corpus: 355 pages and 49.82 MB.
+- Remaining target: 5,645 pages.
+- Estimated storage for 6,000 pages: 842.11 MB.
+
+## Known gaps
+
+- Only one assessment-year PDF is currently registered.
+- More assessment years and district groundwater reports are needed.
+- PDF text extraction, OCR validation and indexing remain future work.
+- The assessment PDF shows a header warning, although its 130 pages were counted successfully.
+
+## Validation
+
+- Ruff check: passed.
+- Unit tests: 38 passed.
+- Downloader: 10 downloaded, 1 skipped, 0 blocked, 0 failed.
+
+## What went wrong
+
+The first downloader run failed because of a TLS certificate verification issue. Adding `truststore` resolved it without disabling certificate verification or bypassing robots.txt.
