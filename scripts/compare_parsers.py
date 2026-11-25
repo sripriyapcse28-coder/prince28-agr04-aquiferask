@@ -52,12 +52,48 @@ def measure(parser, path: Path) -> dict:
 
 
 def pick_files() -> list[Path]:
-    """Default choice: the 10 biggest PDF and HTML files (or text files if there are none)."""
-    records = [json.loads(ln) for ln in MANIFEST.read_text(encoding="utf-8").splitlines() if ln]
-    files = {r["path"]: r.get("bytes", 0) for r in records if r.get("status") == "downloaded"}
-    by_size = sorted((p for p in files if Path(p).is_file()), key=lambda p: -files[p])
-    rich = [p for p in by_size if Path(p).suffix.lower() in {".pdf", ".html", ".htm"}]
-    return [Path(p) for p in (rich or by_size)[:10]]
+    """Select the 10 largest unique downloaded CGWB PDF files."""
+    latest: dict[str, dict] = {}
+
+    for line in MANIFEST.read_text(encoding="utf-8").splitlines():
+        try:
+            record = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+
+        latest[record["url"]] = record
+
+    files: dict[str, dict] = {}
+    seen: set[str] = set()
+
+    for record in latest.values():
+        if record.get("source", "").strip().casefold() != "cgwb":
+            continue
+
+        if record.get("status") != "downloaded":
+            continue
+
+        raw_path = record.get("path")
+        if not raw_path:
+            continue
+
+        path = Path(raw_path)
+        if not path.is_file() or path.suffix.lower() != ".pdf":
+            continue
+
+        identity = record.get("sha256") or str(path.resolve())
+        if identity in seen:
+            continue
+
+        seen.add(identity)
+        files[str(path)] = record
+
+    by_size = sorted(
+        files,
+        key=lambda path: -files[path].get("bytes", 0),
+    )
+
+    return [Path(path) for path in by_size[:10]]
 
 
 def cells(result: dict) -> str:
@@ -108,3 +144,7 @@ def main() -> int:
     NOTES.write_text(text, encoding="utf-8")
     print(f"compared {len(rows)} files -> table written to NOTES.md (fill in the last column)")
     return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
