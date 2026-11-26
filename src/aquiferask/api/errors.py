@@ -1,5 +1,7 @@
 """Standard API error responses using RFC 9457."""
 
+import json
+
 from fastapi import Request
 from fastapi.responses import JSONResponse
 
@@ -56,7 +58,7 @@ async def validation_exception_handler(
     request: Request,
     exc,
 ) -> JSONResponse:
-    """Return validation errors in a consistent format."""
+    """Return validation errors as Problem Details, with the field list attached."""
 
     errors = [
         {
@@ -66,7 +68,16 @@ async def validation_exception_handler(
         for error in exc.errors()
     ]
 
+    response = problem_response(
+        request=request,
+        status=422,
+        title="Validation Error",
+        detail="The request is not valid. See 'errors' for each field.",
+    )
+    body = json.loads(response.body)
+    body["errors"] = errors
     return JSONResponse(
         status_code=422,
-        content={"errors": errors},
+        content=body,
+        media_type="application/problem+json",
     )
