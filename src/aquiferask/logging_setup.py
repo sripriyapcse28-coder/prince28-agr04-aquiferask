@@ -2,7 +2,11 @@
 
 import json
 import logging
+from contextvars import ContextVar
 from datetime import UTC, datetime
+
+# The id of the web request being handled. The LLM gateway stamps it on every llm_calls row.
+request_id_ctx: ContextVar[str] = ContextVar("request_id", default="-")
 
 
 class JsonFormatter(logging.Formatter):
