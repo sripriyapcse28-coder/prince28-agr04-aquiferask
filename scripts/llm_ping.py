@@ -45,11 +45,11 @@ def ping_provider(client, name, api_key, base_url, model):
         )
 
     except httpx.HTTPStatusError as error:
-        print(f"{name:<8} FAILED   HTTP {error.response.status_code}")
+        print(f"{name:<8} FAILED   {model}: HTTP {error.response.status_code}")
         print(error.response.text[:500])
 
     except (httpx.HTTPError, KeyError, IndexError, ValueError) as error:
-        print(f"{name:<8} FAILED   {type(error).__name__}: {error}")
+        print(f"{name:<8} FAILED   {model}: {type(error).__name__}: {error}")
 
 
 def main():
