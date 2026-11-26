@@ -29,6 +29,9 @@ class FakeRepo:
         ]
         return len(rows), rows[offset : offset + limit]
 
+    async def search_pages(self, query, limit=5):
+        return []
+
     async def get(self, external_id):
         return next((r for r in self.rows if r["id"] == external_id), None)
 

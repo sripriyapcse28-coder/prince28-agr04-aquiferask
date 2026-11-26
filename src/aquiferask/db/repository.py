@@ -1,12 +1,14 @@
 """All SQL for documents lives here. Endpoints never write SQL themselves."""
 
+from __future__ import annotations
+
 import re
 from typing import Any
 
-from sqlalchemy import Text, cast, func, or_, select
+from sqlalchemy import Text, cast, desc, func, or_, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from aquiferask.db.models import Document
+from aquiferask.db.models import Document, Page
 
 FILTER_KEY = re.compile(r"^[a-z_][a-z0-9_]{0,40}$")
 
@@ -51,7 +53,6 @@ class DocumentRepository:
                 or_(Document.title.ilike(like), cast(Document.metadata_, Text).ilike(like))
             )
         for key, value in filters.items():
-            # metadata @> '{"key": value}' uses the GIN index
             stmt = stmt.where(
                 or_(*(Document.metadata_.contains({key: v}) for v in _value_candidates(value)))
             )
@@ -64,3 +65,32 @@ class DocumentRepository:
     async def get(self, external_id: str) -> dict[str, Any] | None:
         doc = await self.session.scalar(select(Document).where(Document.external_id == external_id))
         return to_dict(doc) if doc else None
+
+    async def search_pages(self, query: str, limit: int = 5) -> list[dict[str, Any]]:
+        """Find relevant document pages using PostgreSQL full-text search."""
+        terms = re.findall(r"[^\W_]+", query, flags=re.UNICODE)[:20]
+        if not terms:
+            return []
+
+        tsquery = func.to_tsquery("simple", " | ".join(terms))
+        vector = func.to_tsvector("simple", Page.text)
+        score = func.ts_rank_cd(vector, tsquery)
+
+        stmt = (
+            select(
+                Document.external_id.label("document_id"),
+                Document.title.label("title"),
+                Document.source_url.label("source_url"),
+                Page.page_no.label("page_no"),
+                Page.headings.label("headings"),
+                Page.text.label("text"),
+                score.label("score"),
+            )
+            .join(Page, Page.document_id == Document.id)
+            .where(vector.op("@@")(tsquery))
+            .order_by(desc(score), Document.title, Page.page_no)
+            .limit(limit)
+        )
+
+        result = await self.session.execute(stmt)
+        return [dict(row) for row in result.mappings().all()]

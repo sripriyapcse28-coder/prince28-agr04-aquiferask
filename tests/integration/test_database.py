@@ -5,11 +5,11 @@ import sys
 
 import pytest
 from fastapi.testclient import TestClient
-from sqlalchemy import text
+from sqlalchemy import select, text
 
 from aquiferask.api.main import create_app
 from aquiferask.config import Settings
-from aquiferask.db.models import Document
+from aquiferask.db.models import Document, Page
 from aquiferask.db.repository import DocumentRepository
 from aquiferask.db.session import make_engine, make_sessionmaker
 
@@ -105,3 +105,34 @@ def test_loader_is_idempotent(database_url, tmp_path):
 
     assert "inserted=2" in run()
     assert "inserted=0 updated=0 unchanged=2" in run()
+
+
+async def test_repository_search_pages(seeded):
+    engine = make_engine(seeded)
+    async with make_sessionmaker(engine)() as session:
+        document = await session.scalar(select(Document).where(Document.external_id == "001"))
+
+        session.add(
+            Page(
+                document_id=document.id,
+                page_no=1,
+                text=(
+                    "Ramanathapuram block groundwater status and groundwater extraction assessment."
+                ),
+                headings=["Groundwater Assessment"],
+            )
+        )
+        await session.commit()
+
+        results = await DocumentRepository(session).search_pages("Ramanathapuram groundwater")
+
+        assert len(results) == 1
+        assert results[0]["document_id"] == "001"
+        assert results[0]["page_no"] == 1
+        assert results[0]["headings"] == ["Groundwater Assessment"]
+        assert "Ramanathapuram" in results[0]["text"]
+
+        missing = await DocumentRepository(session).search_pages("volcano earthquake")
+        assert missing == []
+
+    await engine.dispose()
