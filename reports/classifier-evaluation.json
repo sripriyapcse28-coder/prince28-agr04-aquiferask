@@ -1,0 +1,434 @@
+{
+  "classify_v1": {
+    "correct": 11,
+    "total": 15,
+    "accuracy": 73.33,
+    "cost_inr": 0.023607,
+    "leaks": [],
+    "details": [
+      {
+        "question": "What is the groundwater category of Kamuthi block in the latest assessment?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 5563,
+        "cost_inr": 0.00152
+      },
+      {
+        "question": "What is the groundwater extraction stage of Madurai block?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 3436,
+        "cost_inr": 0.001435
+      },
+      {
+        "question": "Which blocks in Sivaganga district are classified as over-exploited?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 1422,
+        "cost_inr": 0.001548
+      },
+      {
+        "question": "What recharge structures are recommended for water-stressed blocks in Tamil Nadu?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 1141,
+        "cost_inr": 0.00152
+      },
+      {
+        "question": "What is the annual groundwater recharge reported for Coimbatore district?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 3077,
+        "cost_inr": 0.001435
+      },
+      {
+        "question": "What is the groundwater status of my personal borewell today?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 2655,
+        "cost_inr": 0.001463
+      },
+      {
+        "question": "Will my village have enough groundwater next summer?",
+        "label": "personal",
+        "got": "off_topic",
+        "correct": false,
+        "provider": "gemini",
+        "latency_ms": 2125,
+        "cost_inr": 0.001852
+      },
+      {
+        "question": "What is the current groundwater level in my house?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 3000,
+        "cost_inr": 0.001406
+      },
+      {
+        "question": "Can you predict tomorrow's rainfall in my village?",
+        "label": "personal",
+        "got": "off_topic",
+        "correct": false,
+        "provider": "gemini",
+        "latency_ms": 2657,
+        "cost_inr": 0.00191
+      },
+      {
+        "question": "How much water is currently available in my private well?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 2109,
+        "cost_inr": 0.001435
+      },
+      {
+        "question": "Explain how photosynthesis works.",
+        "label": "off_topic",
+        "got": "docs",
+        "correct": false,
+        "provider": "gemini",
+        "latency_ms": 750,
+        "cost_inr": 0.001263
+      },
+      {
+        "question": "Suggest a weekend activity for a rainy day.",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 2750,
+        "cost_inr": 0.001852
+      },
+      {
+        "question": "Explain Java inheritance with an example.",
+        "label": "off_topic",
+        "got": "docs",
+        "correct": false,
+        "provider": "gemini",
+        "latency_ms": 1375,
+        "cost_inr": 0.001321
+      },
+      {
+        "question": "Who won the cricket match yesterday?",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 2640,
+        "cost_inr": 0.001795
+      },
+      {
+        "question": "Give me a recipe for vegetable biryani.",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 3592,
+        "cost_inr": 0.001852
+      }
+    ]
+  },
+  "classify_v2": {
+    "correct": 15,
+    "total": 15,
+    "accuracy": 100.0,
+    "cost_inr": 0.097312,
+    "leaks": [],
+    "details": [
+      {
+        "question": "What is the groundwater category of Kamuthi block in the latest assessment?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 1937,
+        "cost_inr": 0.007248
+      },
+      {
+        "question": "What is the groundwater extraction stage of Madurai block?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 2250,
+        "cost_inr": 0.007163
+      },
+      {
+        "question": "Which blocks in Sivaganga district are classified as over-exploited?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "groq",
+        "latency_ms": 2625,
+        "cost_inr": 0.004417
+      },
+      {
+        "question": "What recharge structures are recommended for water-stressed blocks in Tamil Nadu?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 2094,
+        "cost_inr": 0.007248
+      },
+      {
+        "question": "What is the annual groundwater recharge reported for Coimbatore district?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "groq",
+        "latency_ms": 2452,
+        "cost_inr": 0.004432
+      },
+      {
+        "question": "What is the groundwater status of my personal borewell today?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "groq",
+        "latency_ms": 2250,
+        "cost_inr": 0.003712
+      },
+      {
+        "question": "Will my village have enough groundwater next summer?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 1217,
+        "cost_inr": 0.007106
+      },
+      {
+        "question": "What is the current groundwater level in my house?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "groq",
+        "latency_ms": 1032,
+        "cost_inr": 0.003983
+      },
+      {
+        "question": "Can you predict tomorrow's rainfall in my village?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 3484,
+        "cost_inr": 0.007163
+      },
+      {
+        "question": "How much water is currently available in my private well?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 2483,
+        "cost_inr": 0.007163
+      },
+      {
+        "question": "Explain how photosynthesis works.",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 1812,
+        "cost_inr": 0.007467
+      },
+      {
+        "question": "Suggest a weekend activity for a rainy day.",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 795,
+        "cost_inr": 0.007581
+      },
+      {
+        "question": "Explain Java inheritance with an example.",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 2672,
+        "cost_inr": 0.007524
+      },
+      {
+        "question": "Who won the cricket match yesterday?",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 4719,
+        "cost_inr": 0.007524
+      },
+      {
+        "question": "Give me a recipe for vegetable biryani.",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 1015,
+        "cost_inr": 0.007581
+      }
+    ]
+  },
+  "classify_v3": {
+    "correct": 15,
+    "total": 15,
+    "accuracy": 100.0,
+    "cost_inr": 0.074726,
+    "leaks": [],
+    "details": [
+      {
+        "question": "What is the groundwater category of Kamuthi block in the latest assessment?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 1640,
+        "cost_inr": 0.005102
+      },
+      {
+        "question": "What is the groundwater extraction stage of Madurai block?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 1562,
+        "cost_inr": 0.005016
+      },
+      {
+        "question": "Which blocks in Sivaganga district are classified as over-exploited?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 1469,
+        "cost_inr": 0.00513
+      },
+      {
+        "question": "What recharge structures are recommended for water-stressed blocks in Tamil Nadu?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 1265,
+        "cost_inr": 0.005102
+      },
+      {
+        "question": "What is the annual groundwater recharge reported for Coimbatore district?",
+        "label": "docs",
+        "got": "docs",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 1234,
+        "cost_inr": 0.005016
+      },
+      {
+        "question": "What is the groundwater status of my personal borewell today?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 2452,
+        "cost_inr": 0.005045
+      },
+      {
+        "question": "Will my village have enough groundwater next summer?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 4297,
+        "cost_inr": 0.004959
+      },
+      {
+        "question": "What is the current groundwater level in my house?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 1842,
+        "cost_inr": 0.004988
+      },
+      {
+        "question": "Can you predict tomorrow's rainfall in my village?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 3187,
+        "cost_inr": 0.005016
+      },
+      {
+        "question": "How much water is currently available in my private well?",
+        "label": "personal",
+        "got": "personal",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 2750,
+        "cost_inr": 0.005016
+      },
+      {
+        "question": "Explain how photosynthesis works.",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "gemini",
+        "latency_ms": 4015,
+        "cost_inr": 0.00532
+      },
+      {
+        "question": "Suggest a weekend activity for a rainy day.",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "groq",
+        "latency_ms": 1532,
+        "cost_inr": 0.003541
+      },
+      {
+        "question": "Explain Java inheritance with an example.",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "groq",
+        "latency_ms": 1422,
+        "cost_inr": 0.006833
+      },
+      {
+        "question": "Who won the cricket match yesterday?",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "groq",
+        "latency_ms": 2250,
+        "cost_inr": 0.004296
+      },
+      {
+        "question": "Give me a recipe for vegetable biryani.",
+        "label": "off_topic",
+        "got": "off_topic",
+        "correct": true,
+        "provider": "groq",
+        "latency_ms": 922,
+        "cost_inr": 0.004346
+      }
+    ]
+  }
+}

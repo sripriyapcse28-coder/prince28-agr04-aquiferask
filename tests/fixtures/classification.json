@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the groundwater category of Kamuthi block in the latest assessment?",
+    "label": "docs"
+  },
+  {
+    "question": "What is the groundwater extraction stage of Madurai block?",
+    "label": "docs"
+  },
+  {
+    "question": "Which blocks in Sivaganga district are classified as over-exploited?",
+    "label": "docs"
+  },
+  {
+    "question": "What recharge structures are recommended for water-stressed blocks in Tamil Nadu?",
+    "label": "docs"
+  },
+  {
+    "question": "What is the annual groundwater recharge reported for Coimbatore district?",
+    "label": "docs"
+  },
+  {
+    "question": "What is the groundwater status of my personal borewell today?",
+    "label": "personal"
+  },
+  {
+    "question": "Will my village have enough groundwater next summer?",
+    "label": "personal"
+  },
+  {
+    "question": "What is the current groundwater level in my house?",
+    "label": "personal"
+  },
+  {
+    "question": "Can you predict tomorrow's rainfall in my village?",
+    "label": "personal"
+  },
+  {
+    "question": "How much water is currently available in my private well?",
+    "label": "personal"
+  },
+  {
+    "question": "Explain how photosynthesis works.",
+    "label": "off_topic"
+  },
+  {
+    "question": "Suggest a weekend activity for a rainy day.",
+    "label": "off_topic"
+  },
+  {
+    "question": "Explain Java inheritance with an example.",
+    "label": "off_topic"
+  },
+  {
+    "question": "Who won the cricket match yesterday?",
+    "label": "off_topic"
+  },
+  {
+    "question": "Give me a recipe for vegetable biryani.",
+    "label": "off_topic"
+  }
+]
