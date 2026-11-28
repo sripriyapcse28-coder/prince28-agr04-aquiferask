@@ -578,3 +578,48 @@ All three metadata filter tests returned the expected matching records.
 - Live `/v1/documents?doc_kind=report&limit=3`: passed; 11 matching documents.
 - Live `/v1/usage`: passed; 46 total calls, ₹4.8094 total cost, 0 errors and 0 fallbacks.
 - Pull request, merge and deployment checks: pending.
+
+---
+
+# D10 · Queue and worker
+
+## Docker Compose worker
+
+- Added Redis URL to the shared application environment.
+- Configured the optional `.env` file for the API and worker.
+- Added the worker as a Docker Compose service.
+- Verified `docker compose config --quiet` successfully.
+- Started the complete stack using `docker compose up --build -d`.
+- Verified API and worker containers started successfully.
+- Database and Redis reported healthy.
+- Migration service exited with code 0.
+
+## Ingestion report
+
+- Documents in database: 40.
+- Pages in database: 728.
+- Extracted text characters: 1,309,702.
+- Estimated tokens: 327,426 (characters divided by 4).
+- Dead-letter files: 2.
+- Document types: 1 HTML, 19 PDF, 20 records.
+- Ingestion items: 20 done, 2 failed.
+
+## Week 2 against Monday's estimate
+
+- Monday's capacity estimate: 355 pages.
+- Current ingestion report: 728 pages.
+- Difference: 373 additional pages (approximately 105.1% above the estimate).
+- Monday's capacity report did not contain a token estimate.
+- Current estimated tokens: 327,426.
+
+## What I learnt
+
+- I learnt how to configure a separate ingestion worker in Docker Compose.
+- I learnt how to check document, page and dead-letter counts from PostgreSQL.
+- I learnt how to generate an ingestion report using Python and SQLAlchemy.
+
+## Tests not yet verified
+
+- Kill and recovery test: Not completed.
+- Render live ingestion test: Not verified.
+- Unauthorized request test: Not verified.
