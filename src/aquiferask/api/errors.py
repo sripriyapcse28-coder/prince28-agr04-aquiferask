@@ -1,9 +1,11 @@
 """Standard API error responses using RFC 9457."""
 
 import json
+from http import HTTPStatus
 
 from fastapi import Request
 from fastapi.responses import JSONResponse
+from starlette.exceptions import HTTPException as StarletteHTTPException
 
 
 class DocumentNotFoundError(Exception):
@@ -38,6 +40,30 @@ def problem_response(
         content=content,
         media_type="application/problem+json",
     )
+
+
+async def http_exception_handler(
+    request: Request,
+    exc: StarletteHTTPException,
+) -> JSONResponse:
+    """Return HTTP errors as RFC 9457 Problem Details."""
+
+    try:
+        title = HTTPStatus(exc.status_code).phrase
+    except ValueError:
+        title = "HTTP Error"
+
+    response = problem_response(
+        request=request,
+        status=exc.status_code,
+        title=title,
+        detail=str(exc.detail),
+    )
+
+    if exc.headers:
+        response.headers.update(exc.headers)
+
+    return response
 
 
 async def document_not_found_handler(
@@ -76,6 +102,7 @@ async def validation_exception_handler(
     )
     body = json.loads(response.body)
     body["errors"] = errors
+
     return JSONResponse(
         status_code=422,
         content=body,
